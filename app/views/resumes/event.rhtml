@@ -1,0 +1,226 @@
+<div id="contentcolumnfull">
+	<div id="wrapper-big">
+		<h1>Add an Outside Event to Your History</h1>
+		<hr />
+		<p id="info">What kind of resume delivery method?</p>
+		<ul id="options" class="navigation">
+	    <li><a onclick="showForm('in_person'); return false;" href="#">In Person</a></li>
+	    <li><a onclick="showForm('by_email'); return false;" href="#">By E-mail</a></li>
+			<li><a onclick="showForm('by_fax'); return false;" href="#">By Fax</a></li>
+			<li><a onclick="showForm('by_mail'); return false;" href="#">By Mail</a></li>
+			<li><a onclick="showForm('by_website'); return false;" href="#">Posted on a Website</a></li>
+			<li><a onclick="showForm('by_contact'); return false;" href="#">Via a Friend or Contact</a></li>
+		</ul>
+		
+		<div id="forms">
+			<% form_for :person_event, :url => { :action => "add_event" }, :html => {:id => "in_person", :style => "display: none;", :class => 'general'} do |f| -%>
+				<h3>In Person</h3>
+				<table border="0" cellspacing="5" cellpadding="5">
+					<tr>
+						<td><label for="person_event_name" class="px120">Recipient Name</label></td>
+						<td><%= f.text_field "name", :class => "field_text fieldSpan" %></td>
+					</tr>
+					<tr>
+						<td><label for="person_event_email" class="px120">Recipient E-mail</label></td>
+						<td><%= f.text_field 'email', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="person_event_company_name" class="px120">Company Name</label></td>
+						<td><%= f.text_field 'company_name', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="person_event_position" class="px120">Position Applying For</label></td>
+						<td><%= f.text_field 'position', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="person_event_notes" class="px120">Notes</label></td>
+						<td><%= f.text_area 'notes', :size => "23x3", :class => "field_textArea fieldSpan" -%><br /></td>
+					</tr>
+				</table>
+				<div id="buttons">
+			    <%= submit_tag 'Add In Person Event' -%>
+			    <%= link_to "Cancel", :action => "distribution" %>
+			  </div>
+			<% end %>
+			<% form_for :external_email_event, :url => { :action => "add_event" }, :html => {:id => "by_email", :style => "display: none;", :class => 'general'} do |f| -%>
+				<h3>By E-Mail</h3>
+				<table border="0" cellspacing="5" cellpadding="5">
+					<tr>
+						<td><label for="external_email_event_email" class="px120">Recipient E-mail</label></td>
+						<td><%= f.text_field 'email', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="external_email_event_name" class="px120">Recipient Name</label></td>
+						<td><%= f.text_field 'name', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="external_email_event_company_name" class="px120">Company Name</label></td>
+						<td><%= f.text_field 'company_name', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="external_email_event_position" class="px120">Position Applying For</label></td>
+						<td><%= f.text_field 'position', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="external_email_event_notes" class="px120">Notes</label></td>
+						<td><%= f.text_area 'notes', :size => "23x3", :class => "field_textArea fieldSpan" -%></td>
+					</tr>
+				</table>
+				<div id="buttons">
+			    <%= submit_tag 'Add By Email Event' -%>
+			    <%= link_to "Cancel", :action => "distribution" %>
+				</div>				
+			<% end -%>
+			<% form_for :fax_event, :url => { :action => "add_event" }, :html => {:id => "by_fax", :style => "display: none;", :class => 'general'} do |f| -%>
+				<h3>By Fax</h3>
+				<table border="0" cellspacing="5" cellpadding="5">
+					<tr>
+						<td><label for="fax_event_fax" class="px120">Recipient Fax</label></td>
+						<td><%= f.text_field 'fax', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="fax_event_email" class="px120">Recipient E-mail</label></td>
+						<td><%= f.text_field 'email', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="fax_event_name" class="px120">Recipient Name</label></td>
+						<td><%= f.text_field 'name', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="fax_event_company_name" class="px120">Company Name</label></td>
+						<td><%= f.text_field 'company_name', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="fax_event_position" class="px120">Position Applying For</label></td>
+						<td><%= f.text_field 'position', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="fax_event_notes" class="px120">Notes</label></td>
+						<td><%= f.text_area 'notes', :size => "23x3", :class => "field_textArea fieldSpan" -%></td>
+					</tr>
+				</table>
+				<div id="buttons">
+			    <%= submit_tag 'Add By Fax Event' -%>
+			    <%= link_to "Cancel", :action => "distribution" %>
+				</div>				
+			<% end -%>
+			<% form_for :mail_event, :url => { :action => "add_event" }, :html => {:id => "by_mail", :style => "display: none;", :class => 'general'} do |f| -%>
+				<h3>By Mail</h3>
+				<table border="0" cellspacing="5" cellpadding="5">
+					<tr>
+						<td><label for="mail_event_address_1" class="px120">Address 1st Line</label></td>
+						<td><%= f.text_field 'address_1', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="mail_event_address_2" class="px120">Address 2nd Line</label></td>
+						<td><%= f.text_field 'address_2', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="mail_event_city" class="px120">City</label></td>
+						<td><%= f.text_field 'city', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="mail_event_state" class="px120">State</label></td>
+						<td><%= f.text_field 'state', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="mail_event_zipcode" class="px120">Zipcode</label></td>
+						<td><%= f.text_field 'zipcode', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="mail_event_name" class="px120">Recipient Name</label></td>
+						<td><%= f.text_field 'name', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="mail_event_email" class="px120">Recipient E-mail</label></td>
+						<td><%= f.text_field 'email', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="mail_event_company_name" class="px120">Company Name</label></td>
+						<td><%= f.text_field 'company_name', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="mail_event_position" class="px120">Position Applying For</label></td>
+						<td><%= f.text_field 'position', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="mail_event_notes" class="px120">Notes</label></td>
+						<td><%= f.text_area 'notes', :size => "23*3", :class => "field_textArea fieldSpan" -%><br /></td>
+					</tr>
+				</table>
+				<div id="buttons">
+			    <%= submit_tag 'Add By Mail Event' -%>
+			    <%= link_to "Cancel", :action => "distribution" %>
+				</div>				
+			<% end -%>
+			<% form_for :website_event, :url => { :action => "add_event" }, :html => {:id => "by_website", :style => "display: none;", :class => 'general'} do |f| -%>
+				<h3>Posting on a Website</h3>
+				<table border="0" cellspacing="5" cellpadding="5">
+					<tr>
+						<td><label for="website_event_website" class="px120">Website</label></td>
+						<td><%= f.text_field 'website', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="website_event_company_name" class="px120">Company Name</label></td>
+						<td><%= f.text_field 'company_name', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="website_event_position" class="px120">Position Applying For</label></td>
+						<td><%= f.text_field 'position', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="website_event_notes" class="px120">Notes</label></td>
+						<td><%= f.text_area 'notes', :size => "23*3", :class => "field_textArea fieldSpan" -%></td>
+					</tr>
+				</table>
+				<div id="buttons">
+			    <%= submit_tag 'Add By Website Event' -%>
+			    <%= link_to "Cancel", :action => "distribution" %>
+				</div>				
+			<% end -%>
+			<% form_for :contact_event, :url => { :action => "add_event" }, :html => {:id => "by_contact", :style => "display: none;", :class => 'general'} do |f| -%>
+				<h3>Via a Friend or Contact</h3>
+				<table border="0" cellspacing="5" cellpadding="5">
+					<tr>
+						<td><label for="contact_event_name" class="px120">Friend Name</label></td>
+						<td><%= f.text_field 'name', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="contact_event_email" class="px120">Friend E-mail</label></td>
+						<td><%= f.text_field 'email', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="contact_event_company_name" class="px120">Company Name</label></td>
+						<td><%= f.text_field 'company_name', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="contact_event_position" class="px120">Position Applying For</label></td>
+						<td><%= f.text_field 'position', :class => "field_text fieldSpan" -%></td>
+					</tr>
+					<tr>
+						<td><label for="contact_event_notes" class="px120">Notes</label></td>
+						<td><%= f.text_area 'notes', :size => "23*3", :class => "field_textArea fieldSpan" -%><br /></td>
+					</tr>
+				</table>
+				<div id="buttons">
+			    <%= submit_tag 'Add By Contact Event' -%>
+			    <%= link_to "Cancel", :action => "distribution" %>
+				</div>				
+			<% end -%>
+		</div>
+		
+	</div>
+</div>
+
+<script type="text/javascript">
+ function showForm(formname) {
+ var allforms = document.getElementById("forms").getElementsByTagName("form");
+ for(var i=0;i<allforms.length;i++) {
+ allforms[i].style.display = "none";
+ if(allforms[i].id == formname) {
+ allforms[i].style.display = "block";
+ }
+ }
+ document.getElementById("info").style.display = "none";
+ }
+</script>

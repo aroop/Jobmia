@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<title><%= "#{h @page_title} - " if @page_title %>Jobmia | Professional networking, resume management, jobs in india</title>
+	<% if @page_description %>
+		<meta name="description" content="<%=h @page_description  %>" />
+	<% else %>
+		<meta name="description" content="Jobmia allows you to create a professional resume in minutes. It has a elegant resume builder and designer." />
+	<% end %>
+	<% if @page_keywords %>
+		<meta name="keywords" content="<%=h @page_keywords  %>" />
+	<% else %>
+	<meta name="keywords" content="Resumes, Resume, ResumeMaker, free resume samples,resume templates, ResumeGenerator,Resume Creating, Resume Building, Build Resume, Resume Formats,Format Resumes,Types of Resumes,Resume Types" />
+	<% end %>
+	<%= stylesheet_link_merged :pages %>
+	<%= javascript_include_merged :base %>
+	</head>    
+	<body>
+		<span id="status">&nbsp;</span>
+		<!--page start-->
+		<div id="wrap">
+  		<!--center the header section start-->
+  		<div class="center">
+    		<!--header start-->
+    		<div id="headerInsidePage">
+      		<!--logo start-->      
+      		<div id="logo">
+						<h1><%= link_to "jobmia<span class='highlight'>.com</span>", root_path %></h1>
+      		</div>
+      		<div id="topheader">
+						<% unless logged_in? -%>
+							<%= link_to "Signup", signup_path %>
+							<%= link_to "Login", login_path %>
+						<% else -%>
+							<% if current_user.send("is_admin") -%><%= link_to "Admin", admin_users_path %><% end -%>
+							<%= link_to "Account", account_path %>
+							<%= link_to "Logout", logout_path %>
+						<% end -%>
+      		</div>
+      		<!--logo end-->
+	   			<!--usability start-->
+	  			<ul class="hide">
+						<li><a href="#skiptocontent">Skip to content</a></li>
+	  			</ul>
+	  			<!--usability end-->
+      		<!--menu start-->
+      		<div id="navWrap">
+        		<ul id="nav">
+          		<%= render :partial => '/layouts/menu' -%>
+        		</ul>
+      		</div>
+      		<!--menu end-->
+    		</div>
+    		<!--header start-->
+  		</div>
+  		<!--center the header section end-->  
+  		<!--mainContent start-->
+  		<div id="mainContentInsidePage">
+    		<!--featured start -->
+				<%= yield :featured -%>
+    		<!--featured end -->
+    		<!--center the featured section start -->
+      	<div class="center">      
+    			<!--content start -->
+					<div id="contentWrap">
+    				<a id="skiptocontent" name="skiptocontent"></a>
+						<%= [:notice, :error].collect {|type| content_tag('div', "<p>#{flash[type]}</p>", :id => type) if flash[type] } %>
+						<%= yield -%>
+    			</div>
+    			<!--content end -->
+    		</div>
+  		</div>
+  		<!--mainContent end-->
+  		<!--footer start-->
+  		<div class="center">
+  			<div id="footer">
+  				<div class="copyrightWrap"><span>Copyright © 2008 Jobmia. All rights reserved</span></div>
+					<% unless logged_in? -%>
+    			<div class="hiremeWrap"><span class="hireme"><%= link_to "Signup", signup_path %></span></div>
+					<% end -%>
+  			</div>
+  		</div>
+  		<!--footer end-->
+		</div>
+		<!--page end-->
+	</body>
+	<%= yield :js -%>
+  <%if RAILS_ENV == "production"%>
+		<script src="http://jobmia.uservoice.com/pages/general/widgets/tab.js?alignment=right&amp;color=D0233F" type="text/javascript"></script>
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-1961985-1");
+		pageTracker._trackPageview();
+		</script>			<!--End of google Analytics section -->
+	<%end%>	
+</html>

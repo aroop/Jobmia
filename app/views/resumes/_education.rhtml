@@ -1,0 +1,80 @@
+<div class="entry_multi" id="<%= dom_id education %>" onmouseover="entry_mouseover('<%= dom_id education %>', '<%= education.id %>');" onmouseout="entry_mouseout('<%= dom_id education %>', '<%= education.id %>');">
+	<% fields_for "resume[entry][]", education do |t| %>
+			<table border="0" cellspacing="5" cellpadding="5" width="100%" class="form">
+				<tr>
+					<th>
+						<label for="resume_entry_<%= education.id %>_name" class="px120">Institution</label>
+					</th>
+					<td>
+					  <%= t.text_field :name, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry_#{education.id}_name', 't');", :onblur => "disableField('resume_entry_#{education.id}_name', 't');" %>
+					  <%= observe_field("resume_entry_#{education.id}_name", :url => { :action => :save_entry, :id => education }, 
+					  			:with => "entry[name]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>			
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="resume_entry_<%= education.id %>_start_date" class="px120">Begin Date</label>
+					</th>
+					<td>
+					  <%= t.text_field :start_date, :class => "field_text fieldSpan" , :onfocus => "enableField('resume_entry_#{education.id}_start_date', 't');", :onblur => "disableField('resume_entry_#{education.id}_start_date', 't');" %>
+					  <%= observe_field("resume_entry_#{education.id}_start_date", :url => { :action => :save_entry, :id => education }, 
+					  			:with => "entry[start_date]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>			
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="resume_entry_<%= education.id %>_end_date" class="px120">End Date</label>			
+					</th>
+					<td>
+					  <%= t.text_field :end_date, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry_#{education.id}_end_date', 't');", :onblur => "disableField('resume_entry_#{education.id}_end_date', 't');" %>
+					  <%= observe_field("resume_entry_#{education.id}_end_date", :url => { :action => :save_entry, :id => education }, 
+					  			:with => "entry[end_date]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>			
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="resume_entry_<%= education.id %>_gpa" class="px120">Grade Point Average</label>
+					</th>
+					<td>
+					  <%= t.text_field :gpa, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry_#{education.id}_gpa', 't');", :onblur => "disableField('resume_entry_#{education.id}_gpa', 't');" %>
+					  <%= observe_field("resume_entry_#{education.id}_gpa", :url => { :action => :save_entry, :id => education }, 
+					  			:with => "entry[gpa]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>			
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="resume_entry_<%= education.id %>_location" class="px120">Location</label>			
+					</th>
+					<td>
+						<%= t.text_field :location, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry_#{education.id}_location', 't');", :onblur => "disableField('resume_entry_#{education.id}_location', 't');"  %>
+					  <%= observe_field("resume_entry_#{education.id}_location", :url => { :action => :save_entry, :id => education }, 
+					  			:with => "entry[location]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>			
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="resume_entry_<%= education.id %>_qualification" class="px120">Degree</label>
+					</th>
+					<td>
+					  <%= t.text_field :qualification, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry_#{education.id}_qualification', 't');", :onblur => "disableField('resume_entry_#{education.id}_qualification', 't');"  %>
+					  <%= observe_field("resume_entry_#{education.id}_qualification", :url => { :action => :save_entry, :id => education }, 
+					  			:with => "entry[qualification]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>			
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="resume_entry_<%= education.id %>_specialization" class="px120">Field of Study</label>
+					</th>
+					<td>
+					  <%= t.text_field :specialization, :class => "field_text fieldSpan" , :onfocus => "enableField('resume_entry_#{education.id}_specialization', 't');", :onblur => "disableField('resume_entry_#{education.id}_specialization', 't');" %>
+					  <%= observe_field("resume_entry_#{education.id}_specialization", :url => { :action => :save_entry, :id => education }, 
+					  			:with => "entry[specialization]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>			
+					</td>
+				</tr>
+			</table>
+		<% end %>
+	<span id="removeEntrylink_<%= education.id %>" class="entry_remove" style = "visibility: hidden;">
+		<%= link_to_remote "Remove education details", :url => { :action => "remove_entry", :id => education.id }, 
+			:confirm => "Are you sure you want to delete this education details?", :method => :delete, :loading=> "show_status('Removing...')", :complete=>"hide_status()" -%>		
+	</span>
+</div>

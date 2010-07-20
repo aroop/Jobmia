@@ -1,0 +1,45 @@
+--- 
+javascripts: 
+- base: 
+  - prototype
+  - scriptaculous
+  - lowpro
+  - effects
+  - dragdrop
+  - controls
+  - application
+  - prototip
+  - pngfix  
+- pages:
+  - jquery
+  - jquery_lightbox
+  - pngfix
+stylesheets:
+- base:
+  - lib/reset 
+  - lib/buttons 
+  - lib/typography 
+  - lib/grid 
+  - header 
+  - components 
+  - messages 
+  - blog 
+  - forum 
+  - job 
+  - formatting 
+  - layoutformatting 
+  - notifications 
+  - tagcloud 
+  - friends 
+  - textile-editor 
+  - home 
+  - account 
+  - website 
+  - help 
+  - prototip 
+  - resume  
+- pages:  
+  - resume
+  - style
+  - jquery_lightbox
+  - notifications

@@ -1,0 +1,32 @@
+#job table tr td.information {
+	text-align:center;
+	vertical-align: middle;
+}
+
+#job .options {
+	padding-bottom:2em;
+}
+
+#job .options .pagination {
+	float:left;
+	display:block;
+}
+
+#job .options .new_job {
+	float:right;
+	display:block;
+}
+
+#job .clearboth { clear: both; }
+
+#job #textile_editor{
+	margin-left:0px;
+}
+
+#job label{
+	width:120px;
+}
+
+#new_job table.form th{
+	width:120px;
+}

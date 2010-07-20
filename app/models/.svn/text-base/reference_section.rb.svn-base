@@ -1,0 +1,2 @@
+class ReferenceSection < Section
+end

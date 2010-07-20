@@ -1,0 +1,58 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/vendor/plugins/acts_as_list
+http://208.75.87.100/svn/jobmia
+
+
+
+2007-11-10T10:09:51.412351Z
+156
+jcomponent
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3d34c76b-d2f6-db11-bc26-0014220fd224
+
+test
+dir
+
+init.rb
+file
+
+
+
+
+2008-09-18T09:42:38.000000Z
+0bdbdc825f80fda1a94852a82b68ffd4
+2007-11-10T10:09:51.412351Z
+156
+jcomponent
+
+lib
+dir
+
+README
+file
+
+
+
+
+2008-09-18T09:42:38.000000Z
+42212b5cb681c9888d56f9c0f36e1e02
+2007-11-10T10:09:51.412351Z
+156
+jcomponent
+

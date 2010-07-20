@@ -1,0 +1,5 @@
+<div id="<%= dom_id resume_style %>"  class="<%= @resume.resume_style_id == resume_style.id ? "resumeStyleSelected" : "resumeStyle"  %>">
+	<%= link_to_remote(image_tag("/images/resume/#{resume_style.name.downcase}.gif", :size => "75x75", :border=>0 ), 
+												{:url => { :action => "set_style", :id => resume_style.id }, :loading=> "show_status('Loading...')", :complete=>"hide_status()"}) -%>
+	<%= link_to_remote(resume_style.name, {:url => { :action => "set_style", :id => resume_style.id }, :loading=> "show_status('Loading...')", :complete=>"hide_status()"}) -%>
+</div>

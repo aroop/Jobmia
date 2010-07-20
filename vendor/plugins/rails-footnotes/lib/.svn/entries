@@ -1,0 +1,107 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/vendor/plugins/rails-footnotes/lib
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-09-18T09:55:33.305774Z
+438
+ajay
+
+
+svn:special svn:externals svn:needs-lock
+
+footnotes.rb
+file
+
+
+
+
+2008-09-05T04:45:49.000000Z
+5ca8bba56635f8b078e942cc64e73bfd
+2008-09-18T09:55:33.305774Z
+438
+ajay
+has-props
+
+backtracer.rb
+file
+
+
+
+
+2008-09-05T04:45:49.000000Z
+93fdd562a2aa446e18073ec74328623f
+2008-09-18T09:55:33.305774Z
+438
+ajay
+has-props
+
+initializer.rb
+file
+
+
+
+
+2008-09-05T04:45:49.000000Z
+d69a4c627ed0b7c004b3a2e781fa9461
+2008-09-18T09:55:33.305774Z
+438
+ajay
+has-props
+
+notes
+dir
+
+textmate_footnotes.rb
+file
+
+
+
+
+2008-09-05T04:45:49.000000Z
+3589f0144e49a4f25108ade8f6736986
+2008-09-18T09:55:33.305774Z
+438
+ajay
+
+textmate_links.rb
+file
+
+
+
+
+2008-09-05T04:45:49.000000Z
+7b51b5677965db544159a47556474ba6
+2008-09-18T09:55:33.305774Z
+438
+ajay
+has-props
+
+textmate_backtracer.rb
+file
+
+
+
+
+2008-09-05T04:45:49.000000Z
+690628a05dc5d2c7efc7cde78512dbca
+2008-09-18T09:55:33.305774Z
+438
+ajay
+
+textmate_initialize.rb
+file
+
+
+
+
+2008-09-05T04:45:49.000000Z
+f959c3181e35a4c4b994f66a94b8e138
+2008-09-18T09:55:33.305774Z
+438
+ajay
+

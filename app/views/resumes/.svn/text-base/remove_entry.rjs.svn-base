@@ -1,0 +1,6 @@
+page[dom_id(@entry)].visual_effect :blind_up, :duration => 1.0
+page.delay 1.0 do
+	page.remove (dom_id @entry)
+end
+
+flash.discard

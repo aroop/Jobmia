@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jobmia/!svn/ver/434/trunk/app/views/user_mailer
+END
+signup_notification.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/jobmia/!svn/ver/434/trunk/app/views/user_mailer/signup_notification.html.erb
+END
+activation.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/jobmia/!svn/ver/434/trunk/app/views/user_mailer/activation.html.erb
+END
+forgot_password.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/jobmia/!svn/ver/434/trunk/app/views/user_mailer/forgot_password.html.erb
+END
+reset_password.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/jobmia/!svn/ver/434/trunk/app/views/user_mailer/reset_password.html.erb
+END

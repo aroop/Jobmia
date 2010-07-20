@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/jobmia/!svn/ver/526/trunk/app/views/resumes
+END
+destroy.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/destroy.rjs
+END
+get_event_info.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/get_event_info.rjs
+END
+_available_section.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/jobmia/!svn/ver/461/trunk/app/views/resumes/_available_section.rhtml
+END
+edge.odt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jobmia/!svn/ver/523/trunk/app/views/resumes/edge.odt
+END
+distribution.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/jobmia/!svn/ver/502/trunk/app/views/resumes/distribution.html.erb
+END
+_resumetr.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jobmia/!svn/ver/461/trunk/app/views/resumes/_resumetr.rhtml
+END
+polished.odt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jobmia/!svn/ver/523/trunk/app/views/resumes/polished.odt
+END
+_resume_style.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jobmia/!svn/ver/461/trunk/app/views/resumes/_resume_style.rhtml
+END
+_event.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/_event.rhtml
+END
+make_active.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/make_active.rjs
+END
+event.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/event.rhtml
+END
+classic.odt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jobmia/!svn/ver/523/trunk/app/views/resumes/classic.odt
+END
+add_entry.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/add_entry.rjs
+END
+preview.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/preview.rhtml
+END
+clean.odt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobmia/!svn/ver/526/trunk/app/views/resumes/clean.odt
+END
+set_style.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/set_style.rjs
+END
+modern.odt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jobmia/!svn/ver/523/trunk/app/views/resumes/modern.odt
+END
+add_section.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/add_section.rjs
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jobmia/!svn/ver/496/trunk/app/views/resumes/edit.rhtml
+END
+royal.odt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobmia/!svn/ver/523/trunk/app/views/resumes/royal.odt
+END
+remove_entry.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/remove_entry.rjs
+END
+_section_menu.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jobmia/!svn/ver/461/trunk/app/views/resumes/_section_menu.rhtml
+END
+_personal_details.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/jobmia/!svn/ver/461/trunk/app/views/resumes/_personal_details.rhtml
+END
+_work_experience.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jobmia/!svn/ver/461/trunk/app/views/resumes/_work_experience.rhtml
+END
+remove_section.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/remove_section.rjs
+END
+new.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/new.rhtml
+END
+_event_info.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/_event_info.rhtml
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jobmia/!svn/ver/494/trunk/app/views/resumes/index.html.erb
+END
+_reference.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jobmia/!svn/ver/461/trunk/app/views/resumes/_reference.rhtml
+END
+_resume.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/_resume.rhtml
+END
+_entry.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jobmia/!svn/ver/461/trunk/app/views/resumes/_entry.rhtml
+END
+_section.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/_section.rhtml
+END
+plain.odt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobmia/!svn/ver/523/trunk/app/views/resumes/plain.odt
+END
+professional.odt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jobmia/!svn/ver/523/trunk/app/views/resumes/professional.odt
+END
+_education.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jobmia/!svn/ver/461/trunk/app/views/resumes/_education.rhtml
+END
+create.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/create.rjs
+END
+promotion.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/jobmia/!svn/ver/503/trunk/app/views/resumes/promotion.html.erb
+END
+elegant.odt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jobmia/!svn/ver/523/trunk/app/views/resumes/elegant.odt
+END
+crisp.odt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobmia/!svn/ver/523/trunk/app/views/resumes/crisp.odt
+END
+_privacy_details.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jobmia/!svn/ver/496/trunk/app/views/resumes/_privacy_details.rhtml
+END
+_used_section.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jobmia/!svn/ver/461/trunk/app/views/resumes/_used_section.rhtml
+END
+designer.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jobmia/!svn/ver/495/trunk/app/views/resumes/designer.html.erb
+END
+_download_resume.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jobmia/!svn/ver/499/trunk/app/views/resumes/_download_resume.rhtml
+END
+email.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/email.rhtml
+END
+save_entry.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jobmia/!svn/ver/434/trunk/app/views/resumes/save_entry.rjs
+END

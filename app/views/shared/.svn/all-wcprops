@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/jobmia/!svn/ver/475/trunk/app/views/shared
+END
+_userthumbnail_withlink.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/jobmia/!svn/ver/236/trunk/app/views/shared/_userthumbnail_withlink.rhtml
+END
+_employers_signup_teaser.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/jobmia/!svn/ver/412/trunk/app/views/shared/_employers_signup_teaser.html.erb
+END
+_submenu.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobmia/!svn/ver/440/trunk/app/views/shared/_submenu.rhtml
+END
+error.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobmia/!svn/ver/403/trunk/app/views/shared/error.html.erb
+END
+_userthumbnail.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jobmia/!svn/ver/200/trunk/app/views/shared/_userthumbnail.rhtml
+END
+_newest_users.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/jobmia/!svn/ver/229/trunk/app/views/shared/_newest_users.rhtml
+END
+_topmenu.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobmia/!svn/ver/441/trunk/app/views/shared/_topmenu.rhtml
+END
+error404.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jobmia/!svn/ver/403/trunk/app/views/shared/error404.html.erb
+END
+_signup_teaser.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jobmia/!svn/ver/475/trunk/app/views/shared/_signup_teaser.rhtml
+END
+_underconstruction.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/jobmia/!svn/ver/149/trunk/app/views/shared/_underconstruction.rhtml
+END

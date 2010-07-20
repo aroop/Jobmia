@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/jobmia/!svn/ver/26/trunk/lib/tasks
+END
+capistrano.rake
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/jobmia/!svn/ver/26/trunk/lib/tasks/capistrano.rake
+END

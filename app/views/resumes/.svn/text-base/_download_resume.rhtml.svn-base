@@ -1,0 +1,13 @@
+<div id="download_resume">
+	<% jobseeker = User.find(current_user) -%>
+  <% unless jobseeker.active_resume.nil? -%>
+	<ul class="navigation">
+		<h2>Download <span class="highlight">resume</span></h2>
+		<li><%= link_to "Doc", download_resumes_path(:id => jobseeker.active_resume.id, :type => 'doc') %></li>
+		<li><%= link_to "PDF", download_resumes_path(:id => jobseeker.active_resume.id, :type => 'pdf') %></li>
+		<li><%= link_to "RTF", download_resumes_path(:id => jobseeker.active_resume.id, :type => 'rtf') %></li>
+		<li><%= link_to "HTML", download_resumes_path(:id => jobseeker.active_resume.id, :type => 'html') %></li>
+		<li><%= link_to "TXT", download_resumes_path(:id => jobseeker.active_resume.id, :type => 'txt') %></li>
+	</ul>
+<% end -%>		
+</div>

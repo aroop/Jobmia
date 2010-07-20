@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/paperclip
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/paperclip/LICENSE
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/paperclip/Rakefile
+END
+README.rdoc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/paperclip/README.rdoc
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/paperclip/.gitignore
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/paperclip/init.rb
+END

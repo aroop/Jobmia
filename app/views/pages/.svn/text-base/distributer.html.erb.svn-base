@@ -1,0 +1,37 @@
+<% content_for :featured do -%>
+	    <div id="insidePageTitle">
+      <!--center the featured section start -->
+      <div class="center">
+       <div class="pageTitleWrap">
+		<h2>Resume Distribution</h2>
+	   </div>
+      </div>
+      <!--center the featured section end -->
+    </div>
+<% end -%>
+
+<% content_for :sidebar do -%>
+<!--Grunge Box start-->
+<div class="boxGrunge">
+  	<div class="sidebarInside">
+      	<div>
+          	<div>       	
+                  <div class="box">
+                  <h2>Virus <span class="highlight">Free</span></h2>
+                  <blockquote cite="">
+                  	<p>Your employers will love to have resumes with out virus and we deliver to them with out virus</p>
+                  </blockquote>
+                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+<!--Grunge Box End-->	
+<% end -%>
+
+<div class="contentInside clear">
+  <h2>Stay organized with easy distribution and automatic tracking.</h2> 
+  <p>E-mailing a Resume from your standard e-mail browser can be problematic, sometimes resulting in an unreadable or unprofessional submission – even though it looked fine on your end!</p> 
+  <p>When you e-mail your Resume directly from our web site, they will arrive safely and look as good as they do on-screen. And you'll never have to guess if your resume reached its destination; you'll get a confirmation when it's sent, and the online Tracker will give a "failed" notice if the submission should get bounced back to our server.</p> 
+   <div class=""><span class=""><%= link_to "Start organizing your job hunt", signup_path %></span></div>
+</div>

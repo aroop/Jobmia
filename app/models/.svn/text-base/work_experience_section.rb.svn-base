@@ -1,0 +1,3 @@
+class WorkExperienceSection < Section
+	
+end

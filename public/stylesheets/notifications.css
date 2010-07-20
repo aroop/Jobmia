@@ -1,0 +1,73 @@
+/*********************************************/
+/*Errors and notification*/
+/*********************************************/
+
+.fieldWithErrors {
+	padding: 1px;
+	background-color: #FFAEAE;
+	display: table;
+}
+		
+#errorExplanation {
+	background-color: #f0f0f0;
+	border: solid 1px #f66;
+	margin-bottom: 20px;
+}
+
+#errorExplanation h2 {
+	text-align: left;
+	font-weight: bold;
+	padding: 5px 5px 5px 15px;
+	font-size: 12px;
+	background-color: #FFAEAE;
+	color: #AB0000;
+}
+
+#errorExplanation p {
+	color: #333;
+	margin-bottom: 0;
+	padding: 5px;
+}
+
+#errorExplanation ul li {
+	font-size: 12px;
+	list-style: circle;
+	padding-top: 0;
+}
+
+h1.error404 {
+	font-size:4.4em;
+	letter-spacing:-1px;
+	line-height:0.97em;
+	margin:0.05em 0pt 0pt -0.07em;
+	font-family:Helvetica,Arial,Sans-Serif;
+	font-weight:bold;
+}
+
+p.error404, p.erroractions, ul.error404 {
+	color:#888888;
+	display:block;
+	font-family:Georgia,Times,Serif;
+	font-size:1.5em;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:italic;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.67em;
+	margin:0pt 0pt 0em;
+	padding:0.82em 0pt 12px;
+	width:100% !important;
+}
+
+p.erroractions{
+	padding:0.82em 0pt 0.2em;
+	border-bottom:1px solid #CCCCCC;
+	color:black;
+}
+
+ul.error404 {
+	color:black;
+	font-size:1.2em;
+	margin-left:20px;
+}

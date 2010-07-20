@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+	<title><%= "#{h @page_title} - " if @page_title %>Jobmia | Professional networking, resume management, jobs in india</title>
+	<% if @page_description %>
+		<meta name="description" content="<%=h @page_description  %>" />
+	<% else %>
+		<meta name="description" content="Jobmia allows you to create a professional resume in minutes. It has a elegant resume builder and designer." />
+	<% end %>
+	<% if @page_keywords %>
+		<meta name="keywords" content="<%=h @page_keywords  %>" />
+	<% else %>
+	<meta name="keywords" content="Resumes, Resume, ResumeMaker, free resume samples,resume templates, ResumeGenerator,Resume Creating, Resume Building, Build Resume, Resume Formats,Format Resumes,Types of Resumes,Resume Types" />
+	<% end %>
+	<%= stylesheet_link_merged :base %>
+	<%= javascript_include_merged :base %>
+	</head>    
+    <body>
+			<span id="status">&nbsp;</span>
+    	<div class="container">
+    		<%= render :partial => 'layouts/header' %>
+        <%= [:notice, :error].collect {|type| content_tag('div', flash[type], :id => type, :class => "column span-24 first last") if flash[type] } %>
+      	<div id="content" class="column span-24 first last"><%= yield  %></div>
+      	<%= render :partial => 'layouts/footer' %>
+    	</div> <!--End of container-->    	
+    </body>
+    
+    <%if RAILS_ENV == "production"%>
+			<script src="http://jobmia.uservoice.com/pages/general/widgets/tab.js?alignment=right&amp;color=D0233F" type="text/javascript"></script>
+			<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+			var pageTracker = _gat._getTracker("UA-1961985-1");
+			pageTracker._trackPageview();
+			</script>			<!--End of google Analytics section -->
+		<%end%>
+</html>

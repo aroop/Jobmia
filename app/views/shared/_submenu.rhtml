@@ -1,0 +1,28 @@
+<% for child in submenu.children %>
+  <% if child.visible %>
+		<% if child.has_children? -%>
+		<ul id="subnav" class="left">
+    
+			<% for subitem in child.children -%>
+		  	<% if subitem.visible %>
+		    	<% if subitem.is_selected?(:controller => params[:controller], :action => params[:action]) -%>
+		    		<% if child.children.last == subitem %>
+		    		  <li class="active last" ><%= link_to subitem.name, subitem.options %></li>
+		    		<% else %>
+		    		  <li class="active" ><%= link_to subitem.name, subitem.options %></li>
+		    		<% end %>
+		      <% else %>
+		    		<% if child.children.last == subitem %>
+		    		  <li class="last"><%= link_to subitem.name, subitem.options %></li>
+		    		<% else %>
+		    		  <li><%= link_to subitem.name, subitem.options %></li>
+		    		<% end %>
+		      	
+		      <% end %>
+		    <% end %>
+		  <% end %>
+		  
+		</ul>
+		<% end %>
+  <% end %>
+<% end -%>

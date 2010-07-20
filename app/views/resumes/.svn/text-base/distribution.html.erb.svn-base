@@ -1,0 +1,64 @@
+<% content_for :featured do -%>
+<div id="insidePageTitle">
+  <!--center the featured section start -->
+  <div class="center">
+   	<div class="pageTitleWrap">
+			<h2>E-mail your <span class="highlight"><%= @resume.name -%></span> Resume</h2>
+		</div>
+	</div>
+  <!--center the featured section end -->
+</div>
+<% end -%>
+
+<div id="resume">
+	<% form_tag sendemail_resumes_path do -%>
+		<fieldset id="email_recipient">
+			<legend> General Info </legend>
+			<p>
+			<label for="email">Recipient E-Email</label>
+			<%= text_field_tag 'email' -%>
+			</p>
+			<p>
+			<label for="name">Recipient Name</label>
+			<%= text_field_tag 'name' -%>
+			</p>
+			<p>
+			<label for="company_name">Company Name</label>
+			<%= text_field_tag 'company_name' -%>
+			</p>
+			<p>
+			<label for="position">Position Applying For</label>
+			<%= text_field_tag 'position' -%>
+			</p>
+		</fieldset>
+	
+		<fieldset id="email_resumeoption">
+			<legend> Attachment </legend>
+			<input id="resumeopt_link" type="radio" value="link" name="resumeopt" onclick="clearAttachType();"/>No Attachment
+			<input id="resumeopt_att" type="radio" checked="checked" value="attach" name="resumeopt" onclick="setAttachType('doc');"/>Attach resume as a file
+		</fieldset>			
+  
+		<fieldset id="email_formats">
+			<legend> Resume Format </legend>
+			<ul id="format_choose">
+				<li><a onclick="setAttachType('doc');return false;" id="doc" href="#" class="current">Microsoft Word (DOC)</a></li>
+				<li><a onclick="setAttachType('pdf');return false;" id="pdf" href="#" class="">Adobe PDF (PDF)</a></li>
+				<li><a onclick="setAttachType('rtf');return false;" id="rtf" href="#" class="">Rich Text (RTF)</a></li>
+				<li><a onclick="setAttachType('html');return false;" id="html" href="#" class="">Web (HTML)</a></li>
+				<li><a onclick="setAttachType('txt');return false;" id="txt" href="#" class="">Plain Text (TXT)</a></li>
+			</ul>
+				<input type="hidden" name="resume_type" id="resume_type" value="doc"/>
+		</fieldset>
+	
+		<fieldset id="email_message">
+			<legend> E-Mail Message </legend>
+			<label for="subject">Subject</label>
+			<%= text_field_tag 'subject' -%><br />
+			<label for="notes">Body</label>
+			<%= text_area_tag 'notes', '', :rows => "10" -%><br />
+		</fieldset>
+		<p>
+  	<%= submit_tag 'E-mail my resume', :class=>"button" -%>
+  	</p>
+	<% end -%>
+</div>

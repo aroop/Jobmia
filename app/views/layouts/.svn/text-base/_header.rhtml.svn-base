@@ -1,0 +1,25 @@
+<!--Header-->
+<div id="header">
+	<div id="header_top">
+		<a id="header_logo" title="Jobmia Homepage" href="/"><img width="160" height="44" alt="Jobmia.com Logo" src="/images/logo.png"/></a>
+		<ul id="top_menu">
+    	<%= render_partial 'shared/topmenu', controller.main_navigation -%>
+    </ul>
+    <div id="new_profile">
+    	<%= logged_in? ? ""  : link_to('<span><strong>Sign up</strong> and create a profile</span>', 
+    			signup_path, :id => :signupLink) %>
+		</div>
+	</div>
+	<div id="header_bottom">
+		<ul id="menu">
+			<%= render_partial 'shared/submenu', controller.main_navigation -%>
+			<!--li class="right last"><a href="/help">Help</a></li-->
+		  <% if logged_in? %>
+			  	<li class="right last"><%= link_to('Log out', logout_path) %></li>
+			  	<li class="right"><%= link_to('Account', account_path) %></li>
+		  <% else %>
+		  	<li class="right last">You are not logged in <%= link_to "Log in", login_path %></li>
+		  <% end %>
+		</ul>
+	</div>
+</div>

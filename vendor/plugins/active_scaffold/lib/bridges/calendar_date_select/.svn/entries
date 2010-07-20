@@ -1,0 +1,31 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/vendor/plugins/active_scaffold/lib/bridges/calendar_date_select
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+
+svn:special svn:externals svn:needs-lock
+
+lib
+dir
+
+bridge.rb
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+3ae9f26d22292a1ab4ae91fa9a032042
+2008-09-20T13:40:28.055191Z
+465
+ajay
+

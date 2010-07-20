@@ -1,0 +1,10 @@
+<%=h @user.login %>, 
+
+Your account has been activated.  
+
+To visit the site, follow the link below:
+ 
+  <%= @url %>
+  
+Thanks,
+Jobmia Team

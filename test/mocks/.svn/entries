@@ -1,0 +1,34 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/test/mocks
+http://208.75.87.100/svn/jobmia
+
+
+
+2007-04-30T04:28:26.496028Z
+2
+jcomponent
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3d34c76b-d2f6-db11-bc26-0014220fd224
+
+test
+dir
+
+development
+dir
+

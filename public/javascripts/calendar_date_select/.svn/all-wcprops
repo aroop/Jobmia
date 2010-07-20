@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/jobmia/!svn/ver/330/trunk/public/javascripts/calendar_date_select
+END
+calendar_date_select.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/jobmia/!svn/ver/330/trunk/public/javascripts/calendar_date_select/calendar_date_select.js
+END
+format_finnish.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jobmia/!svn/ver/330/trunk/public/javascripts/calendar_date_select/format_finnish.js
+END
+format_american.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/jobmia/!svn/ver/330/trunk/public/javascripts/calendar_date_select/format_american.js
+END
+format_italian.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jobmia/!svn/ver/330/trunk/public/javascripts/calendar_date_select/format_italian.js
+END
+format_hyphen_ampm.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jobmia/!svn/ver/330/trunk/public/javascripts/calendar_date_select/format_hyphen_ampm.js
+END
+format_euro_24hr.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/jobmia/!svn/ver/330/trunk/public/javascripts/calendar_date_select/format_euro_24hr.js
+END

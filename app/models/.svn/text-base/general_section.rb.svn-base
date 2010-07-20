@@ -1,0 +1,2 @@
+class GeneralSection < Section
+end

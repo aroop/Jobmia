@@ -1,0 +1,40 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/vendor/plugins/active_scaffold/frontends/default/stylesheets
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+
+svn:special svn:externals svn:needs-lock
+
+stylesheet.css
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+3762fbb0dd89c86bd81d8f546afafc6f
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+stylesheet-ie.css
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+fed55d97186d718e6d517bf38ad1789a
+2008-09-20T13:40:28.055191Z
+465
+ajay
+

@@ -1,0 +1,36 @@
+<% content_for :featured do -%>
+<div id="insidePageTitle">
+  <!--center the featured section start -->
+  <div class="center">
+  	<div class="pageTitleWrap">
+			<h2>Create an profile</h2>
+			<p>Already have an account <%= link_to "login", login_path %> here</p>
+ 		</div>
+ 	</div>
+  <!--center the featured section end -->
+</div>
+<% end -%>
+
+<% content_for :sidebar do -%>
+<!--Grunge Box start-->
+<div class="boxGrunge">
+  	<div class="sidebarInside">
+      	<div>
+          	<div>       	
+                  <div class="box">
+                  <blockquote cite="">
+                  	<p>Create, share and store your resume online for <span class="highlight">free</span></p>
+									</blockquote>
+									<blockquote cite="">
+										<p>Stay organized with easy distribution and automatic tracking</p>
+									</blockquote>
+                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+<!--Grunge Box End-->	
+<% end -%>
+
+<%= error_messages_for :user %>
+<%= render :partial => 'signupform' %>

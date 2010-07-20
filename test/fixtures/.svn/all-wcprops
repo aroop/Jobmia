@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/jobmia/!svn/ver/219/trunk/test/fixtures
+END
+employers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobmia/!svn/ver/131/trunk/test/fixtures/employers.yml
+END
+resumes.yml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/jobmia/!svn/ver/73/trunk/test/fixtures/resumes.yml
+END
+jobalerts.yml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jobmia/!svn/ver/30/trunk/test/fixtures/jobalerts.yml
+END
+industries.yml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobmia/!svn/ver/13/trunk/test/fixtures/industries.yml
+END
+resume_experiences.yml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jobmia/!svn/ver/73/trunk/test/fixtures/resume_experiences.yml
+END
+locations.yml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jobmia/!svn/ver/22/trunk/test/fixtures/locations.yml
+END
+help_categories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jobmia/!svn/ver/84/trunk/test/fixtures/help_categories.yml
+END
+jobs.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jobmia/!svn/ver/83/trunk/test/fixtures/jobs.yml
+END
+tags.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/jobmia/!svn/ver/170/trunk/test/fixtures/tags.yml
+END
+jobtypes.yml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jobmia/!svn/ver/39/trunk/test/fixtures/jobtypes.yml
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/jobmia/!svn/ver/18/trunk/test/fixtures/users.yml
+END
+topics.yml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/jobmia/!svn/ver/116/trunk/test/fixtures/topics.yml
+END
+specializations.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jobmia/!svn/ver/14/trunk/test/fixtures/specializations.yml
+END
+resume_references.yml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jobmia/!svn/ver/73/trunk/test/fixtures/resume_references.yml
+END
+avatars.yml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jobmia/!svn/ver/178/trunk/test/fixtures/avatars.yml
+END
+taggings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jobmia/!svn/ver/170/trunk/test/fixtures/taggings.yml
+END
+functional_roles.yml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jobmia/!svn/ver/69/trunk/test/fixtures/functional_roles.yml
+END
+posts.yml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobmia/!svn/ver/116/trunk/test/fixtures/posts.yml
+END
+help_topics.yml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jobmia/!svn/ver/84/trunk/test/fixtures/help_topics.yml
+END
+institutes.yml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobmia/!svn/ver/14/trunk/test/fixtures/institutes.yml
+END
+helps.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/jobmia/!svn/ver/84/trunk/test/fixtures/helps.yml
+END
+forums.yml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/jobmia/!svn/ver/116/trunk/test/fixtures/forums.yml
+END
+qualifications.yml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobmia/!svn/ver/14/trunk/test/fixtures/qualifications.yml
+END
+addresses.yml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jobmia/!svn/ver/73/trunk/test/fixtures/addresses.yml
+END
+functionalareas.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jobmia/!svn/ver/14/trunk/test/fixtures/functionalareas.yml
+END
+friendships.yml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jobmia/!svn/ver/200/trunk/test/fixtures/friendships.yml
+END
+resume_educations.yml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jobmia/!svn/ver/73/trunk/test/fixtures/resume_educations.yml
+END

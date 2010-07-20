@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/jobmia/!svn/ver/455/trunk/lib
+END
+authenticated_test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jobmia/!svn/ver/435/trunk/lib/authenticated_test_helper.rb
+END
+authenticated_system.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobmia/!svn/ver/435/trunk/lib/authenticated_system.rb
+END
+download_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/jobmia/!svn/ver/455/trunk/lib/download_helper.rb
+END

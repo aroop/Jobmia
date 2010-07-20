@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<office:document-content xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" office:version="1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0">
+<office:scripts/>
+<office:font-face-decls>
+<style:font-face style:name="StarSymbol1" svg:font-family="StarSymbol" style:font-charset="x-symbol"/>
+<style:font-face style:name="StarSymbol" svg:font-family="StarSymbol"/>
+<style:font-face style:name="Tahoma1" svg:font-family="Tahoma"/>
+<style:font-face style:name="&quot;Arial&quot;,&quot;Times&quot;,Serif" style:font-adornments="Regular" style:font-family-generic="roman" svg:font-family="&apos;&quot;Arial&quot;,&quot;Times&quot;,Serif&apos;"/>
+<style:font-face style:name="Times New Roman" style:font-pitch="variable" style:font-family-generic="roman" svg:font-family="&apos;Times New Roman&apos;"/>
+<style:font-face style:name="Arial" style:font-pitch="variable" style:font-family-generic="swiss" svg:font-family="Arial"/>
+<style:font-face style:name="Arial2" style:font-adornments="Bold" style:font-pitch="variable" style:font-family-generic="swiss" svg:font-family="Arial, Times, Serif"/>
+<style:font-face style:name="Arial1" style:font-adornments="Regular" style:font-pitch="variable" style:font-family-generic="swiss" svg:font-family="Arial, Times, Serif"/>
+<style:font-face style:name="Arial3" style:font-adornments="Regular" style:font-pitch="variable" style:font-family-generic="swiss" svg:font-family="Arial, times, serif"/>
+<style:font-face style:name="Verdana" style:font-adornments="Bold" style:font-pitch="variable" style:font-family-generic="swiss" svg:font-family="Verdana"/>
+<style:font-face style:name="Lucida Sans Unicode" style:font-pitch="variable" style:font-family-generic="system" svg:font-family="&apos;Lucida Sans Unicode&apos;"/>
+<style:font-face style:name="Tahoma" style:font-pitch="variable" style:font-family-generic="system" svg:font-family="Tahoma"/>
+</office:font-face-decls>
+<office:automatic-styles>
+<style:style style:name="Table6" style:family="table">
+<style:table-properties table:align="center" style:width="16.004cm"/>
+</style:style>
+<style:style style:name="Table6.A" style:family="table-column">
+<style:table-column-properties style:column-width="16.004cm"/>
+</style:style>
+<style:style style:name="Table6.A1" style:family="table-cell">
+<style:table-cell-properties fo:border="0.002cm solid #ffffff" fo:padding="0.051cm"/>
+</style:style>
+<style:style style:name="Table6.A2" style:family="table-cell">
+<style:table-cell-properties fo:border-bottom="0.002cm solid #ffffff" fo:border-right="0.002cm solid #ffffff" fo:padding="0.051cm" fo:border-left="0.002cm solid #ffffff" fo:border-top="none"/>
+</style:style>
+<style:style style:name="Table1" style:family="table">
+<style:table-properties table:align="center" style:width="16.004cm"/>
+</style:style>
+<style:style style:name="Table1.A" style:family="table-column">
+<style:table-column-properties style:column-width="16.004cm"/>
+</style:style>
+<style:style style:name="Table1.A1" style:family="table-cell">
+<style:table-cell-properties fo:border="0.002cm solid #ffffff" fo:padding="0.051cm"/>
+</style:style>
+<style:style style:name="Table1.A2" style:family="table-cell">
+<style:table-cell-properties fo:border-bottom="0.002cm solid #ffffff" fo:border-right="0.002cm solid #ffffff" fo:padding="0.051cm" fo:border-left="0.002cm solid #ffffff" fo:border-top="none"/>
+</style:style>
+<style:style style:name="Table2" style:family="table">
+<style:table-properties table:align="center" style:width="16.002cm"/>
+</style:style>
+<style:style style:name="Table2.A" style:family="table-column">
+<style:table-column-properties style:column-width="16.002cm"/>
+</style:style>
+<style:style style:name="Table2.A1" style:family="table-cell">
+<style:table-cell-properties fo:border="0.002cm solid #ffffff" fo:padding="0.051cm"/>
+</style:style>
+<style:style style:name="Table2.A2" style:family="table-cell">
+<style:table-cell-properties fo:border-bottom="0.002cm solid #ffffff" fo:border-right="0.002cm solid #ffffff" fo:padding="0.051cm" fo:border-left="0.002cm solid #ffffff" fo:border-top="none"/>
+</style:style>
+<style:style style:name="Table3" style:family="table">
+<style:table-properties table:align="center" style:width="16.002cm"/>
+</style:style>
+<style:style style:name="Table3.A" style:family="table-column">
+<style:table-column-properties style:column-width="16.002cm"/>
+</style:style>
+<style:style style:name="Table3.A1" style:family="table-cell">
+<style:table-cell-properties fo:border="0.002cm solid #ffffff" fo:padding="0.051cm"/>
+</style:style>
+<style:style style:name="Table3.A2" style:family="table-cell">
+<style:table-cell-properties fo:border-bottom="0.002cm solid #ffffff" fo:border-right="0.002cm solid #ffffff" fo:padding="0.051cm" fo:border-left="0.002cm solid #ffffff" fo:border-top="none"/>
+</style:style>
+<style:style style:name="Table5" style:family="table">
+<style:table-properties table:align="center" style:width="16.004cm"/>
+</style:style>
+<style:style style:name="Table5.A" style:family="table-column">
+<style:table-column-properties style:column-width="16.004cm"/>
+</style:style>
+<style:style style:name="Table5.A1" style:family="table-cell">
+<style:table-cell-properties fo:border="0.002cm solid #ffffff" fo:padding="0.051cm"/>
+</style:style>
+<style:style style:name="Table5.A2" style:family="table-cell">
+<style:table-cell-properties fo:border-bottom="0.002cm solid #ffffff" fo:border-right="0.002cm solid #ffffff" fo:padding="0.051cm" fo:border-left="0.002cm solid #ffffff" fo:border-top="none"/>
+</style:style>
+<style:style style:name="P1" style:parent-style-name="Table_20_Contents" style:family="paragraph">
+<style:paragraph-properties fo:text-indent="0cm" style:auto-text-indent="false" fo:margin-left="0.009cm" fo:margin-right="-0.097cm">
+<style:tab-stops/>
+</style:paragraph-properties>
+</style:style>
+<style:style style:name="P2" style:parent-style-name="Table_20_Contents" style:family="paragraph">
+<style:paragraph-properties fo:text-indent="0cm" style:auto-text-indent="false" fo:margin-left="0.009cm" fo:margin-right="-0.071cm">
+<style:tab-stops/>
+</style:paragraph-properties>
+</style:style>
+<style:style style:name="P3" style:parent-style-name="Standard" style:family="paragraph">
+<style:paragraph-properties fo:text-indent="0cm" style:auto-text-indent="false" fo:margin-left="0.009cm" fo:margin-right="-0.071cm">
+<style:tab-stops/>
+</style:paragraph-properties>
+</style:style>
+<style:style style:name="P4" style:parent-style-name="Standard" style:family="paragraph">
+<style:paragraph-properties fo:text-indent="0cm" style:auto-text-indent="false" style:justify-single-word="false" fo:text-align="start" fo:margin-left="0.009cm" fo:margin-right="-0.071cm">
+<style:tab-stops/>
+</style:paragraph-properties>
+</style:style>
+<style:style style:name="P5" style:parent-style-name="Standard" style:family="paragraph">
+<style:paragraph-properties style:justify-single-word="false" fo:text-align="start"/>
+</style:style>
+<style:style style:name="P6" style:parent-style-name="Standard" style:family="paragraph" style:master-page-name="HTML"/>
+<style:style style:name="P7" style:parent-style-name="Standard" style:family="paragraph" style:list-style-name="L1">
+<style:paragraph-properties fo:text-indent="0cm" style:auto-text-indent="false" style:justify-single-word="false" fo:text-align="start" fo:margin-left="0.009cm" fo:margin-right="-0.071cm">
+<style:tab-stops/>
+</style:paragraph-properties>
+</style:style>
+<style:style style:name="P8" style:parent-style-name="Text_20_body.entryBreak" style:family="paragraph" style:list-style-name="L1"/>
+<style:style style:name="P9" style:parent-style-name="Table_20_Contents" style:family="paragraph">
+<style:paragraph-properties fo:text-indent="0cm" style:auto-text-indent="false" fo:background-color="#ffffcc" fo:margin-left="0.009cm" fo:margin-right="-0.071cm">
+<style:tab-stops/>
+<style:background-image/>
+</style:paragraph-properties>
+</style:style>
+<style:style style:name="P10" style:parent-style-name="Table_20_Contents" style:family="paragraph">
+<style:paragraph-properties fo:text-indent="0cm" style:auto-text-indent="false" fo:background-color="#ffffcc" style:justify-single-word="false" fo:text-align="start" fo:margin-left="0.009cm" fo:margin-right="-0.071cm">
+<style:tab-stops/>
+<style:background-image/>
+</style:paragraph-properties>
+</style:style>
+<style:style style:name="P11" style:parent-style-name="Table_20_Contents" style:family="paragraph">
+<style:paragraph-properties fo:text-indent="0cm" style:auto-text-indent="false" style:justify-single-word="false" fo:text-align="start" fo:margin-left="0.009cm" fo:margin-right="-0.071cm">
+<style:tab-stops/>
+</style:paragraph-properties>
+</style:style>
+<style:style style:name="P12" style:parent-style-name="Table_20_Contents" style:family="paragraph">
+<style:paragraph-properties fo:text-indent="0cm" style:auto-text-indent="false" fo:background-color="#ffffcc" fo:margin-left="0.009cm" fo:margin-right="-0.097cm">
+<style:tab-stops/>
+<style:background-image/>
+</style:paragraph-properties>
+</style:style>
+<text:list-style style:name="L1">
+<text:list-level-style-bullet style:num-suffix="." text:level="1" text:bullet-char="•" text:style-name="Bullet_20_Symbols">
+<style:list-level-properties text:space-before="0.635cm" text:min-label-width="0.635cm"/>
+<style:text-properties style:font-name="StarSymbol1"/>
+</text:list-level-style-bullet>
+<text:list-level-style-bullet style:num-suffix="." text:level="2" text:bullet-char="•" text:style-name="Bullet_20_Symbols">
+<style:list-level-properties text:space-before="1.27cm" text:min-label-width="0.635cm"/>
+<style:text-properties style:font-name="StarSymbol1"/>
+</text:list-level-style-bullet>
+<text:list-level-style-bullet style:num-suffix="." text:level="3" text:bullet-char="•" text:style-name="Bullet_20_Symbols">
+<style:list-level-properties text:space-before="1.905cm" text:min-label-width="0.635cm"/>
+<style:text-properties style:font-name="StarSymbol1"/>
+</text:list-level-style-bullet>
+<text:list-level-style-bullet style:num-suffix="." text:level="4" text:bullet-char="•" text:style-name="Bullet_20_Symbols">
+<style:list-level-properties text:space-before="2.54cm" text:min-label-width="0.635cm"/>
+<style:text-properties style:font-name="StarSymbol1"/>
+</text:list-level-style-bullet>
+<text:list-level-style-bullet style:num-suffix="." text:level="5" text:bullet-char="•" text:style-name="Bullet_20_Symbols">
+<style:list-level-properties text:space-before="3.175cm" text:min-label-width="0.635cm"/>
+<style:text-properties style:font-name="StarSymbol1"/>
+</text:list-level-style-bullet>
+<text:list-level-style-bullet style:num-suffix="." text:level="6" text:bullet-char="•" text:style-name="Bullet_20_Symbols">
+<style:list-level-properties text:space-before="3.81cm" text:min-label-width="0.635cm"/>
+<style:text-properties style:font-name="StarSymbol1"/>
+</text:list-level-style-bullet>
+<text:list-level-style-bullet style:num-suffix="." text:level="7" text:bullet-char="•" text:style-name="Bullet_20_Symbols">
+<style:list-level-properties text:space-before="4.445cm" text:min-label-width="0.635cm"/>
+<style:text-properties style:font-name="StarSymbol1"/>
+</text:list-level-style-bullet>
+<text:list-level-style-bullet style:num-suffix="." text:level="8" text:bullet-char="•" text:style-name="Bullet_20_Symbols">
+<style:list-level-properties text:space-before="5.08cm" text:min-label-width="0.635cm"/>
+<style:text-properties style:font-name="StarSymbol1"/>
+</text:list-level-style-bullet>
+<text:list-level-style-bullet style:num-suffix="." text:level="9" text:bullet-char="•" text:style-name="Bullet_20_Symbols">
+<style:list-level-properties text:space-before="5.715cm" text:min-label-width="0.635cm"/>
+<style:text-properties style:font-name="StarSymbol1"/>
+</text:list-level-style-bullet>
+<text:list-level-style-bullet style:num-suffix="." text:level="10" text:bullet-char="•" text:style-name="Bullet_20_Symbols">
+<style:list-level-properties text:space-before="6.35cm" text:min-label-width="0.635cm"/>
+<style:text-properties style:font-name="StarSymbol1"/>
+</text:list-level-style-bullet>
+</text:list-style>
+</office:automatic-styles>
+<office:body>
+<office:text>
+<office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+<text:sequence-decls>
+<text:sequence-decl text:name="Illustration" text:display-outline-level="0"/>
+<text:sequence-decl text:name="Table" text:display-outline-level="0"/>
+<text:sequence-decl text:name="Text" text:display-outline-level="0"/>
+<text:sequence-decl text:name="Drawing" text:display-outline-level="0"/>
+</text:sequence-decls>
+<% 
+sections = data[0]
+ %>
+<% 
+address = data[1]
+ %>
+<% 
+sections.each do |section|
+ %>
+<% 
+section.name
+ %>
+<% 
+if section.type == "GeneralSection"
+ %>
+<table:table table:name="Table6" table:style-name="Table6">
+<table:table-column table:style-name="Table6.A"/>
+<% 
+section.entries.each do |entry|
+ %>
+<table:table-row>
+<table:table-cell office:value-type="string" table:style-name="Table6.A2">
+<text:p text:style-name="P12">
+<%= 
+span("sectionName",section.name.upcase+":")
+ %>
+</text:p>
+</table:table-cell>
+</table:table-row>
+<table:table-row>
+<table:table-cell office:value-type="string" table:style-name="Table6.A2">
+<text:p text:style-name="P1">
+<%= 
+span("data",entry.details)
+ %>
+</text:p>
+</table:table-cell>
+</table:table-row>
+<% 
+end
+ %>
+<table:table-row>
+<table:table-cell office:value-type="string" table:style-name="Table6.A2">
+<text:p text:style-name="Standard"/>
+</table:table-cell>
+</table:table-row>
+</table:table>
+<% 
+end
+
+
+if section.type == "EducationSection"
+ %>
+<table:table table:name="Table1" table:style-name="Table1">
+<table:table-column table:style-name="Table1.A"/>
+<table:table-row>
+<table:table-cell office:value-type="string" table:style-name="Table1.A1">
+<text:p text:style-name="P9">
+<%= 
+span("sectionName",section.name.upcase
+ %>
+<%= 
++":"
+ %>
+<%= 
+)
+ %>
+</text:p>
+</table:table-cell>
+</table:table-row>
+<% 
+section.entries.each do |entry|
+ %>
+<table:table-row>
+<table:table-cell office:value-type="string" table:style-name="Table1.A2">
+<text:list text:style-name="L1">
+<text:list-item>
+<text:p text:style-name="P7">
+<%= 
+line_break [get_string([entry.name, entry.location, get_dates([entry.start_date,
+entry.end_date], false)]), get_string( [get_studies([entry.qualification,
+entry.specialization]), get_gpa(entry.gpa)])]
+ %>
+</text:p>
+<text:p text:style-name="P8">
+<text:span text:style-name="Ruby_20_Literal"/>
+</text:p>
+</text:list-item>
+</text:list>
+</table:table-cell>
+</table:table-row>
+<% 
+end
+ %>
+</table:table>
+<% 
+end
+
+
+if section.type == "WorkExperienceSection"
+ %>
+<table:table table:name="Table2" table:style-name="Table2">
+<table:table-column table:style-name="Table2.A"/>
+<table:table-row>
+<table:table-cell office:value-type="string" table:style-name="Table2.A1">
+<text:p text:style-name="P10">
+<%= 
+span("sectionName",section.name.upcase
+ %>
+<%= 
+)
+ %>
+</text:p>
+</table:table-cell>
+</table:table-row>
+<% 
+section.entries.each do |entry|
+ %>
+<table:table-row>
+<table:table-cell office:value-type="string" table:style-name="Table2.A2">
+<text:p text:style-name="P3">
+<%= 
+span("style1", get_string([entry.name, entry.title, entry.location,
+get_dates([entry.start_date, entry.end_date], true)]))
+ %>
+</text:p>
+</table:table-cell>
+</table:table-row>
+<table:table-row>
+<table:table-cell office:value-type="string" table:style-name="Table2.A2">
+<text:p text:style-name="Table_20_Contents">
+<%= 
+span("newstyle3",entry.details)
+ %>
+</text:p>
+<text:p text:style-name="Text_20_body.entryBreak">
+<text:span text:style-name="Ruby_20_Literal"/>
+</text:p>
+</table:table-cell>
+</table:table-row>
+<% 
+end
+ %>
+</table:table>
+<% 
+end
+ %>
+<% 
+if section.type == "PersonalDetailsSection"
+ %>
+<table:table table:name="Table3" table:style-name="Table3">
+<table:table-column table:style-name="Table3.A"/>
+<% 
+section.entries.each do |entry|
+ %>
+<table:table-row>
+<table:table-cell office:value-type="string" table:style-name="Table3.A2">
+<text:p text:style-name="P11">
+<%= 
+span("personName",entry.name
+ %>
+<%= 
+)
+ %>
+</text:p>
+<text:p text:style-name="P4">
+<%= 
+line_break [address.email, get_string([get_phone_number(address.phone_number,
+true), get_fax_number(address.fax_number, true)]), address.address_1,
+address.address_2, get_string([address.city, address.state, address.postal_code,
+address.country]), address.website]
+ %>
+</text:p>
+</table:table-cell>
+</table:table-row>
+<% 
+end
+ %>
+</table:table>
+<% 
+end
+ %>
+<% 
+if section.type == "ReferenceSection"
+ %>
+<table:table table:name="Table5" table:style-name="Table5">
+<table:table-column table:style-name="Table5.A"/>
+<table:table-row>
+<table:table-cell office:value-type="string" table:style-name="Table5.A1">
+<text:p text:style-name="P9">
+<%= 
+span("sectionName",section.name.upcase
+ %>
+<%= 
+)
+ %>
+</text:p>
+</table:table-cell>
+</table:table-row>
+<% 
+section.entries.each do |entry|
+ %>
+<table:table-row>
+<table:table-cell office:value-type="string" table:style-name="Table5.A2">
+<text:p text:style-name="P2">
+<%= 
+line_break get_reference_array entry
+ %>
+</text:p>
+<text:p text:style-name="Text_20_body.entryBreak">
+<text:span text:style-name="Ruby_20_Literal"/>
+</text:p>
+</table:table-cell>
+</table:table-row>
+<% 
+end
+ %>
+</table:table>
+<% 
+end
+ %>
+<text:p text:style-name="Text_20_body.sectionBreak">
+<text:span text:style-name="Ruby_20_Code"/>
+</text:p>
+<% 
+end
+ %>
+</office:text>
+</office:body>
+</office:document-content>

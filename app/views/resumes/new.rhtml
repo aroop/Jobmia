@@ -1,0 +1,8 @@
+<div id="contentcolumn">
+	<div id="resume">
+    <h1>Create a new resume</h1>
+    <% form_for :resume, @resume, :url => { :action => "create" }, :html => {:class => "general"} do |form| -%>
+    <%= render :partial => 'resume', :locals => {:form => form, :resume => @resume}  %>
+    <% end %>		
+	</div>
+</div>

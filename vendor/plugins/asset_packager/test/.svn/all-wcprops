@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jobmia/!svn/ver/349/trunk/vendor/plugins/asset_packager/test
+END
+asset_package_helper_production_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/jobmia/!svn/ver/349/trunk/vendor/plugins/asset_packager/test/asset_package_helper_production_test.rb
+END
+asset_package_helper_development_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/jobmia/!svn/ver/349/trunk/vendor/plugins/asset_packager/test/asset_package_helper_development_test.rb
+END
+asset_packager_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jobmia/!svn/ver/349/trunk/vendor/plugins/asset_packager/test/asset_packager_test.rb
+END
+asset_packages.yml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jobmia/!svn/ver/349/trunk/vendor/plugins/asset_packager/test/asset_packages.yml
+END

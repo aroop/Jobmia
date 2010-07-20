@@ -1,0 +1,103 @@
+<% content_for :featured do -%>
+<div id="insidePageTitle">
+  <!--center the featured section start -->
+  <div class="center">
+		<div class="pageTitleWrap">
+			<h2>Resume Designer</h2>
+ 		</div>
+	</div>
+  <!--center the featured section end -->
+</div>
+<% end -%>
+
+<% content_for :js do -%>
+	<%= javascript_include_merged :pages %>
+	<script type="text/javascript" charset="utf-8">
+		$(function() {
+			$('.bigLinks a').lightBox();
+		});
+	</script>
+<% end -%>
+
+<% content_for :sidebar do -%>
+<!--Grunge Box start-->
+<div class="boxGrunge">
+  	<div class="sidebarInside">
+      	<div>
+          	<div>       	
+                  <div class="box">
+                  <h2>Proven <span class="highlight">Templates</span></h2>
+                  <blockquote cite="">
+                  	<p>Select from 10 Professional Resume Template Designs</p>                      
+                  </blockquote>
+                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+<!--Grunge Box End-->	
+<% end -%>
+
+<div class="contentInside clear">
+   	<h2>Don't Waste Anymore Time Formatting</h2> 
+   	<p>We've got you covered, so forget about spending hours in Word tweaking tables and fonts trying to make your resume look professional. Simply click on a template to see your information instantly reformatted.</p>
+ 		<p>In minutes, you'll have an exciting and winning resume template based on your occupation, status, and career. You'll answer a few questions, telling us a little about yourself, and we'll generate a unique template for you.</p>
+	  <div class=""><span class=""><%= link_to "Create a beautiful looking resume", signup_path %></span></div>
+</div>
+
+<div class="contentInside clear">
+<h3>Resume Styles</h3>
+<ul class="bigLinks">
+	<li>
+		<a href="images/resume/classic_big.gif" title="Classic Resume format">
+			<img src="images/resume/classic.gif" alt="Classic Resume format" />
+		</a>
+	</li>
+	<li>
+		<a href="images/resume/clean_big.gif" title="Clean Resume Format">
+			<img src="images/resume/clean.gif" alt="Clean Resume Format" />
+		</a>
+	</li>
+	<li>
+		<a href="images/resume/crisp_big.gif" title="Crisp Resume Format">
+			<img src="images/resume/crisp.gif" alt="Crisp Resume Format" />
+		</a>
+	</li>
+	<li>
+		<a href="images/resume/edge_big.gif" title="Edge Resume Format">
+			<img src="images/resume/edge.gif" alt="Edge Resume Format" />
+		</a>
+	</li>
+	<li>
+		<a href="images/resume/elegant_big.gif" title="Elegant Resume Format">
+			<img src="images/resume/elegant.gif" alt="Elegant Resume Format" />
+		</a>
+	</li>
+	<li>
+		<a href="images/resume/modern_big.gif" title="Modern Resume Format">
+			<img src="images/resume/modern.gif" alt="Modern Resume Format" />
+		</a>
+	</li>
+	<li>
+		<a href="images/resume/plain_big.gif" title="Plain Resume Format">
+			<img src="images/resume/plain.gif" alt="Plain Resume Format" />
+		</a>
+	</li>
+	<li>
+		<a href="images/resume/polished_big.gif" title="Polished Resume Format">
+			<img src="images/resume/polished.gif" alt="Polished Resume Format" />
+		</a>
+	</li>
+	<li>
+		<a href="images/resume/professional_big.gif" title="Professional Resume Format">
+			<img src="images/resume/professional.gif" alt="Professional Resume Format" />
+		</a>
+	</li>
+	<li>
+		<a href="images/resume/royal_big.gif" title="Royal Resume Format">
+			<img src="images/resume/royal.gif" alt="Royal Resume Format" />
+		</a>
+	</li>
+
+</ul>
+</div>

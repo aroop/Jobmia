@@ -1,0 +1,97 @@
+<% fields_for "resume[entry][]", personal_details do |t| %>
+   <table border="0" cellspacing="5" cellpadding="5" width="100%" class="form">
+     <tr>
+      <th>
+        <label for="resume_entry_<%= personal_details.id %>_name" class="px120">Full Name</label>
+          </th>
+             <td>
+                 <%= t.text_field :name, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry_#{personal_details.id}_name', 't');", :onblur => "disableField('resume_entry_#{personal_details.id}_name', 't');" %> <%= observe_field("resume_entry_#{personal_details.id}_name", :url => { :action => :save_entry, :id => personal_details },
+   :with => "entry[name]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+             </td>
+           </tr>
+           <% fields_for "resume[entry][#{personal_details.id}][address_attributes][]", personal_details.address do |s| %>
+               <tr>
+                 <th>
+                   <label for="resume_entry__<%= personal_details.id %>__address_attributes_<%= personal_details.address.id %>_address_1" class="px120">Address 1</label>
+                 </th>
+                   <td>
+                     <%= s.text_field :address_1, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_address_1', 's');", :onblur => "disableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_address_1', 's');" %> <%= observe_field("resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_address_1",
+         :url => { :action => :save_entry, :id => personal_details }, :with => "entry[address_attributes][#{personal_details.address.id}][address_1]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+                   </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <label for="resume_entry__<%= personal_details.id %>__address_attributes_<%= personal_details.address.id %>_address_2" class="px120">Address 2</label>
+                    </th>
+                    <td>
+                    <%= s.text_field :address_2, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_address_2', 's');", :onblur => "disableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_address_2', 's');" %> <%= observe_field("resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_address_2",
+           :url => { :action => :save_entry, :id => personal_details }, :with => "entry[address_attributes][#{personal_details.address.id}][address_2]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+                </td>
+                </tr>
+                <tr>
+                 <th>
+                  <label for="resume_entry__<%= personal_details.id %>__address_attributes_<%= personal_details.address.id %>_city" class="px120">City</label>
+                  </th>
+                  <td>
+                  <%= s.text_field :city, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_city', 's');", :onblur => "disableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_city', 's');"  %> <%= observe_field("resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_city",
+           :url => { :action => :save_entry, :id => personal_details }, :with => "entry[address_attributes][#{personal_details.address.id}][city]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+                </td>
+                 </tr>
+                 <tr>
+                 <th>
+                <label for="resume_entry__<%= personal_details.id %>__address_attributes_<%= personal_details.address.id %>_state" class="px120">State</label>
+                 </th>
+                <td>
+                 <%= s.text_field :state, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_state', 's');", :onblur => "disableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_state', 's');" %> <%= observe_field("resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_state",
+          :url => { :action => :save_entry, :id => personal_details }, :with => "entry[address_attributes][#{personal_details.address.id}][state]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+               </td>
+                </tr>
+                <tr>
+                 <th>
+                <label for="resume_entry__<%= personal_details.id %>__address_attributes_<%= personal_details.address.id %>_postal_code" class="px120">Postal code</label>
+                 </th>
+                <td>
+                 <%= s.text_field :postal_code, :class => "field_text fieldSpan" , :onfocus => "enableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_postal_code', 's');", :onblur => "disableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_postal_code', 's');" %> <%= observe_field("resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_postal_code",
+             :url => { :action => :save_entry, :id => personal_details }, :with => "entry[address_attributes][#{personal_details.address.id}][postal_code]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+                </td>
+                </tr>
+                <tr>
+                <th><label for="resume_entry__<%= personal_details.id %>__address_attributes_<%= personal_details.address.id %>_country" class="px120">Country</label></th>
+                <td>
+                <%= s.text_field :country, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_country', 's');", :onblur => "disableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_country', 's');" %> <%= observe_field("resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_country",
+            :url => { :action => :save_entry, :id => personal_details }, :with => "entry[address_attributes][#{personal_details.address.id}][country]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+            </td>
+            </tr>
+            <tr>
+            <th><label for="resume_entry__<%= personal_details.id %>__address_attributes_<%= personal_details.address.id %>_phone_number" class="px120">Phone number</label></th>
+            <td>
+            <%= s.text_field :phone_number, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_phone_number', 's');", :onblur => "disableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_phone_number', 's');"  %> <%= observe_field("resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_phone_number",
+            :url => { :action => :save_entry, :id => personal_details }, :with => "entry[address_attributes][#{personal_details.address.id}][phone_number]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+            </td>
+             </tr>
+             <tr>
+             <th><label for="resume_entry__<%= personal_details.id %>__address_attributes_<%= personal_details.address.id %>_fax_number" class="px120">Fax number</label></th>
+             <td>
+             <%= s.text_field :fax_number, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_fax_number', 's');", :onblur => "disableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_fax_number', 's');"  %> <%= observe_field("resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_fax_number",
+               :url => { :action => :save_entry, :id => personal_details }, :with => "entry[address_attributes][#{personal_details.address.id}][fax_number]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+              </td>
+              </tr>
+              <tr>
+              <th>
+              <label for="resume_entry__<%= personal_details.id %>__address_attributes_<%= personal_details.address.id %>_email" class="px120">E-mail</label>
+              </th>
+              <td>
+              <%= s.text_field :email, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_email', 's');", :onblur => "disableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_email', 's');"  %> <%= observe_field("resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_email",
+            :url => { :action => :save_entry, :id => personal_details }, :with => "entry[address_attributes][#{personal_details.address.id}][email]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+              </td>
+              </tr>
+              <tr>
+              <th><label for="resume_entry__<%= personal_details.id %>__address_attributes_<%= personal_details.address.id %>_website" class="px120">Website</label></th>
+              <td>
+              <%= s.text_field :website, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_website', 's');", :onblur => "disableField('resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_website', 's');"  %> <%= observe_field("resume_entry__#{personal_details.id}__address_attributes_#{personal_details.address.id}_website",
+          :url => { :action => :save_entry, :id => personal_details }, :with => "entry[address_attributes][#{personal_details.address.id}][website]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+              </td>
+              </tr>
+              <% end %>
+       </table>
+<% end %>

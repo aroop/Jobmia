@@ -1,0 +1,8 @@
+<li id="used_section_<%= used_section.id %>">
+	<span class="managesections_opt">
+		<%=link_to_remote image_tag('icons/delete.png', :border => "0"), 
+			:url => { :action => "remove_section", :id => used_section }, 
+			:method => :delete, :confirm => 'Are you sure you want to delete this section?', :loading=> "show_status('Removing...')", :complete=>"hide_status()" %>
+	</span>
+	<%= used_section.name -%>	
+</li>

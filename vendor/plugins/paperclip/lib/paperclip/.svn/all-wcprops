@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/paperclip/lib/paperclip
+END
+iostream.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/paperclip/lib/paperclip/iostream.rb
+END
+thumbnail.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/paperclip/lib/paperclip/thumbnail.rb
+END
+storage.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/paperclip/lib/paperclip/storage.rb
+END
+upfile.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/paperclip/lib/paperclip/upfile.rb
+END
+attachment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/paperclip/lib/paperclip/attachment.rb
+END
+geometry.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/paperclip/lib/paperclip/geometry.rb
+END

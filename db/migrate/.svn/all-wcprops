@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/jobmia/!svn/ver/435/trunk/db/migrate
+END
+019_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jobmia/!svn/ver/435/trunk/db/migrate/019_create_users.rb
+END
+015_create_addresses.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jobmia/!svn/ver/227/trunk/db/migrate/015_create_addresses.rb
+END
+016_create_resumes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jobmia/!svn/ver/331/trunk/db/migrate/016_create_resumes.rb
+END

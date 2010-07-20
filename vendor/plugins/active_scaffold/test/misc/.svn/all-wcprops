@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jobmia/!svn/ver/465/trunk/vendor/plugins/active_scaffold/test/misc
+END
+configurable_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jobmia/!svn/ver/465/trunk/vendor/plugins/active_scaffold/test/misc/configurable_test.rb
+END
+lang_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jobmia/!svn/ver/465/trunk/vendor/plugins/active_scaffold/test/misc/lang_test.rb
+END
+active_record_permissions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/jobmia/!svn/ver/465/trunk/vendor/plugins/active_scaffold/test/misc/active_record_permissions.rb
+END
+constraints_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/jobmia/!svn/ver/465/trunk/vendor/plugins/active_scaffold/test/misc/constraints_test.rb
+END
+finder_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jobmia/!svn/ver/465/trunk/vendor/plugins/active_scaffold/test/misc/finder_test.rb
+END

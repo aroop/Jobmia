@@ -1,0 +1,52 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/app/views
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-09-27T16:25:31.572629Z
+526
+ajay
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3d34c76b-d2f6-db11-bc26-0014220fd224
+
+pages
+dir
+
+layouts
+dir
+
+users
+dir
+
+resumes
+dir
+
+notification
+dir
+
+sessions
+dir
+
+shared
+dir
+
+user_mailer
+dir
+

@@ -1,0 +1,24 @@
+<% content_for :featured do -%>
+<div id="insidePageTitle">
+  <!--center the featured section start -->
+  <div class="center">
+   	<div class="pageTitleWrap">
+			<h2>Choose a Design for Your <span class="highlight"><%= @resume.name -%></span> Resume</h2>
+		</div>
+	</div>
+  <!--center the featured section end -->
+</div>
+<% end -%>
+
+<div id="stylePane">
+	<h2>Select a <span class="highlight">Layout</span></h2>
+	<div id="resumeStyleContainer">
+		<%= render :partial => 'resume_style', :collection => @resume_styles %>
+	</div>
+</div>
+<div id="previewContainer">
+	<h2>Live <span class="highlight">Preview</span></h2>
+	<div id="previewPane" class="wide" style="padding-top: 0.5in; padding-bottom: 0.5in;">
+		<%= @resume_content -%>
+	</div>
+</div>

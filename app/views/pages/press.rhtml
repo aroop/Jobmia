@@ -1,0 +1,47 @@
+<% content_for :featured do -%>
+ <div id="insidePageTitle">
+   <!--center the featured section start -->
+    <div class="center">
+     <div class="pageTitleWrap">
+      <h2>Press</h2>
+     </div>
+    </div>
+   <!--center the featured section end -->
+ </div>
+<% end -%>
+
+<% content_for :sidebar do -%>
+<!--Grunge Box start-->
+<div class="boxGrunge">
+	<div class="sidebarInside">
+  	<div>
+    	<div>       	
+        <div class="box">
+          <h2>Client <span class="highlight">Says...</span></h2>
+            <blockquote cite="">
+            	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer dolor urna, aliquet sed, ornare ac</p>
+            </blockquote>
+            <p class="author">- Client Name</p>
+            <blockquote cite="">
+          	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer dolor urna, aliquet sed, ornare ac</p>
+            </blockquote>
+            <p class="author">- Client Name</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Grunge Box End-->	
+<% end -%>
+
+<div class="contentInside clear">
+    <p>For press/media inquiries, please contact us at the phone/email listed below. Please include your name, your title, the name of the organization you represent, the purpose of your request, as well as contact information, including phone number(s) and preferred times to be contacted, and your request will be answered promptly</p> 
+    <h2>Contact:</h2>
+      <ul>
+         Ajay kumar G <br>
+         JComponent Technologies.<br>
+         <div class=""><span class="">
+         <%= mail_to "ajay@jcomponent.com", "ajay at jcomponent dot com", :encode => "hex" %></span></div>         
+         91-40-32005959
+      </ul>
+</div>

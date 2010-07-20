@@ -1,0 +1,162 @@
+<div class="entry_multi" id="<%= dom_id reference %>" onmouseover="entry_mouseover('<%= dom_id reference %>', '<%= reference.id %>');" onmouseout="entry_mouseout('<%= dom_id reference %>', '<%= reference.id %>');">
+	<% fields_for "resume[entry][]", reference do |t| %>
+		<table border="0" cellspacing="5" cellpadding="5" width="100%" class="form">
+			<tr>
+				<th>
+					<label for="resume_entry_<%= reference.id %>_name" class="px120">Name</label>
+				</th>
+				<td>
+					 <%= t.text_field :name, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry_#{reference.id}_name', 't');", :onblur => "disableField('resume_entry_#{reference.id}_name', 't');" %>
+					 <%= observe_field("resume_entry_#{reference.id}_name", :url => { :action => :save_entry, :id => reference }, 
+					  								:with => "entry[name]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>		
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<label for="resume_entry_<%= reference.id %>_title" class="px120">Title</label>
+				</th>
+				<td>
+				  <%= t.text_field :title, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry_#{reference.id}_title', 't');", :onblur => "disableField('resume_entry_#{reference.id}_title', 't');"  %>
+				  <%= observe_field("resume_entry_#{reference.id}_title", :url => { :action => :save_entry, :id => reference }, 
+				  								:with => "entry[title]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>			
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<label for="resume_entry_<%= reference.id %>_organization" class="px120">Organization</label>
+				</th>
+				<td>
+				  <%= t.text_field :organization, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry_#{reference.id}_organization', 't');", :onblur => "disableField('resume_entry_#{reference.id}_organization', 't');"  %>
+				  <%= observe_field("resume_entry_#{reference.id}_organization", :url => { :action => :save_entry, :id => reference }, 
+				  								:with => "entry[organization]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>		  			
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<label for="resume_entry_<%= reference.id %>_department" class="px120">Department</label>
+				</th>
+				<td>
+				  <%= t.text_field :department, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry_#{reference.id}_department', 't');", :onblur => "disableField('resume_entry_#{reference.id}_department', 't');"  %>
+				  <%= observe_field("resume_entry_#{reference.id}_department", :url => { :action => :save_entry, :id => reference }, 
+				  								:with => "entry[department]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>		  			
+				</td>
+			</tr>
+			<% fields_for "resume[entry][#{reference.id}][address_attributes][]", reference.address do |s| %>
+			<tr>
+				<th>
+					<label for="resume_entry__<%= reference.id %>__address_attributes_<%= reference.address.id %>_address_1" class="px120">Address 1</label>
+				</th>
+				<td>
+			  <%= s.text_field :address_1, :class => "field_text fieldSpan" , :onfocus => "enableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_address_1', 's');", :onblur => "disableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_address_1', 's');"%>
+			  <%= observe_field("resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_address_1", 
+			  				:url => { :action => :save_entry, :id => reference }, :with => "entry[address_attributes][#{reference.address.id}][address_1]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>			
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<label for="resume_entry__<%= reference.id %>__address_attributes_<%= reference.address.id %>_address_2" class="px120">Address 2</label>
+				</th>
+				<td>
+					<%= s.text_field :address_2, :class => "field_text fieldSpan" , :onfocus => "enableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_address_2', 's');", :onblur => "disableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_address_2', 's');" %>
+			  	<%= observe_field("resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_address_2", 
+			  				:url => { :action => :save_entry, :id => reference }, :with => "entry[address_attributes][#{reference.address.id}][address_2]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>			
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<label for="resume_entry__<%= reference.id %>__address_attributes_<%= reference.address.id %>_city" class="px120">City</label>
+				</th>
+				<td>
+			  	<%= s.text_field :city, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_city', 's');", :onblur => "disableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_city', 's');"  %>
+			  	<%= observe_field("resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_city", 			
+			  			:url => { :action => :save_entry, :id => reference }, :with => "entry[address_attributes][#{reference.address.id}][city]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<label for="resume_entry__<%= reference.id %>__address_attributes_<%= reference.address.id %>_state" class="px120">State</label>
+				</th>
+				<td>
+				  <%= s.text_field :state, :class => "field_text fieldSpan" , :onfocus => "enableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_state', 's');", :onblur => "disableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_state', 's');" %>
+				  <%= observe_field("resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_state", 
+				  :url => { :action => :save_entry, :id => reference }, :with => "entry[address_attributes][#{reference.address.id}][state]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>			
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<label for="resume_entry__<%= reference.id %>__address_attributes_<%= reference.address.id %>_postal_code" class="px120">Postal code</label>
+				</th>
+				<td>
+				  <%= s.text_field :postal_code, :class => "field_text fieldSpan" , :onfocus => "enableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_postal_code', 's');", :onblur => "disableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_postal_code', 's');" %>
+				  <%= observe_field("resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_postal_code", 
+				  :url => { :action => :save_entry, :id => reference }, :with => "entry[address_attributes][#{reference.address.id}][postal_code]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>			
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<label for="resume_entry__<%= reference.id %>__address_attributes_<%= reference.address.id %>_country" class="px120">Country</label>
+				</th>
+				<td>
+				  <%= s.text_field :country, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_country', 's');", :onblur => "disableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_country', 's');" %>
+				  <%= observe_field("resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_country", 
+					  :url => { :action => :save_entry, :id => reference }, :with => "entry[address_attributes][#{reference.address.id}][country]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<label for="resume_entry__<%= reference.id %>__address_attributes_<%= reference.address.id %>_phone_number" class="px120">Phone number</label>
+				</th>
+				<td>
+				  <%= s.text_field :phone_number, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_phone_number', 's');", :onblur => "disableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_phone_number', 's');" %>
+			  	<%= observe_field("resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_phone_number", 
+			  		:url => { :action => :save_entry, :id => reference }, :with => "entry[address_attributes][#{reference.address.id}][phone_number]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<label for="resume_entry__<%= reference.id %>__address_attributes_<%= reference.address.id %>_fax_number" class="px120">Fax number</label>
+				</th>
+				<td>
+				  <%= s.text_field :fax_number, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_fax_number', 's');", :onblur => "disableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_fax_number', 's');" %>
+				  <%= observe_field("resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_fax_number", 
+					  :url => { :action => :save_entry, :id => reference }, :with => "entry[address_attributes][#{reference.address.id}][fax_number]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<label for="resume_entry__<%= reference.id %>__address_attributes_<%= reference.address.id %>_email" class="px120">E-mail</label>
+				</th>
+				<td>
+					<%= s.text_field :email, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_email', 's');", :onblur => "disableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_email', 's');" %>
+				  <%= observe_field("resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_email", 
+					  :url => { :action => :save_entry, :id => reference }, :with => "entry[address_attributes][#{reference.address.id}][email]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<label for="resume_entry__<%= reference.id %>__address_attributes_<%= reference.address.id %>_website" class="px120">Website</label>
+				</th>
+				<td>
+			  	<%= s.text_field :website, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_website', 's');", :onblur => "disableField('resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_website', 's');"  %>
+			  	<%= observe_field("resume_entry__#{reference.id}__address_attributes_#{reference.address.id}_website", 
+			  		:url => { :action => :save_entry, :id => reference }, :with => "entry[address_attributes][#{reference.address.id}][website]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>			
+				</td>
+			</tr>
+			<% end %>
+				<tr>
+					<th>
+						<label for="resume_entry_<%= reference.id %>_details" class="px120">Details</label>
+					</th>
+					<td>
+				  <%= t.text_area :details, :size => "23x3", :class => "field_textArea fieldSpan" , :onfocus => "enableField('resume_entry_#{reference.id}_details', 'a');", :onblur => "disableField('resume_entry_#{reference.id}_details', 'a');" %>
+				  <%= observe_field("resume_entry_#{reference.id}_details", :url => { :action => :save_entry, :id => reference }, 
+				  								:with => "entry[details]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>		  				
+					</td>
+				</tr>
+		</table>
+	<% end %>
+	<span id="removeEntrylink_<%= reference.id %>" class="entry_remove" style = "visibility: hidden;">
+		<%= link_to_remote "Remove reference", :url => { :action => "remove_entry", :id => reference.id }, 
+			:confirm => "Are you sure you want to delete this reference?", :method => :delete, :loading=> "show_status('Removing...')", :complete=>"hide_status()" -%>		
+	</span>
+</div>

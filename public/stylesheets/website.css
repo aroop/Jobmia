@@ -1,0 +1,42 @@
+#promotion_bagde {
+	border-right:1px solid #CCCCCC;
+	float:left;
+	margin-top:12px;
+	margin-bottom:20px;
+	padding-right:15px;
+	width:440px;
+}
+
+#promotion_signature {
+	float:left;
+	margin-top:12px;
+	padding-left:15px;
+	width:465px;
+}
+
+#badge_code {
+	float:right;
+	width:330px;
+}
+
+#badge_preview {
+	float:left;
+	margin-right:5px;
+}
+
+#promotion_bagde p, #promotion_signature p {
+	clear:left;
+	padding-top:10px;
+	text-align:center;
+}
+
+#sig_preview {
+	float:left;
+	width:160px;
+	margin-right:3px;
+}
+
+#sig_code {
+	float:left;
+	width:280px;
+}

@@ -1,0 +1,52 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/test/functional/admin
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-03-06T06:21:46.993546Z
+354
+aroop
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3d34c76b-d2f6-db11-bc26-0014220fd224
+
+users_controller_test.rb
+file
+
+
+
+
+2008-09-11T03:58:50.000000Z
+0b96f60500f35f3eec9f6cad539ec76e
+2008-03-06T06:21:46.993546Z
+354
+aroop
+
+resumes_controller_test.rb
+file
+
+
+
+
+2008-09-11T03:58:50.000000Z
+d32cc8f72f61d4427d3d6fe7d84d71ae
+2008-03-06T06:21:46.993546Z
+354
+aroop
+

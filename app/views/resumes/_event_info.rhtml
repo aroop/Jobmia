@@ -1,0 +1,33 @@
+<% className = @event.class.to_s -%>
+<h1 class="special"><%= get_event_heading(className) %></h1>
+<table border="0" cellspacing="5" cellpadding="5" class="form">
+	<tr><th>Company</th><td><%= @event.company_name -%></td></tr>
+	<tr><th>Position</th><td><%= @event.position -%></td></tr>
+	
+	<tr><th>Sent on</th><td><%= calendar_date_select :event, :created_at, :popup => "force", :buttons => false, :valid_date_check => "date <= (new Date()).stripTime()", :onchange => "new Ajax.Request('/resume/update_event/#{@event.id}', {asynchronous:true, evalScripts:true, parameters:'event[created_at]=' + value});" %>
+	<tr><th>Follow up on</th><td><%= calendar_date_select :event, :follow_up, :popup => "force", :buttons => false, :onchange => "new Ajax.Request('/resume/update_event/#{@event.id}', {asynchronous:true, evalScripts:true, parameters:'event[follow_up]=' + value});" %>
+	<tr><th>Status</th><td><%= collection_select(:event, :event_status_id, EventStatus.find(:all), :id, :name ) %>
+	<%= observe_field("event_event_status_id", :url => { :action => :update_event, :id => @event }, :with => "event[event_status_id]") -%></td></tr>
+	<% if className == "PersonEvent" || className == "ExternalEmailEvent" || className == "InternalEmailEvent" || className == "FaxEvent" || className == "MailEvent"-%>
+		<tr><th>Recipient name</th><td><%= @event.name -%></td></tr>
+		<tr><th>Recipient email</th><td><%= @event.email -%></td></tr>
+	<% end -%>
+	<% if className == "FaxEvent" -%>
+		<tr><th>Recipient fax</th><td><%= @event.fax -%></td></tr>
+	<% end -%>
+	<% if className == "MailEvent" -%>
+		<br />
+		<tr><th>Address</th><td><%= @event.address_1.to_s + ", " + @event.address_2.to_s + ", " + @event.city.to_s  + ", " + @event.state.to_s  + ", " + @event.zipcode.to_s -%></td></tr>
+	<% end -%>
+	<% if className == "WebsiteEvent" -%>
+		<tr><th>Website</th><td><%= @event.website -%></td></tr>
+	<% end -%>
+	<% if className == "InternalEmailEvent" -%>
+		<tr><th>Subject</th><td><%= @event.subject -%></td></tr>
+	<% end -%>
+	<% if className == "Contact" -%>
+		<tr><th>Friend name</th><td><%= @event.name -%></td></tr>
+		<tr><th>Friend email</th><td><%= @event.email -%></td></tr>
+	<% end -%>
+	<tr><th>Notes</th><td><%= @event.notes -%></td></tr>
+</table>

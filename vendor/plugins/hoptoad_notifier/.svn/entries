@@ -1,0 +1,97 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/vendor/plugins/hoptoad_notifier
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-09-18T10:31:44.530363Z
+440
+ajay
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3d34c76b-d2f6-db11-bc26-0014220fd224
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-09-16T07:16:32.000000Z
+0a5a42d566905c0468a501cc656bd30c
+2008-09-16T07:27:57.594199Z
+421
+ajay
+
+.gitignore
+file
+
+
+
+
+2008-09-16T07:16:32.000000Z
+a738aefc3a91cbdb62318bf00d7fc0a3
+2008-09-16T07:27:57.594199Z
+421
+ajay
+
+tasks
+dir
+
+INSTALL
+file
+
+
+
+
+2008-09-16T07:16:32.000000Z
+7359a1565c4407e191cc0ef7480056fa
+2008-09-16T07:27:57.594199Z
+421
+ajay
+
+lib
+dir
+
+install.rb
+file
+
+
+
+
+2008-09-16T07:16:32.000000Z
+a950d10544b5257a2e843b3ba577f6d7
+2008-09-16T07:27:57.594199Z
+421
+ajay
+
+README
+file
+
+
+
+
+2008-09-16T07:16:32.000000Z
+6349e4a2e96788fd4b797980da812f1b
+2008-09-16T07:27:57.594199Z
+421
+ajay
+

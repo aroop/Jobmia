@@ -1,0 +1,40 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/lib/tasks
+http://208.75.87.100/svn/jobmia
+
+
+
+2007-05-19T12:49:29.222948Z
+26
+ajay
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3d34c76b-d2f6-db11-bc26-0014220fd224
+
+capistrano.rake
+file
+
+
+
+
+2008-09-11T03:59:29.000000Z
+582576acaa44fdf4e1cee6d96a068c35
+2007-05-19T12:49:29.222948Z
+26
+ajay
+

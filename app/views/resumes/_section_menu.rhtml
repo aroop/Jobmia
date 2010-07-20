@@ -1,0 +1,15 @@
+<div class="section_menu">
+	<% if section.type == "EducationSection" || section.type == "ReferenceSection" || section.type == "WorkExperienceSection" %>
+		<%= link_to_remote("Add an Entry", {:url => { :action => "add_entry", :id => section.id }, :loading=> "show_status('Adding...')", :complete=>"hide_status()"}, 
+			:class => "toolslink sec_addentry") -%>
+		<%= link_to_function("Re-order Entries", "reorderEntries('entries_#{section.id}', '#{section.id}')",
+			:id => "entryReorder#{section.id}", :class => "toolslink sec_reorder") -%>
+		<%=link_to_remote "Remove", :url => { :action => "remove_section", :id => section.id }, 
+				:html => {:class => "toolslink sec_remove"}, 
+				:method => :delete, :confirm => 'Are you sure you want to delete this section?', :loading=> "show_status('Removing...')", :complete=>"hide_status()" %> 									  		    	
+	<% elsif section.type == "GeneralSection" || section.type == "PersonalDetailsSection"  %>
+		<%=link_to_remote "Remove", :url => { :action => "remove_section", :id => section.id }, 
+				:method => :delete, :confirm => 'Are you sure you want to delete this section?', 
+				:html => {:class => "toolslink sec_remove"}, :loading=> "show_status('Removing...')", :complete=>"hide_status()" %> 						
+	<% end %>
+</div>

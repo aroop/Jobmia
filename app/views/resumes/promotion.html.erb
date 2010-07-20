@@ -1,0 +1,88 @@
+<% resume = @job_seeker.active_resume -%>
+<% content_for :featured do -%>
+<div id="insidePageTitle">
+      <!--center the featured section start -->
+      <div class="center">
+       <div class="pageTitleWrap">
+				<h2>Promote Your Website</h2>
+				<p>You've created an Jobmia resume and hosted it on the web, now it's time to show it off. Use these badges to advertise your site!</p>
+	   </div>
+      </div>
+      <!--center the featured section end -->
+</div>
+<% end -%>
+
+
+<div id="promotion_bagde" style="display:none">
+	<h3><span class="highlight">Badges</span></h3>
+ 		<table cellspacing="0" cellpadding="4" border="0" style="border: 2px solid rgb(34, 79, 111); font-family: arial; font-size: 11px;">
+ 		<tbody>
+ 			<tr>
+ 				<th style="border-bottom: 1px solid rgb(34, 79, 111); background: #545454 none repeat scroll 0% 50%; font-size: 12px; color: rgb(255, 255, 255); -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" colspan="3">My Resume</th>
+ 			</tr>
+ 			<tr>
+ 				<td style=""><%= link_to "Web", "http://www.jobmia.com/users/#{@job_seeker.login}" %></td>
+ 				<td style=""><%= link_to "Doc", "http://www.jobmia.com/resumes/#{resume.id}/download?type=doc" %></td>
+ 				<td style=""><%= link_to "PDF", "http://www.jobmia.com/resumes/#{resume.id}/download?type=pdf" %></td>
+ 			</tr>
+ 			<tr>
+ 				<td style=""><%= link_to "RTF", "http://www.jobmia.com/resumes/#{resume.id}/download?type=rtf" %></td>
+ 				<td style=""><%= link_to "TXT", "http://www.jobmia.com/resumes/#{resume.id}/download?type=txt" %></td>
+ 			</tr>
+ 		</tbody>
+ 	</table>
+	<p></p>
+ 		<textarea onclick="this.select()" rows="5" cols="30"><table cellspacing="0" cellpadding="4" border="0" style="border: 2px solid rgb(34, 79, 111); font-family: arial; font-size: 11px;"> <tbody> <tr> <th style="border-bottom: 1px solid rgb(34, 79, 111); background: rgb(74, 123, 157) none repeat scroll 0% 50%; font-size: 12px; color: rgb(255, 255, 255); -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" colspan="3">My Resume</th> </tr> <tr> <td style=""><%= link_to "Web", "http://www.jobmia.com/users/#{@job_seeker.login}" %></td> <td style=""><%= link_to "Doc", "http://www.jobmia.com/resumes/#{resume.id}/download?type=doc" %></td> <td style=""><%= link_to "PDF", "http://www.jobmia.com/resumes/#{resume.id}/download?type=pdf" %></td> </tr> <tr> <td style=""><%= link_to "RTF", "http://www.jobmia.com/resumes/#{resume.id}/download?type=rtf" %></td> <td style=""><%= link_to "TXT", "http://www.jobmia.com/resumes/#{resume.id}/download?type=txt" %></td> </tr> </tbody> </table>
+ 		</textarea>
+	<p>Copy and paste this code for display on your website, blog, or social networking page.</p>
+</div>
+ 
+<div id="promotion_signature">
+ 	<h2><span class="highlight">E-mail Signatures</span></h2>
+ 		<table border=0 cellpadding=5 cellspacing=0 style="font:12px arial,sans-serif">
+ 			<tr valign="top">
+ 				<td>
+ 					<b><%= @job_seeker.full_name -%></b><br>
+ 					<%= link_to "#{@job_seeker.email}", "mailto:#{@job_seeker.email}", {:target => :nw, :style =>  "color:#366892;"} %><br>
+ 					<b><%= link_to "http://www.jobmia.com/users/#{@job_seeker.login}", "http://www.jobmia.com/users/#{@job_seeker.login}", {:target, :nw, :style, "color:#366892;"} %></b><br>
+ 				</td>
+ 			</tr>
+ 		</table>
+		<p></p>
+ 		<textarea onclick="this.select()" rows="5" cols="30"><table border=0 cellpadding=5 cellspacing=0 width=600 style="font:12px arial,sans-serif"> <tr valign="top"> <td> <b><%= @job_seeker.full_name -%></b><br> <%= link_to "#{@job_seeker.email}", "mailto:#{@job_seeker.email}", {:target => :nw, :style =>  "color:#366892;"} %><br> <b><%= link_to "http://www.jobmia.com/users/#{@job_seeker.login}", "http://www.jobmia.com/users/#{@job_seeker.login}", {:target, :nw, :style, "color:#366892;"} %></b><br> </td> </tr> </table>
+ 		</textarea>
+ 	<p>Copy and paste this code into your e-mail client.</p>
+</div>
+
+<% content_for :sidebar do -%>
+<!--Grunge Box start-->
+<div class="boxGrunge">
+	<div class="sidebarInside">
+  	<div>
+    	<div>       	
+      	<div class="box">
+        	<a href="#" id="changer_link">Badge</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Grunge Box End-->	
+<% end -%>
+
+<% content_for :js do %>
+<script type="text/javascript" charset="utf-8">
+	document.observe("dom:loaded", function(){
+		Event.observe('changer_link', 'click', function(){
+			toggleView();
+		});
+	});
+	
+	function toggleView(){
+		var show_sig = $('promotion_signature').visible();
+		$('promotion_bagde').style.display = (show_sig? 'block' : 'none');
+		$('promotion_signature').style.display = (show_sig? 'none' : 'block');
+		$('changer_link').innerHTML = (show_sig? 'E-mail Signature' : 'Badge');
+	}
+</script>
+<% end -%>

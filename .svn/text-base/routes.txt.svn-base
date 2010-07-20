@@ -1,0 +1,126 @@
+(in /Users/ajay/Development/jobmia)
+             newrelic_developer        /newrelic/:action/:id               {:controller=>"newrelic"}
+                           root        /                                   {:action=>"index", :controller=>"pages"}
+                        builder        /builder                            {:action=>"builder", :controller=>"pages"}
+                       designer        /designer                           {:action=>"designer", :controller=>"pages"}
+                    distributer        /distributer                        {:action=>"distributer", :controller=>"pages"}
+                      promotion        /promotion                          {:action=>"promotion", :controller=>"pages"}
+                           tour        /tour                               {:action=>"tour", :controller=>"pages"}
+                          about        /about                              {:action=>"about", :controller=>"pages"}
+                        careers        /careers                            {:action=>"careers", :controller=>"pages"}
+                          press        /press                              {:action=>"press", :controller=>"pages"}
+                        privacy        /privacy                            {:action=>"privacy", :controller=>"pages"}
+                     uagreement        /uagreement                         {:action=>"uagreement", :controller=>"pages"}
+           distribution_resumes GET    /resumes/distribution               {:action=>"distribution", :controller=>"resumes"}
+ formatted_distribution_resumes GET    /resumes/distribution.:format       {:action=>"distribution", :controller=>"resumes"}
+              promotion_resumes GET    /resumes/promotion                  {:action=>"promotion", :controller=>"resumes"}
+    formatted_promotion_resumes GET    /resumes/promotion.:format          {:action=>"promotion", :controller=>"resumes"}
+               designer_resumes GET    /resumes/designer                   {:action=>"designer", :controller=>"resumes"}
+     formatted_designer_resumes GET    /resumes/designer.:format           {:action=>"designer", :controller=>"resumes"}
+                        resumes GET    /resumes                            {:action=>"index", :controller=>"resumes"}
+              formatted_resumes GET    /resumes.:format                    {:action=>"index", :controller=>"resumes"}
+                                POST   /resumes                            {:action=>"create", :controller=>"resumes"}
+                                POST   /resumes.:format                    {:action=>"create", :controller=>"resumes"}
+                     new_resume GET    /resumes/new                        {:action=>"new", :controller=>"resumes"}
+           formatted_new_resume GET    /resumes/new.:format                {:action=>"new", :controller=>"resumes"}
+            save_options_resume POST   /resumes/:id/save_options           {:action=>"save_options", :controller=>"resumes"}
+  formatted_save_options_resume POST   /resumes/:id/save_options.:format   {:action=>"save_options", :controller=>"resumes"}
+            remove_entry_resume POST   /resumes/:id/remove_entry           {:action=>"remove_entry", :controller=>"resumes"}
+  formatted_remove_entry_resume POST   /resumes/:id/remove_entry.:format   {:action=>"remove_entry", :controller=>"resumes"}
+             make_active_resume POST   /resumes/:id/make_active            {:action=>"make_active", :controller=>"resumes"}
+   formatted_make_active_resume POST   /resumes/:id/make_active.:format    {:action=>"make_active", :controller=>"resumes"}
+           order_section_resume POST   /resumes/:id/order_section          {:action=>"order_section", :controller=>"resumes"}
+ formatted_order_section_resume POST   /resumes/:id/order_section.:format  {:action=>"order_section", :controller=>"resumes"}
+              save_entry_resume POST   /resumes/:id/save_entry             {:action=>"save_entry", :controller=>"resumes"}
+    formatted_save_entry_resume POST   /resumes/:id/save_entry.:format     {:action=>"save_entry", :controller=>"resumes"}
+           order_entries_resume POST   /resumes/:id/order_entries          {:action=>"order_entries", :controller=>"resumes"}
+ formatted_order_entries_resume POST   /resumes/:id/order_entries.:format  {:action=>"order_entries", :controller=>"resumes"}
+               add_entry_resume POST   /resumes/:id/add_entry              {:action=>"add_entry", :controller=>"resumes"}
+     formatted_add_entry_resume POST   /resumes/:id/add_entry.:format      {:action=>"add_entry", :controller=>"resumes"}
+             add_section_resume POST   /resumes/:id/add_section            {:action=>"add_section", :controller=>"resumes"}
+   formatted_add_section_resume POST   /resumes/:id/add_section.:format    {:action=>"add_section", :controller=>"resumes"}
+            email_resume_resume POST   /resumes/:id/email_resume           {:action=>"email_resume", :controller=>"resumes"}
+  formatted_email_resume_resume POST   /resumes/:id/email_resume.:format   {:action=>"email_resume", :controller=>"resumes"}
+               set_style_resume POST   /resumes/:id/set_style              {:action=>"set_style", :controller=>"resumes"}
+     formatted_set_style_resume POST   /resumes/:id/set_style.:format      {:action=>"set_style", :controller=>"resumes"}
+          remove_section_resume DELETE /resumes/:id/remove_section         {:action=>"remove_section", :controller=>"resumes"}
+formatted_remove_section_resume DELETE /resumes/:id/remove_section.:format {:action=>"remove_section", :controller=>"resumes"}
+                    edit_resume GET    /resumes/:id/edit                   {:action=>"edit", :controller=>"resumes"}
+          formatted_edit_resume GET    /resumes/:id/edit.:format           {:action=>"edit", :controller=>"resumes"}
+                download_resume GET    /resumes/:id/download               {:action=>"download", :controller=>"resumes"}
+      formatted_download_resume GET    /resumes/:id/download.:format       {:action=>"download", :controller=>"resumes"}
+                 preview_resume GET    /resumes/:id/preview                {:action=>"preview", :controller=>"resumes"}
+       formatted_preview_resume GET    /resumes/:id/preview.:format        {:action=>"preview", :controller=>"resumes"}
+                         resume GET    /resumes/:id                        {:action=>"show", :controller=>"resumes"}
+               formatted_resume GET    /resumes/:id.:format                {:action=>"show", :controller=>"resumes"}
+                                PUT    /resumes/:id                        {:action=>"update", :controller=>"resumes"}
+                                PUT    /resumes/:id.:format                {:action=>"update", :controller=>"resumes"}
+                                DELETE /resumes/:id                        {:action=>"destroy", :controller=>"resumes"}
+                                DELETE /resumes/:id.:format                {:action=>"destroy", :controller=>"resumes"}
+                     home_index GET    /home                               {:action=>"index", :controller=>"home"}
+           formatted_home_index GET    /home.:format                       {:action=>"index", :controller=>"home"}
+                                POST   /home                               {:action=>"create", :controller=>"home"}
+                                POST   /home.:format                       {:action=>"create", :controller=>"home"}
+                       new_home GET    /home/new                           {:action=>"new", :controller=>"home"}
+             formatted_new_home GET    /home/new.:format                   {:action=>"new", :controller=>"home"}
+                      edit_home GET    /home/:id/edit                      {:action=>"edit", :controller=>"home"}
+            formatted_edit_home GET    /home/:id/edit.:format              {:action=>"edit", :controller=>"home"}
+                           home GET    /home/:id                           {:action=>"show", :controller=>"home"}
+                 formatted_home GET    /home/:id.:format                   {:action=>"show", :controller=>"home"}
+                                PUT    /home/:id                           {:action=>"update", :controller=>"home"}
+                                PUT    /home/:id.:format                   {:action=>"update", :controller=>"home"}
+                                DELETE /home/:id                           {:action=>"destroy", :controller=>"home"}
+                                DELETE /home/:id.:format                   {:action=>"destroy", :controller=>"home"}
+                       websites GET    /websites                           {:action=>"index", :controller=>"websites"}
+             formatted_websites GET    /websites.:format                   {:action=>"index", :controller=>"websites"}
+                                POST   /websites                           {:action=>"create", :controller=>"websites"}
+                                POST   /websites.:format                   {:action=>"create", :controller=>"websites"}
+                    new_website GET    /websites/new                       {:action=>"new", :controller=>"websites"}
+          formatted_new_website GET    /websites/new.:format               {:action=>"new", :controller=>"websites"}
+                   edit_website GET    /websites/:id/edit                  {:action=>"edit", :controller=>"websites"}
+         formatted_edit_website GET    /websites/:id/edit.:format          {:action=>"edit", :controller=>"websites"}
+                        website GET    /websites/:id                       {:action=>"show", :controller=>"websites"}
+              formatted_website GET    /websites/:id.:format               {:action=>"show", :controller=>"websites"}
+                                PUT    /websites/:id                       {:action=>"update", :controller=>"websites"}
+                                PUT    /websites/:id.:format               {:action=>"update", :controller=>"websites"}
+                                DELETE /websites/:id                       {:action=>"destroy", :controller=>"websites"}
+                                DELETE /websites/:id.:format               {:action=>"destroy", :controller=>"websites"}
+                          users GET    /users                              {:action=>"index", :controller=>"users"}
+                formatted_users GET    /users.:format                      {:action=>"index", :controller=>"users"}
+                                POST   /users                              {:action=>"create", :controller=>"users"}
+                                POST   /users.:format                      {:action=>"create", :controller=>"users"}
+                       new_user GET    /users/new                          {:action=>"new", :controller=>"users"}
+             formatted_new_user GET    /users/new.:format                  {:action=>"new", :controller=>"users"}
+                 unsuspend_user PUT    /users/:id/unsuspend                {:action=>"unsuspend", :controller=>"users"}
+       formatted_unsuspend_user PUT    /users/:id/unsuspend.:format        {:action=>"unsuspend", :controller=>"users"}
+                   suspend_user PUT    /users/:id/suspend                  {:action=>"suspend", :controller=>"users"}
+         formatted_suspend_user PUT    /users/:id/suspend.:format          {:action=>"suspend", :controller=>"users"}
+                     purge_user DELETE /users/:id/purge                    {:action=>"purge", :controller=>"users"}
+           formatted_purge_user DELETE /users/:id/purge.:format            {:action=>"purge", :controller=>"users"}
+                      edit_user GET    /users/:id/edit                     {:action=>"edit", :controller=>"users"}
+            formatted_edit_user GET    /users/:id/edit.:format             {:action=>"edit", :controller=>"users"}
+                           user GET    /users/:id                          {:action=>"show", :controller=>"users"}
+                 formatted_user GET    /users/:id.:format                  {:action=>"show", :controller=>"users"}
+                                PUT    /users/:id                          {:action=>"update", :controller=>"users"}
+                                PUT    /users/:id.:format                  {:action=>"update", :controller=>"users"}
+                                DELETE /users/:id                          {:action=>"destroy", :controller=>"users"}
+                                DELETE /users/:id.:format                  {:action=>"destroy", :controller=>"users"}
+                                POST   /session                            {:action=>"create", :controller=>"sessions"}
+                                POST   /session.:format                    {:action=>"create", :controller=>"sessions"}
+                    new_session GET    /session/new                        {:action=>"new", :controller=>"sessions"}
+          formatted_new_session GET    /session/new.:format                {:action=>"new", :controller=>"sessions"}
+                   edit_session GET    /session/edit                       {:action=>"edit", :controller=>"sessions"}
+         formatted_edit_session GET    /session/edit.:format               {:action=>"edit", :controller=>"sessions"}
+                        session GET    /session                            {:action=>"show", :controller=>"sessions"}
+              formatted_session GET    /session.:format                    {:action=>"show", :controller=>"sessions"}
+                                PUT    /session                            {:action=>"update", :controller=>"sessions"}
+                                PUT    /session.:format                    {:action=>"update", :controller=>"sessions"}
+                                DELETE /session                            {:action=>"destroy", :controller=>"sessions"}
+                                DELETE /session.:format                    {:action=>"destroy", :controller=>"sessions"}
+                          login        /login                              {:action=>"new", :controller=>"sessions"}
+                         logout        /logout                             {:action=>"destroy", :controller=>"sessions"}
+                       activate        /activate/:activation_code          {:action=>"activate", :controller=>"users"}
+                         signup        /signup                             {:action=>"new", :controller=>"users"}
+                forgot_password        /forgot_password                    {:action=>"forgot_password", :controller=>"users"}
+                 reset_password        /reset_password/:code               {:action=>"reset_password", :controller=>"users"}
+                        account        /account                            {:action=>"account", :controller=>"users"}

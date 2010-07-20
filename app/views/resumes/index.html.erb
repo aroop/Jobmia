@@ -1,0 +1,57 @@
+<% content_for :featured do -%>
+	    <div id="insidePageTitle">
+      <!--center the featured section start -->
+      <div class="center">
+       <div class="pageTitleWrap">
+		<h2>Welcome to Jobmia, <%= @user.full_name %>! Here are your resumes:</h2>
+	   </div>
+      </div>
+      <!--center the featured section end -->
+    </div>
+<% end -%>
+
+  <table width="100%">
+	  <tr>
+	  <th width="5%"></th>
+		<th> Resume Name </th>
+		<th width="10%"> </th>
+		<th width="15%"> Last Update </th>
+  	</tr>
+  	<tbody id="resume_container">
+			<%= render :partial => "resumetr", :collection => @user.resumes %>	
+		</tbody>
+	</table>
+    
+  <% form_remote_tag :url => { :controller =>'resumes', :action => 'create'}, :html => {:id => 'resume_form'}, :loading=> "show_status('Adding...')", :complete=>"hide_status()" do %>
+    <p>New Resume <%= text_field_tag 'resume_name' %> <%= submit_tag 'Create' %></p>
+	<% end %>
+	<%= link_to "Get Jobmia Badge code to put links to your resume on your blog, myspace, or other web page.", promotion_resumes_path %>
+
+<% content_for :sidebar do -%>
+<!--Grunge Box start-->
+<div class="boxGrunge">
+	<div class="sidebarInside">
+  	<div>
+    	<div>       	
+      	<div class="box">
+        	<%= render :partial => "download_resume" %>	
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Grunge Box End-->	
+<!--Grunge Box start-->
+<div class="boxGrunge">
+	<div class="sidebarInside">
+  	<div>
+    	<div>       	
+      	<div class="box">
+        	<a href="/tour#dashboard">Take a tour</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Grunge Box End-->	
+<% end -%>

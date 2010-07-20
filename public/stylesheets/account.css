@@ -1,0 +1,21 @@
+div#signup {
+	border-top:1px solid #CCCCCC;
+	color:#444444;
+	font-size:120%;
+	margin:10px 0pt 0pt;
+	padding:0pt;
+}
+
+div#signup.normal {
+	color:#666666;
+	font-size:100%;
+}
+
+div#signup h2 {
+	font-size:120%;
+	padding-top:1em;
+}
+
+div#signup.normal h2 a {
+	color:#666666;
+}

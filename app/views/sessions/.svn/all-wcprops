@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/jobmia/!svn/ver/487/trunk/app/views/sessions
+END
+_loginform.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jobmia/!svn/ver/487/trunk/app/views/sessions/_loginform.rhtml
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobmia/!svn/ver/485/trunk/app/views/sessions/new.html.erb
+END

@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/jobmia/!svn/ver/219/trunk/test/unit
+END
+user_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jobmia/!svn/ver/18/trunk/test/unit/user_test.rb
+END
+topic_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobmia/!svn/ver/116/trunk/test/unit/topic_test.rb
+END
+specialization_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobmia/!svn/ver/14/trunk/test/unit/specialization_test.rb
+END
+resume_reference_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jobmia/!svn/ver/73/trunk/test/unit/resume_reference_test.rb
+END
+avatar_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/jobmia/!svn/ver/178/trunk/test/unit/avatar_test.rb
+END
+tagging_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jobmia/!svn/ver/170/trunk/test/unit/tagging_test.rb
+END
+industry_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jobmia/!svn/ver/13/trunk/test/unit/industry_test.rb
+END
+functional_role_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jobmia/!svn/ver/69/trunk/test/unit/functional_role_test.rb
+END
+post_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/jobmia/!svn/ver/116/trunk/test/unit/post_test.rb
+END
+address_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/jobmia/!svn/ver/73/trunk/test/unit/address_test.rb
+END
+help_category_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jobmia/!svn/ver/84/trunk/test/unit/help_category_test.rb
+END
+notification_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jobmia/!svn/ver/51/trunk/test/unit/notification_test.rb
+END
+help_topic_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobmia/!svn/ver/84/trunk/test/unit/help_topic_test.rb
+END
+forum_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/jobmia/!svn/ver/89/trunk/test/unit/forum_test.rb
+END
+help_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jobmia/!svn/ver/84/trunk/test/unit/help_test.rb
+END
+institute_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jobmia/!svn/ver/14/trunk/test/unit/institute_test.rb
+END
+qualification_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jobmia/!svn/ver/14/trunk/test/unit/qualification_test.rb
+END
+friends_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jobmia/!svn/ver/147/trunk/test/unit/friends_test.rb
+END
+functionalarea_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobmia/!svn/ver/14/trunk/test/unit/functionalarea_test.rb
+END
+friendship_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jobmia/!svn/ver/200/trunk/test/unit/friendship_test.rb
+END
+resume_education_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jobmia/!svn/ver/73/trunk/test/unit/resume_education_test.rb
+END
+employer_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jobmia/!svn/ver/131/trunk/test/unit/employer_test.rb
+END
+jobs_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/jobmia/!svn/ver/2/trunk/test/unit/jobs_test.rb
+END
+resume_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobmia/!svn/ver/73/trunk/test/unit/resume_test.rb
+END
+jobalert_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jobmia/!svn/ver/30/trunk/test/unit/jobalert_test.rb
+END
+resume_experience_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jobmia/!svn/ver/73/trunk/test/unit/resume_experience_test.rb
+END
+location_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jobmia/!svn/ver/22/trunk/test/unit/location_test.rb
+END
+tag_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jobmia/!svn/ver/170/trunk/test/unit/tag_test.rb
+END
+jobtype_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/jobmia/!svn/ver/39/trunk/test/unit/jobtype_test.rb
+END

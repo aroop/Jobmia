@@ -1,0 +1,24 @@
+<tr id="<%= dom_id resumetr %>" class="<%= resumetr.active ? "active" : ""  %>">
+	
+	<% if resumetr.active? %>
+		<td>
+			<%= image_tag("icons/heart.png") -%>
+		</td>
+		<td>
+		  <%= resumetr.name -%>
+	  </td>
+	<% else %>
+		<td></td>
+		<td>
+	  	<%= link_to_remote resumetr.name, :url => {:controller => "resumes", :action => "make_active", :id => resumetr.id}, :loading=> "show_status('Saving...')", :complete=>"hide_status()" %> 
+		</td>
+	<% end %>
+	<td>
+		<%= link_to_remote image_tag('icons/delete.png', :border => "0"), :url => resume_path(resumetr), :method => :delete, 
+				:confirm => 'Are you sure you want to delete this resume?', :loading=> "show_status('Removing...')", :complete=>"hide_status()" %>
+		<% if resumetr.active? %>
+			<%= link_to image_tag('icons/page_edit.png', :border => "0"),  edit_resume_path(resumetr) %>
+		<% end %>
+	</td>
+	<td> <%= resumetr.updated_at.to_date %> </td>
+</tr>

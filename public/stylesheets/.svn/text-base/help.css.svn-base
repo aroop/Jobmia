@@ -1,0 +1,44 @@
+#help{
+	margin:15px auto 0pt;
+	padding:0px 8px 8px 30px;
+	text-align:left;
+	width:650px;
+	font-family:verdana,arial,sans-serif;
+}
+
+#help h2 {
+	color:#990000;
+	font-family:verdana,arial,sans-serif;
+	font-size:18px;
+	padding-top:5px;
+}
+
+#help p, #help li  {
+	font-family:georgia;
+	font-size:16px;
+}
+
+#help p {
+	margin-bottom:3px;
+}
+
+#help p img {
+	float:none;
+}
+
+#help h1 {
+	font-size:18px;
+	font-weight:bold;
+	margin-bottom:3px;
+}
+
+#help li.more a {
+	color:#003366;
+	font-size:10px;
+	font-weight:bold;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin-left:0pt;
+	text-transform:uppercase;
+}

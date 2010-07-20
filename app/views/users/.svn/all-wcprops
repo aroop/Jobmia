@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/jobmia/!svn/ver/505/trunk/app/views/users
+END
+account.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jobmia/!svn/ver/505/trunk/app/views/users/account.rhtml
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jobmia/!svn/ver/434/trunk/app/views/users/show.rhtml
+END
+_signupform.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jobmia/!svn/ver/492/trunk/app/views/users/_signupform.rhtml
+END
+new.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jobmia/!svn/ver/485/trunk/app/views/users/new.rhtml
+END
+reset_password.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/jobmia/!svn/ver/444/trunk/app/views/users/reset_password.html.erb
+END

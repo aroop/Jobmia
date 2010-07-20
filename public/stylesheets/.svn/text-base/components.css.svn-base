@@ -1,0 +1,250 @@
+div.belt {
+	border-bottom:1px solid #CCCCCC;
+	clear:both;
+	margin-top:10px;
+	padding:10px 0pt;
+}
+
+div.belt p {
+	margin-bottom:0pt;
+	text-align:center;
+}
+
+div.belt a {
+	font-weight:bold;
+	white-space:nowrap;
+}
+
+div.brand, div.smallbrand{
+	height:400px;
+	background-color: #FBFAE0;
+	margin:2px;
+	margin-bottom:10px;
+	padding:10px;
+	border:1px solid #FFF368;
+}
+
+div.smallbrand{
+	height:75px;
+}
+
+div.tourshot {
+	margin:35px 30px 10px 30px;
+	width:900px;
+	text-align:center;
+}
+
+div.tourshot p {
+	margin:0pt auto 5px;
+	width:650px;
+}
+
+div.tourshot h1 {
+	text-transform:uppercase;
+	margin:0pt 0pt 4px;
+}
+div.tourshot img {
+	border:medium none;
+	margin:0pt 0pt 10px;
+	padding:1px;
+}
+
+div.pitch{
+	float:left;
+	text-align:center;
+	width:400px;
+}
+
+div.pitch h1.bigger {
+	font-size:25px;
+}
+
+div.pitch h1.right {
+	font-size:40px;
+	text-align:right;
+	font-family:georgia;
+}
+
+div.pitch h2 {
+	font-family:helvetica,arial;
+	line-height:1.2em;
+	color:black;
+	font-size:20px;
+	margin:0px;
+}
+
+div.pitch p {
+	margin-bottom:10px;
+	text-align:center;
+}
+
+div.pitch div.quote {
+	margin:13px 0pt;
+	text-align:center;
+}
+
+div.pitch blockquote {
+	color:#339933;
+	font-size:14px;
+	margin-bottom:2px;
+	font-family:georgia;
+	line-height:1.4em;
+	text-align:center;
+}
+
+div.pitch cite {
+	font-family:verdana;
+	font-size:10px;
+	font-weight:bold;
+}
+
+div.product{
+	float:right;
+	margin-bottom:20px;
+	text-align:left;
+	width:400px;
+}
+
+div.product h2.middle {
+	margin-top:10px;
+}
+
+div.action {
+	background-color:#FFE640;
+	margin:17px 0pt;
+	padding:8px 0pt;
+}
+
+div.action h2 {
+	font-size:20px;
+	line-height:1em;
+	text-align:center;
+}
+
+span.highlight, span.notes{
+	background-color:#FFFFCC;
+}
+
+a.action {
+	background:#FFCC00 url(/images/buttons/bg_action_primary_right.gif) no-repeat scroll 100% 0pt;
+	color:#000000 !important;
+	cursor:pointer;
+	display:block;
+	float:left;
+	margin:0pt 10px 0pt 0pt;
+	text-align:center;
+	text-decoration:none !important;
+}
+
+a.action span {
+	background:transparent url(/images/buttons/bg_action_primary_left.gif) no-repeat scroll 0pt;
+	display:block;
+	min-height:19px;
+	padding:4px 20px 0pt;
+}
+
+a.action.secondary {
+	background:#DCDCDC url(/images/buttons/bg_action_secondary_right.gif) no-repeat scroll 100% 0pt;
+}
+a.action.secondary span {
+	background:transparent url(/images/buttons/bg_action_secondary_left.gif) no-repeat scroll 0pt;
+}
+a.action:hover {
+	background:#C8E7FA url(/images/buttons/bg_action_hover_right.gif) no-repeat scroll 100% 0pt;
+}
+a.action:hover span {
+	background:transparent url(/images/buttons/bg_action_hover_left.gif) no-repeat scroll 0pt;
+}
+a.action:visited {
+	color:#000000;
+}
+
+/***********************************/
+/******Text fields and areas********/
+/***********************************/
+.field_text, .field_textArea {
+	border:1px solid #CCCCCC;
+	font-size:1.1em;
+}
+
+.fieldSpan, .fieldSpanEnabled {
+	display:block;
+	font-family:verdana,sans-serif;
+	position:relative;
+	width:340px;
+}
+
+.fieldSpan {
+	background:transparent none repeat scroll 0%;
+	padding:3px;
+}
+
+.fieldSpanEnabled {
+	background:#FFFFFF none repeat scroll 0%;
+	border:2px solid #DBCF97;
+	font-size:1.1em;
+	padding:2px;
+}
+
+.field_select {
+	font-family:verdana,sans-serif;
+	width:342px;
+}
+
+.field_selectSpan {
+	padding:3px;
+}
+
+/***********************************/
+/***********form table*************/
+/***********************************/
+table.form th {
+	color:#666666;
+	padding:4px;
+	text-align:right;
+	vertical-align:top;
+	width:25%;
+}
+
+/***********************************/
+/************Data table*************/
+/***********************************/
+table.general {
+	border-collapse:collapse;
+	font-family:'Lucida Grande',Tahoma,Arial,Helvetica,sans-serif;
+}
+
+table.general tr td {
+	border:1px solid #DDDDDD;
+	padding-left:7px;
+}
+
+table.general tr th {
+	background:#545454 none repeat scroll 0%;
+	border:1px solid #222222;
+	color:white;
+	font-size:0.8em;
+	padding:3px 10px;
+}
+
+table.general tr td .title {
+	font-size:1.4em;
+}
+
+table.general tr td.information {
+	text-align:center;
+	vertical-align: middle;
+}
+
+.prototip .jobmia { width: 300px; border: 5px solid #a1a1a1; }
+.prototip .jobmia .toolbar { background: #D01F3C; color: #fff; font: italic 17px Georgia, serif; }
+.prototip .jobmia .title { padding: 5px; }
+.prototip .jobmia .content { background: #fff; color: #555555; font: 11px Arial, Helvetica, sans-serif; padding: 5px; }
+
+.box {
+	background-color: #FBFAE0;
+	margin:2px;
+	margin-bottom:10px;
+	padding:10px;
+	border:1px solid #FFF368;
+}

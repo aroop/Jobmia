@@ -1,0 +1,91 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/vendor/plugins/paperclip
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-09-18T09:52:58.656933Z
+437
+ajay
+
+
+svn:special svn:externals svn:needs-lock
+
+test
+dir
+
+LICENSE
+file
+
+
+
+
+2008-09-17T08:12:56.000000Z
+2af95e5ae3a192f2a7b5bf557419a5f2
+2008-09-18T09:52:58.656933Z
+437
+ajay
+
+Rakefile
+file
+
+
+
+
+2008-09-17T08:12:56.000000Z
+3afda633e42b808ccca93157db0122b1
+2008-09-18T09:52:58.656933Z
+437
+ajay
+
+README.rdoc
+file
+
+
+
+
+2008-09-17T08:12:56.000000Z
+8fb28a719f5115f9b26708feb638db41
+2008-09-18T09:52:58.656933Z
+437
+ajay
+
+shoulda_macros
+dir
+
+.gitignore
+file
+
+
+
+
+2008-09-17T08:12:56.000000Z
+c5074265292079309ff658c753975c6d
+2008-09-18T09:52:58.656933Z
+437
+ajay
+
+init.rb
+file
+
+
+
+
+2008-09-17T08:12:56.000000Z
+c37561b62d59b8a58accf0341ec1f9b1
+2008-09-18T09:52:58.656933Z
+437
+ajay
+
+tasks
+dir
+
+lib
+dir
+
+generators
+dir
+

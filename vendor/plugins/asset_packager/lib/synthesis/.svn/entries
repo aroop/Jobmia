@@ -1,0 +1,52 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/vendor/plugins/asset_packager/lib/synthesis
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-03-05T06:36:44.866521Z
+349
+aroop
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3d34c76b-d2f6-db11-bc26-0014220fd224
+
+asset_package_helper.rb
+file
+
+
+
+
+2008-09-11T03:59:03.000000Z
+c37b53b67eb2579f6e9469c3146d5abd
+2008-03-05T06:36:44.866521Z
+349
+aroop
+
+asset_package.rb
+file
+
+
+
+
+2008-09-11T03:59:03.000000Z
+f1642e597a3b54161c02d3fa8d9a400b
+2008-03-05T06:36:44.866521Z
+349
+aroop
+

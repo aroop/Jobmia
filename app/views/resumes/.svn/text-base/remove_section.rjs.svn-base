@@ -1,0 +1,7 @@
+page[dom_id(@section)].visual_effect :blind_up, :duration => 1.0
+page.delay 1.0 do
+	page.remove(dom_id @section)
+	page.remove "used_section_"+@section.id.to_s
+	page.replace_html :new_sections, :partial => 'available_section', :collection=>@section_types
+end
+flash.discard

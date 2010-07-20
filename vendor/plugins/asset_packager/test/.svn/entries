@@ -1,0 +1,79 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/vendor/plugins/asset_packager/test
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-03-05T06:36:44.866521Z
+349
+aroop
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3d34c76b-d2f6-db11-bc26-0014220fd224
+
+asset_package_helper_production_test.rb
+file
+
+
+
+
+2008-09-11T03:59:02.000000Z
+4a63526a719d41886a53ed684018c6d0
+2008-03-05T06:36:44.866521Z
+349
+aroop
+
+assets
+dir
+
+asset_package_helper_development_test.rb
+file
+
+
+
+
+2008-09-11T03:59:02.000000Z
+19c81462ac8cee265df7bbc846b4fd1a
+2008-03-05T06:36:44.866521Z
+349
+aroop
+
+asset_packager_test.rb
+file
+
+
+
+
+2008-09-11T03:59:03.000000Z
+19a9cd911becdeb66a80e9ee07d5dd10
+2008-03-05T06:36:44.866521Z
+349
+aroop
+
+asset_packages.yml
+file
+
+
+
+
+2008-09-11T03:59:03.000000Z
+ff94a8cdcdacaa82aebb8b693434148d
+2008-03-05T06:36:44.866521Z
+349
+aroop
+

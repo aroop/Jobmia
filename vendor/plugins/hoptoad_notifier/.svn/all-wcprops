@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobmia/!svn/ver/440/trunk/vendor/plugins/hoptoad_notifier
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jobmia/!svn/ver/421/trunk/vendor/plugins/hoptoad_notifier/Rakefile
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/jobmia/!svn/ver/421/trunk/vendor/plugins/hoptoad_notifier/.gitignore
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/jobmia/!svn/ver/421/trunk/vendor/plugins/hoptoad_notifier/INSTALL
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/jobmia/!svn/ver/421/trunk/vendor/plugins/hoptoad_notifier/install.rb
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jobmia/!svn/ver/421/trunk/vendor/plugins/hoptoad_notifier/README
+END

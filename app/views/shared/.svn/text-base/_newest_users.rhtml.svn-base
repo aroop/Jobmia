@@ -1,0 +1,16 @@
+<table border="0" cellspacing="5" cellpadding="5">
+	<% i =0 %>
+	<% while i < users.size %>
+	<tr>
+		<td width='50%'>
+			<%= render :partial => 'shared/userthumbnail_withlink', :locals => {:user => users[i]} %><br />
+			<%= link_to users[i].full_name, user_path(users[i]) %>
+		</td>
+		<td width='50%'>
+			<%= render :partial => 'shared/userthumbnail_withlink', :locals => {:user => users[i+1]} %><br />
+			<%= link_to users[i+1].full_name, user_path(users[i+1]) %>
+		</td>
+	</tr>
+	<% i += 2 %>
+	<% end %>
+</table>

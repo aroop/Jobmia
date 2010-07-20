@@ -1,0 +1,11 @@
+for resume in @resume.user.resumes
+	if resume != @resume
+		page.remove(dom_id(resume))
+	end
+	page.insert_html :bottom, :resume_container, {:partial => 'resumes/resumetr', :locals=>{:resumetr=>resume}}
+end
+if @resume.user.resumes.size == 1
+	page.insert_html :top, :sidebar, {:partial => 'resumes/download_resume'}
+end
+page[:resume_form].reset
+flash.discard

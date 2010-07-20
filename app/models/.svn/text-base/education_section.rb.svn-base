@@ -1,0 +1,3 @@
+class EducationSection < Section
+	
+end

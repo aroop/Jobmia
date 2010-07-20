@@ -1,0 +1,128 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-09-29T04:56:52.959186Z
+527
+harsha
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3d34c76b-d2f6-db11-bc26-0014220fd224
+
+test
+dir
+
+app
+dir
+
+log
+dir
+
+Rakefile
+file
+
+
+
+
+2008-09-11T03:59:37.000000Z
+17f2f134da4cd31ea095d5868ca89e86
+2007-04-30T04:28:26.496028Z
+2
+jcomponent
+
+db
+dir
+
+components
+dir
+
+
+
+delete
+
+vendor
+dir
+
+README
+file
+
+
+
+
+2008-09-11T03:59:37.000000Z
+2ffe7715fd6ba5509508a29022c22a17
+2007-12-06T09:25:42.675643Z
+212
+jcomponent
+
+routes.txt
+file
+
+
+
+
+2008-09-18T04:58:58.000000Z
+bdc63c6876a6d97da71ef89035be615a
+2008-09-18T09:49:43.670645Z
+436
+ajay
+
+tmp
+dir
+
+Capfile
+file
+
+
+
+
+2008-09-11T03:59:37.000000Z
+d3c3576398a4876c920553b714bc177f
+2008-01-23T06:13:12.853556Z
+281
+jcomponent
+
+script
+dir
+
+doc
+dir
+
+config
+dir
+
+lib
+dir
+
+public
+dir
+
+.eprj
+file
+
+
+
+
+2008-09-11T03:59:37.000000Z
+b7861cfd47f2af718ccb8236b66ae9bb
+2008-03-27T12:49:33.967262Z
+412
+aroop
+

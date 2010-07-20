@@ -1,0 +1,3 @@
+<div id="<%= "event"+ event.id.to_s %>" onmouseover="event_mouseover('<%= "event"+ event.id.to_s %>');" onmouseout="event_mouseout('<%= "event"+  event.id.to_s %>');" onclick="event_selected('<%= "event"+ event.id.to_s %>');" class="event_teaser" >
+		<%= event.company_name + ", " + event.created_at.to_date.to_s -%>
+</div>

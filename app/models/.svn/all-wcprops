@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/jobmia/!svn/ver/465/trunk/app/models
+END
+work_experience_section.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jobmia/!svn/ver/339/trunk/app/models/work_experience_section.rb
+END
+specialization.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jobmia/!svn/ver/220/trunk/app/models/specialization.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/jobmia/!svn/ver/465/trunk/app/models/user.rb
+END
+resume_style.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jobmia/!svn/ver/331/trunk/app/models/resume_style.rb
+END
+salary_level.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jobmia/!svn/ver/243/trunk/app/models/salary_level.rb
+END
+reference_section.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobmia/!svn/ver/264/trunk/app/models/reference_section.rb
+END
+q_and_a.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jobmia/!svn/ver/243/trunk/app/models/q_and_a.rb
+END
+user_observer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobmia/!svn/ver/531/trunk/app/models/user_observer.rb
+END
+address.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jobmia/!svn/ver/264/trunk/app/models/address.rb
+END
+notification.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jobmia/!svn/ver/434/trunk/app/models/notification.rb
+END
+relocate_option.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jobmia/!svn/ver/243/trunk/app/models/relocate_option.rb
+END
+resume_option.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobmia/!svn/ver/331/trunk/app/models/resume_option.rb
+END
+weblink.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jobmia/!svn/ver/243/trunk/app/models/weblink.rb
+END
+sample_weblink.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/jobmia/!svn/ver/236/trunk/app/models/sample_weblink.rb
+END
+travel_type.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jobmia/!svn/ver/243/trunk/app/models/travel_type.rb
+END
+education_section.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobmia/!svn/ver/339/trunk/app/models/education_section.rb
+END
+resume.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/jobmia/!svn/ver/434/trunk/app/models/resume.rb
+END
+website_preference.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jobmia/!svn/ver/243/trunk/app/models/website_preference.rb
+END
+general_section.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jobmia/!svn/ver/264/trunk/app/models/general_section.rb
+END
+entry.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/jobmia/!svn/ver/418/trunk/app/models/entry.rb
+END
+section.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jobmia/!svn/ver/264/trunk/app/models/section.rb
+END
+section_type.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jobmia/!svn/ver/263/trunk/app/models/section_type.rb
+END
+user_mailer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jobmia/!svn/ver/388/trunk/app/models/user_mailer.rb
+END
+main_menu.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jobmia/!svn/ver/323/trunk/app/models/main_menu.rb
+END
+sample_question.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jobmia/!svn/ver/236/trunk/app/models/sample_question.rb
+END
+us_work_authorization.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jobmia/!svn/ver/243/trunk/app/models/us_work_authorization.rb
+END
+personal_details_section.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jobmia/!svn/ver/264/trunk/app/models/personal_details_section.rb
+END

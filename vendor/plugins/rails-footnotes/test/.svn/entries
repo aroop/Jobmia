@@ -1,0 +1,69 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/vendor/plugins/rails-footnotes/test
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-09-18T09:55:33.305774Z
+438
+ajay
+
+
+svn:special svn:externals svn:needs-lock
+
+test_helper.rb
+file
+
+
+
+
+2008-09-05T04:45:48.000000Z
+7dc9d72ef439741117865c570eb82482
+2008-09-18T09:55:33.305774Z
+438
+ajay
+has-props
+
+footnotes_test.rb
+file
+
+
+
+
+2008-09-05T04:45:48.000000Z
+fe41d855fc809fd2d87fd33dba046579
+2008-09-18T09:55:33.305774Z
+438
+ajay
+has-props
+
+notes
+dir
+
+textmate_footnotes_test.rb
+file
+
+
+
+
+2008-09-05T04:45:48.000000Z
+0b773ef7d53acf90ed9e1638f872de8c
+2008-09-18T09:55:33.305774Z
+438
+ajay
+
+mock_controller.rb
+file
+
+
+
+
+2008-09-05T04:45:48.000000Z
+14c4667792c44bc67593c8ddc427f5c3
+2008-09-18T09:55:33.305774Z
+438
+ajay
+

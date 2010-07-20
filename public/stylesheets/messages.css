@@ -1,0 +1,41 @@
+#messages table {
+	border-collapse:collapse;
+	font-family:'Lucida Grande',Tahoma,Arial,Helvetica,sans-serif;
+	width:100%;
+}
+
+#messages table tr td {
+	border:1px solid #DDDDDD;
+	padding-left:7px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+
+#messages table tr th {
+	background:#333333 none repeat scroll 0%;
+	border:1px solid #222222;
+	color:white;
+	font-size:0.8em;
+	padding:3px 10px;
+}
+
+#contentcolumn #messages .portrait {
+	margin:0px;
+}
+
+#messages table tr td .title {
+	font-size:1.4em;
+}
+
+#messages table tr td.message {
+	vertical-align: middle;
+}
+
+#messages table tr td.thumbnail{
+	width:90px;
+	vertical-align: middle;
+}
+
+#messages table tr td.options{
+	width:10px;
+}

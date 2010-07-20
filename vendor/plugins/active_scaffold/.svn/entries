@@ -1,0 +1,138 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/vendor/plugins/active_scaffold
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+
+svn:special svn:externals svn:needs-lock
+
+test
+dir
+
+frontends
+dir
+
+Rakefile
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+1b7fe236839dc90c48b41715cdc9fa48
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+init.rb
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+68caf5aae46f122b4dabab22546e0759
+2008-09-20T13:40:28.055191Z
+465
+ajay
+has-props
+
+environment.rb
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+ff972f365d17c26262c3930bba04e53c
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+lib
+dir
+
+CHANGELOG
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+f9d2915ea1484455b0bb50a3643d87a6
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+install.rb
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+131abe46f082e5c3a16f54238f0d52be
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+MIT-LICENSE
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+ff7e312be22e76f142c461bf01297ea4
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+install_assets.rb
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+fb7b5e0cb947440d28cc60f748be2096
+2008-09-20T13:40:28.055191Z
+465
+ajay
+has-props
+
+uninstall.rb
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+190ea7716578749b87c1527dbbe9aa80
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+README
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+3f7301d2c907a41750a5fa5e8fd0ee25
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+public
+dir
+

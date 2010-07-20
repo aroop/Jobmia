@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/instrumentation
+END
+action_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/instrumentation/action_controller.rb
+END
+memcache.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/instrumentation/memcache.rb
+END
+dispatcher.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/instrumentation/dispatcher.rb
+END
+memcached.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/instrumentation/memcached.rb
+END
+active_record.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/instrumentation/active_record.rb
+END
+action_web_service.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/instrumentation/action_web_service.rb
+END
+rails.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/instrumentation/rails.rb
+END
+errors.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/instrumentation/errors.rb
+END

@@ -1,0 +1,70 @@
+<div class="entry_multi" id="<%= dom_id work_experience %>" onmouseover="entry_mouseover('<%= dom_id work_experience %>', '<%= work_experience.id %>');" onmouseout="entry_mouseout('<%= dom_id work_experience %>', '<%= work_experience.id %>');">
+	<% fields_for "resume[entry][]", work_experience do |t| %>
+	<table border="0" cellspacing="5" cellpadding="5" width="100%" class="form">
+		<tr>
+			<th>
+				<label for="resume_entry_<%= work_experience.id %>_name" class="px120">Organization Name</label>
+			</th>
+			<td>
+		  	<%= t.text_field :name, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry_#{work_experience.id}_name', 't');", :onblur => "disableField('resume_entry_#{work_experience.id}_name', 't');" %>
+		  	<%= observe_field("resume_entry_#{work_experience.id}_name", :url => { :action => :save_entry, :id => work_experience }, 
+		  								:with => "entry[name]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>				
+			</td>
+		</tr>
+		<tr>
+			<th>
+				<label for="resume_entry_<%= work_experience.id %>_title" class="px120">Title</label>
+			</th>
+			<td>
+		  	<%= t.text_field :title, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry_#{work_experience.id}_title', 't');", :onblur => "disableField('resume_entry_#{work_experience.id}_title', 't');"  %>
+		  	<%= observe_field("resume_entry_#{work_experience.id}_title", :url => { :action => :save_entry, :id => work_experience }, 
+		  								:with => "entry[title]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>				
+			</td>
+		</tr>
+		<tr>
+			<th>
+				<label for="resume_entry_<%= work_experience.id %>_location" class="px120">Location</label>
+			</th>
+			<td>
+				<%= t.text_field :location, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry_#{work_experience.id}_location', 't');", :onblur => "disableField('resume_entry_#{work_experience.id}_location', 't');" %>
+		  	<%= observe_field("resume_entry_#{work_experience.id}_location", :url => { :action => :save_entry, :id => work_experience }, 
+		  								:with => "entry[location]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>				
+			</td>
+		</tr>
+		<tr>
+			<th>
+				<label for="resume_entry_<%= work_experience.id %>_start_date" class="px120">Start Date</label>				
+			</th>
+			<td>
+		  	<%= t.text_field :start_date, :class => "field_text fieldSpan",:onfocus => "enableField('resume_entry_#{work_experience.id}_start_date', 't');", :onblur => "disableField('resume_entry_#{work_experience.id}_start_date', 't');"%>
+		  	<%= observe_field("resume_entry_#{work_experience.id}_start_date", :url => { :action => :save_entry, :id => work_experience }, 
+		  								:with => "entry[start_date]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>				
+			</td>
+		</tr>
+		<tr>
+			<th>
+				<label for="resume_entry_<%= work_experience.id %>_end_date" class="px120">End Date</label>
+			</th>
+			<td>
+		  	<%= t.text_field :end_date, :class => "field_text fieldSpan", :onfocus => "enableField('resume_entry_#{work_experience.id}_end_date', 't');", :onblur => "disableField('resume_entry_#{work_experience.id}_end_date', 't');" %>
+		  	<%= observe_field("resume_entry_#{work_experience.id}_end_date", :url => { :action => :save_entry, :id => work_experience }, 
+		  								:with => "entry[end_date]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>				
+			</td>
+		</tr>
+		<tr>
+			<th>
+				<label for="resume_entry_<%= work_experience.id %>_details" class="px120">Details</label>
+			</th>
+			<td>
+		  	<%= t.text_area :details, :size => "23x3", :class => "field_textArea fieldSpan", :onfocus => "enableField('resume_entry_#{work_experience.id}_details', 'a');", :onblur => "disableField('resume_entry_#{work_experience.id}_details', 'a');" %>
+		  	<%= observe_field("resume_entry_#{work_experience.id}_details", :url => { :action => :save_entry, :id => work_experience }, 
+		  								:with => "entry[details]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>				
+			</td>
+		</tr>
+	</table>
+	<% end %>
+	<span id="removeEntrylink_<%= work_experience.id %>" class="entry_remove" style = "visibility: hidden;">
+		<%= link_to_remote "Remove work experience details", :url => { :action => "remove_entry", :id => work_experience.id }, 
+			:confirm => "Are you sure you want to delete this work experience details?", :method => :delete, :loading=> "show_status('Removing...')", :complete=>"hide_status()" -%>
+	</span>
+</div>

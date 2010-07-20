@@ -1,0 +1,62 @@
+<% content_for :featured do -%>
+<div id="featured">
+	<!--center the featured section start -->
+	<div class="center">
+		<div class="featuredBg">
+			<div class="featuredInfo">
+				<h2>Resume Builder & Management</h2>
+			  <p>Jobmia allows you to instantly create a professional, easy to edit resume in minutes using our self guided resume wizard. No complicated software to learn or install - simply enter in your information, and in seconds, you'll have a perfect resume to find that perfect job!</p>
+			   <span class="fReadmore"><%= link_to "Read More", tour_path %></span>
+			   <span class="fViewworks"><%= link_to "Read More", signup_path %></span>
+			</div>
+			<div class="featuredImage"><a href="/tour"><img src="images/sample_image_big.gif" alt="Sample Image" /></a></div>
+		</div>
+	</div>
+	<!--center the featured section end -->
+</div>
+<% end -%>
+
+<% content_for :sidebar do -%>
+<!--Grunge Box start-->
+<div class="boxGrunge">
+  	<div class="sidebarInside">
+      	<div>
+          	<div>       	
+                  <div class="box">
+                  <h2>Perfect <span class="highlight">Instant</span> Formatting</h2>
+                  <blockquote cite="">
+                  	<p>Use "One-Click Formatting" to automatically reformat your entire resume with the click of a button and easily choose the layout that is best for you.</p>
+                  </blockquote>
+                  <p class="author"></p>
+									<h2>Secure <span class="highlight">Online</span> Storage</h2>
+                  <blockquote cite="">
+                  	<p>Easily keep your resume current by saving it online, ready to be updated and immediately accessible to potential employers.</p>
+                  </blockquote>
+                  <p class="author"></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+<!--Grunge Box End-->	
+<% end -%>
+
+<div class="contentInside clear">
+	<img class="floatLeft imageLeft" alt="Sample Image" src="images/sample_image_small.gif"/>
+  <h2>Welcome <span class="highlight">to Jobmia</span></h2>
+	<p><i>"Jobmia is one of the best apps of 2008. It's a godsend for employees and jobseekers."</i></p>
+  <p>Create a professional looking resume with cover letter from a selection of ready-made templates, and send it to prospective employers with just a few clicks. With over 10 styles and numerous professionally designed templates to choose from, creating a great looking resume and cover page takes just minutes.<%= link_to "take a tour", tour_path, :class=>"readmore" %></p>
+	<p>A number of carefully chosen samples of resumes and cover letters guide you to creating a great resume for your industry.</p>
+</div>
+
+<div class="contentInside clear">            	
+ 	<h2>What <span class="highlight">Jobmia</span> does for you</h2>
+  <p>Lots of people rely on Jobmia to have a professional web-identity and a great looking resume.Over 1,000 people have used Jobmia to create more than 1,000 resumes. </p>
+   <ul>
+    <li>Create a professional, edited and formatted resume in just minutes with the Resume Builder!</li>
+    <li>Allows employers to view your resume 24/7 from anywhere in the world instantly.</li>
+		<li>Select from 10 Professional Template Designs</li>
+		<li>Free Resume Hosting</li>
+		<li>Professional Results</li>
+   </ul>
+</div>

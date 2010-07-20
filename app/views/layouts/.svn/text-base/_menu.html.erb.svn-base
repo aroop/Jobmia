@@ -1,0 +1,17 @@
+<% if logged_in? -%>
+	<% if controller_is('admin') -%>
+		
+	<% else -%>
+		<li><%= header_menu "Resumes", resumes_path %></li>
+		<li><%= header_menu "Builder", edit_resume_path(1) %></li>
+		<li><%= header_menu "Designer", designer_resumes_path %></li>
+		<li><%= header_menu "Distribution", distribution_resumes_path %></li>
+		<li><%= header_menu "Promotion", promotion_resumes_path %></li>
+	<% end -%>
+<% else -%>
+<li><%= header_menu "Home", root_path %></li>
+<li><%= header_menu "Builder", builder_path %></li>
+<li><%= header_menu "Designer", designer_path %></li>
+<li><%= header_menu "Distribution", distributer_path %></li>
+<li><%= header_menu "Promotion", promotion_path %></li>
+<% end -%>

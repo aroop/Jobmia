@@ -1,0 +1,714 @@
+--- 
+slug: home-page
+filter_type: Textile
+body: |-
+  h1. Welcome
+  
+  Your content goes here...
+title: Main page
+children: 
+- slug: help
+  filter_type: Textile
+  body: |-
+    <div class="smallbrand">
+    	<div id="wrapper-800">
+    		<div class="pitch">
+    			<h1 class="right">{{ page.title }}</h1>
+    		</div>
+    		<div class="product">
+    			<h2 class="middle">{{ page.keywords }}</h2>
+    		</div>
+    	</div>
+    </div>
+    
+    <div id="help">
+    {% for child in page.children %}
+    <h1><a href="/help/{{ child.slug }}"> {{child.keywords}} </a></h1>
+    <ul>
+    {% for subchild in child.children %}
+    {% if forloop.index < 4 %}
+    <li><a href="/help/{{ child.slug }}#{{ subchild.slug }}"> {{subchild.title}} </a></li>
+    {% endif %}
+    {% endfor %}
+    <li class="more"><a href="/help/{{ child.slug }}"> See all {{child.title}} help </a></li>
+    </ul>
+    {% endfor %}
+    </div>
+  title: Need Help?
+  children: 
+  - slug: general
+    filter_type: Textile
+    body: |-
+      <div class="smallbrand">
+      	<div id="wrapper-800">
+      		<div class="pitch">
+      			<h1 class="right">{{ page.title }}</h1>
+      		</div>
+      		<div class="product">
+      			<h2 class="middle">{{ page.keywords }}</h2>
+      		</div>
+      	</div>
+      </div>
+      
+      <div id="help">
+      <div class="belt"><p> {% for child in page.parent.children %} {% if child != page.parent.first_child %} | {% endif %} {% if child.slug != page.slug %} "{{ child.title }}":/help/{{ child.slug }} {% else %} <strong>{{ child.title }}</strong> {% endif %}{% endfor %} </p>
+      </div>
+      <br/>
+      
+      <ul class="bullets">
+      {% for child in page.children %}
+      <li>"{{ child.title }}":#{{ child.slug }}</li>
+      {% endfor %}
+      </ul>
+      
+      {% for child in page.children %}
+      h2. {{ child.title }} <a name="{{ child.slug }}"></a>
+      
+      {{ child.content }}
+      {% endfor %}
+      
+      <div class="belt">
+      <p>If you can't find answers here or in the forums, you can always <a href="mailto:support@jobmia.com">email support</a> and we'll get back to you within a few hours.</p>
+      </div>
+      
+      </div>
+    title: General
+    children: 
+    - slug: what-is-jobmia
+      filter_type: Textile
+      body: |-
+        Jobmia allows job seekers to easily create and maintain a professional resume that is hosted online, available for download in any needed format. Making additions and keeping resumes up-to-date and ready.
+        
+        Some of the formats that we let users download their resumes is:
+        
+        <ul>
+        <li>Word</li>
+        <li>PDF</li>
+        <li>HTML</li>
+        <li>Text file</li>
+        <li>Rich Text Format</li>
+        </ul>
+      title: What is Jobmia?
+      keywords: ""
+    - slug: is-our-data-backed-up-in-case-of-an-emergency
+      filter_type: Textile
+      body: <span class="highlight">Yes, data is backed up nightly and written to multiple disks instantly. We can perform full backup recovery in the event of a system-wide emergency</span> Our hardware is also fully redundant so even if one disk or server fails nothing will be lost and the system will not go down. Our uptime is over 99%.
+      title: Is our data backed up in case of an emergency?
+      keywords: ""
+    - slug: is-jobmia-reliable-secure-and-confidential-is-our-data-safe-where-is-the-data-hosted
+      filter_type: Textile
+      body: <span class="highlight">We take all reasonable precautions to keep your information safe and secure.</span> Our state-of-the-art redundant server cluster is hosted and professionally managed by <a href="http://www.slicehost.com">Slicehost</a>, a recognized leader in high-end hosting. We also use Amazon's S3 storage technology to store and serve uploaded files.
+      title: Is Jobmia reliable, secure, and confidential? Is our data safe? Where is the data hosted?
+      keywords: ""
+    - slug: can-we-install-jobmia-on-our-own-server
+      filter_type: Textile
+      body: We don't offer installable versions of any of our products. Our products are only available as hosted products. We maintain the servers, the security, all the updates and improvements so you don't have to worry about anything.
+      title: Can we install Jobmia on our own server?
+      keywords: ""
+    - slug: do-you-provide-phone-support
+      filter_type: Textile
+      body: We provide unlimited support via email for our customers, but we don't provide support over the phone. We do our best to respond to every email within just a few hours of receiving it. We also make sure one of the company owners or a lead developer answers each email. We do not outsource our support overseas or employ low paid, unqualified support staff.
+      title: Do you provide phone support?
+      keywords: ""
+    - slug: can-you-customize-jobmia-for-us
+      filter_type: Textile
+      body: Everyone who uses Jobmia uses the same version. While we don't offer customization options, you can always change the colors, upload your own logo, and set up custom categories for your account.
+      title: Can you customize Jobmia for us?
+      keywords: ""
+    - slug: are-there-signup-fees-termination-fees-any-hidden-fees-we-should-know-about
+      filter_type: Textile
+      body: <span class="highlight">Absolutely not.</span> We think one-time extra fees aren't the right way to do business. We don't charge signup fees, termination fees, or any additional fees.
+      title: Are there signup fees? Termination fees? Any hidden fees we should know about?
+      keywords: ""
+    - slug: is-jobmia-available-in-other-languages-besides-english
+      filter_type: Textile
+      body: At this time the Jobmia interface is only available in English, but Jobmia does allow UTF-8 character sets so you can enter content in many languages including Spanish, French, German, Japanese and Chinese. Localization and translation of the interface is something we will be considering at a future date.
+      title: Is Jobmia available in other languages besides English?
+      keywords: ""
+    - slug: do-you-have-an-affiliate-or-reseller-program
+      filter_type: Textile
+      body: We do not have a reseller program or white label our products.
+      title: Do you have an affiliate or reseller program?
+      keywords: ""
+    - slug: whenever-i-try-to-log-in-the-login-page-just-reloads-and-doesnt-display-an-error-message-whats-up
+      filter_type: Textile
+      body: |-
+        The most common cause of this is that your browser isn't set to accept cookies (a cookie is a text-only string that gets entered into the memory of your browser). Jobmia requires that cookies are turned on so the application can track your session and know who you are as you use Jobmia.
+        
+        Instructions for turning on cookies in most web browsers can be found at <a href="http://www.associatedkyotoprogram.org/alumni/cookies.shtml">Turning on Cookies</a>. For more information on cookies, see this <a href="http://en.wikipedia.org/wiki/HTTP_cookie">Wikipedia entry</a>.
+        
+        The other possibility is you have a firewall or security system set up that is too strict. It's preventing cookies from being accepted or Javascript from being run. Jobmia needs both cookies and javascript in order to function properly.
+      title: Whenever I try to log in, the login page just reloads and doesn't display an error message. What's up?
+      keywords: ""
+    keywords: General FAQs, Security, back-up etc
+  - slug: management
+    filter_type: Textile
+    body: |-
+      <div class="smallbrand">
+      	<div id="wrapper-800">
+      		<div class="pitch">
+      			<h1 class="right">{{ page.title }}</h1>
+      		</div>
+      		<div class="product">
+      			<h2 class="middle">{{ page.keywords }}</h2>
+      		</div>
+      	</div>
+      </div>
+      
+      <div id="help">
+      <div class="belt"><p> {% for child in page.parent.children %} {% if child != page.parent.first_child %} | {% endif %} {% if child.slug != page.slug %} "{{ child.title }}":/help/{{ child.slug }} {% else %} <strong>{{ child.title }}</strong> {% endif %}{% endfor %} </p>
+      </div>
+      <br/>
+      
+      <ul class="bullets">
+      {% for child in page.children %}
+      <li>"{{ child.title }}":#{{ child.slug }}</li>
+      {% endfor %}
+      </ul>
+      
+      {% for child in page.children %}
+      h2. {{ child.title }} <a name="{{ child.slug }}"></a>
+      
+      {{ child.content }}
+      {% endfor %}
+      
+      <div class="belt">
+      <p>If you can't find answers here or in the forums, you can always <a href="mailto:support@jobmia.com">email support</a> and we'll get back to you within a few hours.</p>
+      </div>
+      
+      </div>
+    title: Resume management
+    children: 
+    - slug: what-is-resume-management-and-how-do-i-use-it
+      filter_type: Textile
+      body: |-
+        Resume management is a feature of Jobmia which allows you to create, edit, rename and delete a resume. 
+        
+        To access resume management feature login into Jobmia and select the home button in he top menu.
+        
+        <img src="/images/help/dashbaord-menu.png" alt="Dashboard page"/>
+      title: What is resume management and how do I use it?
+      keywords: ""
+    - slug: how-do-i-create-a-resume
+      filter_type: Textile
+      body: |-
+        To create a resume enter the name of the resume in the box highlighted below and select create.
+        
+        A new resume with the will be added to the dashboard. 
+        
+        <span class="notes">Note: Whenever we create a new resume the new resume will be the active resume.</span>
+        
+        <img src="/images/help/new-resume.png" alt="New resume image"/>
+      title: How do I create a resume?
+      keywords: ""
+    - slug: how-do-i-edit-a-resume
+      filter_type: Textile
+      body: |-
+        To edit the active resume select either the edit button next to the name of the resume of select resume button in the top menu.
+        
+        This option will take you to the resume builder
+        
+        <img src="/images/help/edit-resume.png" alt="Edit resume image"/>
+      title: How do I edit a resume?
+      keywords: ""
+    - slug: how-do-i-delete-a-resume
+      filter_type: Textile
+      body: |-
+        To delete a resume select the delete button next to the resume name and confirm your operation at the confirmation dialog.
+        
+        <span class="notes">Note: Once a resume is deleted it will be removed from our system and will not be possible to retrieve it back.</span>
+        
+        <img src="/images/help/delete-resume.png" alt="Delete resume image"/>
+      title: How do I delete a resume?
+      keywords: ""
+    - slug: how-do-i-make-a-resume-active
+      filter_type: Textile
+      body: |-
+        To make a resume active just click on the resume name which is not active. 
+        
+        <img src="/images/help/activate-resume.png" alt="Activate resume image"/>
+      title: How do I make a resume active?
+      keywords: ""
+    - slug: how-do-i-download-my-resume
+      filter_type: Textile
+      body: |-
+        To download your resume in select the output format at the highlighted location.
+        
+        <img src="/images/help/download-resume.png" alt="Download resume image"/>
+      title: How do I download my resume?
+      keywords: ""
+    - slug: which-output-formats-do-you-support-for-resume-downloading
+      filter_type: Textile
+      body: |-
+        Jobmia supports various output formats for the resume. 
+        
+        The supported formats include Microsoft Word document (Doc), Portable Document Format (PDF), Hyper Text Markup Language (HTML), Rich Text format (RTF) and Text (TXT)
+      title: Which output formats do you support for resume downloading?
+      keywords: ""
+    keywords: Create, edit and delete your resumes
+  - slug: builder
+    filter_type: Textile
+    body: |-
+      <div class="smallbrand">
+      	<div id="wrapper-800">
+      		<div class="pitch">
+      			<h1 class="right">{{ page.title }}</h1>
+      		</div>
+      		<div class="product">
+      			<h2 class="middle">{{ page.keywords }}</h2>
+      		</div>
+      	</div>
+      </div>
+      
+      <div id="help">
+      <div class="belt"><p> {% for child in page.parent.children %} {% if child != page.parent.first_child %} | {% endif %} {% if child.slug != page.slug %} "{{ child.title }}":/help/{{ child.slug }} {% else %} <strong>{{ child.title }}</strong> {% endif %}{% endfor %} </p>
+      </div>
+      <br/>
+      
+      <ul class="bullets">
+      {% for child in page.children %}
+      <li>"{{ child.title }}":#{{ child.slug }}</li>
+      {% endfor %}
+      </ul>
+      
+      {% for child in page.children %}
+      h2. {{ child.title }} <a name="{{ child.slug }}"></a>
+      
+      {{ child.content }}
+      {% endfor %}
+      
+      <div class="belt">
+      <p>If you can't find answers here or in the forums, you can always <a href="mailto:support@jobmia.com">email support</a> and we'll get back to you within a few hours.</p>
+      </div>
+      
+      </div>
+    title: Resume builder
+    children: 
+    - slug: what-is-resume-builder
+      filter_type: Textile
+      body: |-
+        Resume builder is a feature of Jobmia which allows you to easily add all your resume sections like personal details, educational qualifications, work experience, certifications, references etc. 
+        
+        Resume builder is divided into a number of sections and each section in turn may contain more than one entries.
+        
+        <span class="notes">Note: In resume builder you will not worry about the resume design or the output formats. Once you fill all the values in the resume builder, with a click of  button you can select a resume design which makes resume creation a 1-2-3 step easy process.</span>
+        
+        For more information about the resume builder see the <a href="/tour#builder">resume builder tour</a>.
+      title: What is Resume Builder?
+      keywords: ""
+    - slug: what-is-a-section
+      filter_type: Textile
+      body: |-
+        Each resume is divided into to multiple sections. Some of the sections in a resume are Personal details, Education, Work experience, References, Objective, Certifications, Awards and honors, Skills etc.
+        
+        You decide which sections you want to show in your resume. You also have an option to decide the placement of the section.
+        
+        <img alt="Sections image" src="/images/help/builder-sections.png"/>
+      title: What is a section?
+      keywords: ""
+    - slug: what-is-a-entry
+      filter_type: Textile
+      body: |-
+        Some section like Education, Work experience, References may contains entries. You can have more than one entry and these entries can be sorted in a section.
+        
+        <img src="/images/help/builder-entries.png" alt="Entries image"/>
+      title: What is a entry?
+      keywords: ""
+    - slug: how-do-i-create-a-new-section
+      filter_type: Textile
+      body: |-
+        To create a new section select the type of the section in Manage Section options and select the add button to add the section of the resume.
+        
+        <img src="/images/help/builder-add-section.png" alt="Add section image"/>
+      title: How do I create a new section?
+      keywords: ""
+    - slug: how-do-i-delete-a-section
+      filter_type: Textile
+      body: |-
+        To remove a section from the resume select the "-" button either in the section title or in the manage sections options box.
+        
+        <img src="/images/help/builder-remove-section.png" alt="Remove section image"/>
+      title: How do I delete a section?
+      keywords: ""
+    - slug: how-do-i-reorder-sections
+      filter_type: Textile
+      body: |-
+        To reorder sections in a resume select "Re-order Sections" link in "manage sections" options. 
+        
+        <img alt="Reorder sections link image" src="/images/help/builder-odrer-section.png"/>
+        
+        Once you select this option all the sections will be collapsed. Drag the section you want to change the order and drop it at the required location. Repeat the process until you are satisfied with your resume. Upon completion of the placement select "Done with re-ordering" in the "Manage sections" options to expand the sections.
+        
+        <img alt="Reorder sections link image" src="/images/help/builder-odrer-section1.png"/>
+      title: How do I reorder sections?
+      keywords: ""
+    - slug: how-do-i-rename-a-section
+      filter_type: Textile
+      body: "Feature yet to be implemented. "
+      title: How do I rename a section?
+      keywords: ""
+    - slug: how-do-i-create-a-new-entry
+      filter_type: Textile
+      body: |
+        To add an entry to a section press the button with the "+" sign.
+        
+        <img alt="Add entries image" src="/images/help/builder-add-entry.png"/>
+        
+        <span class="note">Note: Not all sections will have an option to add entries only Education, Work experience and Reference section will have an option of adding an entry.</span>
+
+      title: How do I create a new entry?
+      keywords: ""
+    - slug: how-do-i-reorder-entries
+      filter_type: Textile
+      body: |-
+        To reorder entries in this section select the reorder button in a resume section which has more than one entry.
+        
+        <img src="/images/help/builder-odrer-entry.png" alt="Reorder entries image"/>
+        
+        Once the button is selected all the entries in this section will be collapsed. Drag and drop the entries in the order you prefer. Once the placement is finished click on the same reorder button to expand the entries into the normal form.
+      title: How do I reorder entries?
+      keywords: ""
+    - slug: how-do-i-delete-a-entry
+      filter_type: Textile
+      body: |-
+        To delete a entry select the remove link at the button of the entry.
+        
+        <img alt="Remove entries image" src="/images/help/builder-remove-entry.png"/>
+      title: How do I delete a entry?
+      keywords: ""
+    keywords: Sections and Entries Creation, Reordering, Deleting in a resume, etc.
+  - slug: designer
+    filter_type: Textile
+    body: |-
+      <div class="smallbrand">
+      	<div id="wrapper-800">
+      		<div class="pitch">
+      			<h1 class="right">{{ page.title }}</h1>
+      		</div>
+      		<div class="product">
+      			<h2 class="middle">{{ page.keywords }}</h2>
+      		</div>
+      	</div>
+      </div>
+      
+      <div id="help">
+      <div class="belt"><p> {% for child in page.parent.children %} {% if child != page.parent.first_child %} | {% endif %} {% if child.slug != page.slug %} "{{ child.title }}":/help/{{ child.slug }} {% else %} <strong>{{ child.title }}</strong> {% endif %}{% endfor %} </p>
+      </div>
+      <br/>
+      
+      <ul class="bullets">
+      {% for child in page.children %}
+      <li>"{{ child.title }}":#{{ child.slug }}</li>
+      {% endfor %}
+      </ul>
+      
+      {% for child in page.children %}
+      h2. {{ child.title }} <a name="{{ child.slug }}"></a>
+      
+      {{ child.content }}
+      {% endfor %}
+      
+      <div class="belt">
+      <p>If you can't find answers here or in the forums, you can always <a href="mailto:support@jobmia.com">email support</a> and we'll get back to you within a few hours.</p>
+      </div>
+      
+      </div>
+    title: Resume designer
+    children: 
+    - slug: what-is-resume-designer
+      filter_type: Textile
+      body: |-
+        Resume designer is a feature of Jobmia which allows you to select the style for a resume. Once you select a style of a resume in the "style selection menu" you can preview the resume in the "preview pane" which is in the same page.
+        
+        <img src="/images/help/designer.png" alt="Resume designer image"/>
+      title: What is Resume Designer?
+      keywords: ""
+    - slug: can-i-add-my-own-resume-design
+      filter_type: Textile
+      body: <span class="highlight">No.</span> As of now we do not allow a user to create a new style of his resume. You can select any of the available formats for the resume.
+      title: Can I add my own resume design?
+      keywords: ""
+    - slug: how-do-i-change-the-style-of-a-resume
+      filter_type: Textile
+      body: |
+        In resume designer select the style which you like the best. 
+        
+        <img alt="Resume designer selector image" src="/images/help/delete-selector.png"/>
+
+      title: How do I change the style of a resume?
+      keywords: ""
+    - slug: how-do-i-preview-my-resume-design
+      filter_type: Textile
+      body: |-
+        In the resume designer whenever you make a change you can watch your resume with style applied in the preview pane.
+        
+        <img alt="Resume designer preview image" src="/images/help/delete-preview.png"/>
+      title: How do I preview my resume design?
+      keywords: ""
+    keywords: Resume styles selection and preview, etc.
+  - slug: website
+    filter_type: Textile
+    body: |-
+      <div class="smallbrand">
+      	<div id="wrapper-800">
+      		<div class="pitch">
+      			<h1 class="right">{{ page.title }}</h1>
+      		</div>
+      		<div class="product">
+      			<h2 class="middle">{{ page.keywords }}</h2>
+      		</div>
+      	</div>
+      </div>
+      
+      <div id="help">
+      <div class="belt"><p> {% for child in page.parent.children %} {% if child != page.parent.first_child %} | {% endif %} {% if child.slug != page.slug %} "{{ child.title }}":/help/{{ child.slug }} {% else %} <strong>{{ child.title }}</strong> {% endif %}{% endfor %} </p>
+      </div>
+      <br/>
+      
+      <ul class="bullets">
+      {% for child in page.children %}
+      <li>"{{ child.title }}":#{{ child.slug }}</li>
+      {% endfor %}
+      </ul>
+      
+      {% for child in page.children %}
+      h2. {{ child.title }} <a name="{{ child.slug }}"></a>
+      
+      {{ child.content }}
+      {% endfor %}
+      
+      <div class="belt">
+      <p>If you can't find answers here or in the forums, you can always <a href="mailto:support@jobmia.com">email support</a> and we'll get back to you within a few hours.</p>
+      </div>
+      
+      </div>
+    title: Website
+    children: 
+    - slug: what-is-a-website
+      filter_type: Textile
+      body: |-
+        Website is a feature of Jobmia which gives each user a unique website. This website contains your job profile, resume, contact details etc. This website is can be used as a profile page. Your profile page will be at yourusername.jobmia.com. For example your user is kishore your public profile will be hosted at kishore.jobmia.com.
+        
+        These website can be accessed by search engines like google.com etc
+        
+        For more information of website take the <a href="/tour#website">tour</a>.
+      title: What is a Website?
+      keywords: ""
+    - slug: how-do-i-add-new-links-to-my-website
+      filter_type: Textile
+      body: |-
+        If you have more web links other than your profile page like your blog, company website, past project weblink etc you can add those links to your profile page. 
+        
+        Each weblink contains two fields. First one is the description of the link and the second one is the value of the link. In description filed you describe your link with meaningful information like blog, company website, past project etc. and in the value field you give the actual link value itself.
+        
+        To add a new link select website menu in the top menu and under the "Web links" section select the "+" add button to add the link. You can add as many links as you want. 
+        
+        <img src="/images/help/website-weblinks.png" alt="Weblinks image"/>
+      title: How do I add new links to my website?
+      keywords: ""
+    - slug: how-do-i-add-new-question-and-answers-to-my-website
+      filter_type: Textile
+      body: |-
+        "Question and answers" is a feature of Jobmia's website feature which allows you to answer a few common interview questions. These questions usually help with the pre-qualification process and allows potential employers to know more about you.
+        
+        The process of adding a question and answer to the profile page is similar to the adding a weblink. For more information of adding a weblink refer to this <a href="/help/website#how-do-i-add-new-links-to-my-website">help section</a>.
+      title: How do I add new question and answers to my website?
+      keywords: ""
+    - slug: how-do-i-preview-my-website
+      filter_type: Textile
+      body: You can preview your website at "yourusername.jobmia.com". For example your user is kishore, your public website will be available at kishore.jobmia.com
+      title: How do I preview my website?
+      keywords: ""
+    - slug: how-do-i-change-the-style-of-my-website
+      filter_type: Textile
+      body: Feature yet to be implemented. Will arrive soon. It will be similar to the resume designer.
+      title: How do I change the style of my website?
+      keywords: ""
+    keywords: Adding details like "question and answers", links, desired job position to the public profile pages, etc.
+  - slug: network
+    filter_type: Textile
+    body: |-
+      <div class="smallbrand">
+      	<div id="wrapper-800">
+      		<div class="pitch">
+      			<h1 class="right">{{ page.title }}</h1>
+      		</div>
+      		<div class="product">
+      			<h2 class="middle">{{ page.keywords }}</h2>
+      		</div>
+      	</div>
+      </div>
+      
+      <div id="help">
+      <div class="belt"><p> {% for child in page.parent.children %} {% if child != page.parent.first_child %} | {% endif %} {% if child.slug != page.slug %} "{{ child.title }}":/help/{{ child.slug }} {% else %} <strong>{{ child.title }}</strong> {% endif %}{% endfor %} </p>
+      </div>
+      <br/>
+      
+      <ul class="bullets">
+      {% for child in page.children %}
+      <li>"{{ child.title }}":#{{ child.slug }}</li>
+      {% endfor %}
+      </ul>
+      
+      {% for child in page.children %}
+      h2. {{ child.title }} <a name="{{ child.slug }}"></a>
+      
+      {{ child.content }}
+      {% endfor %}
+      
+      <div class="belt">
+      <p>If you can't find answers here or in the forums, you can always <a href="mailto:support@jobmia.com">email support</a> and we'll get back to you within a few hours.</p>
+      </div>
+      
+      </div>
+    title: Network
+    children: 
+    - slug: what-is-networking
+      filter_type: Textile
+      body: Networking is a feature of Jobmia which allows you to search and organize your friends who are already using Jobmia. Its similar to Orkut.com and Facebook.com. The real difference here is instead of your searching for your friends here Jobmia searches for your friends based upon your education and work experience details.
+      title: What is networking?
+      keywords: ""
+    - slug: how-do-i-search-for-my-friends
+      filter_type: Textile
+      body: Feature yet to be implemented. Will arrive soon.
+      title: How do I search for my friends?
+      keywords: ""
+    - slug: what-is-open-friend-requests-option
+      filter_type: Textile
+      body: ""
+      title: What is Open friend requests option?
+      keywords: ""
+    - slug: what-is-open-invites-option
+      filter_type: Textile
+      body: ""
+      title: What is Open invites option?
+      keywords: ""
+    keywords: Discover and Organize your friends through jobmia, etc.
+  - slug: profiles
+    filter_type: Textile
+    body: |-
+      <div class="smallbrand">
+      	<div id="wrapper-800">
+      		<div class="pitch">
+      			<h1 class="right">{{ page.title }}</h1>
+      		</div>
+      		<div class="product">
+      			<h2 class="middle">{{ page.keywords }}</h2>
+      		</div>
+      	</div>
+      </div>
+      
+      <div id="help">
+      <div class="belt"><p> {% for child in page.parent.children %} {% if child != page.parent.first_child %} | {% endif %} {% if child.slug != page.slug %} "{{ child.title }}":/help/{{ child.slug }} {% else %} <strong>{{ child.title }}</strong> {% endif %}{% endfor %} </p>
+      </div>
+      <br/>
+      
+      <ul class="bullets">
+      {% for child in page.children %}
+      <li>"{{ child.title }}":#{{ child.slug }}</li>
+      {% endfor %}
+      </ul>
+      
+      {% for child in page.children %}
+      h2. {{ child.title }} <a name="{{ child.slug }}"></a>
+      
+      {{ child.content }}
+      {% endfor %}
+      
+      <div class="belt">
+      <p>If you can't find answers here or in the forums, you can always <a href="mailto:support@jobmia.com">email support</a> and we'll get back to you within a few hours.</p>
+      </div>
+      
+      </div>
+    title: Profile page
+    children: 
+    - slug: what-is-a-profile-page
+      filter_type: Textile
+      body: |-
+        Every user who joins jobmia will have a public profile page which is hosted on jobmia servers. The profile page will consists of option to show your resume, weblinks, question and answers, your Biography, Work Authorizations, Job Preferences etc. 
+        
+        As these are public profile pages these pages can be accessed by search engines like google.com etc.
+        
+        This feature helps your to show your talent to the whole world and the potential employers will have an option to contact you.
+      title: What is a Profile Page?
+      keywords: ""
+    - slug: how-do-i-change-the-design-of-my-profile-page
+      filter_type: Textile
+      body: Feature yet to be implemented. Will arrive soon. Will be similar to resume designer.
+      title: How do I change the design of my profile page?
+      keywords: ""
+    - slug: what-information-does-my-profile-page-contains
+      filter_type: Textile
+      body: Your profile page will contain information like your Biography, US work authorization, Job preferences, web links, common question and answers that potential employers would like to know about you and a public version of your resume.
+      title: What information does my profile page contains?
+      keywords: ""
+    - slug: do-you-show-my-contact-details-in-my-profile-page
+      filter_type: Textile
+      body: |-
+        By default do not show your contact information which is present in your active resume through public profile pages. This helps your keep out from job spam. 
+        
+        Potential employers can still contact your through jobmia if you like to talk to them.
+      title: Do you show my contact details in my profile page?
+      keywords: ""
+    keywords: Create a professional website with your resume and profile, etc.
+  - slug: messaging
+    filter_type: Textile
+    body: |-
+      <div class="smallbrand">
+      	<div id="wrapper-800">
+      		<div class="pitch">
+      			<h1 class="right">{{ page.title }}</h1>
+      		</div>
+      		<div class="product">
+      			<h2 class="middle">{{ page.keywords }}</h2>
+      		</div>
+      	</div>
+      </div>
+      
+      <div id="help">
+      <div class="belt"><p> {% for child in page.parent.children %} {% if child != page.parent.first_child %} | {% endif %} {% if child.slug != page.slug %} "{{ child.title }}":/help/{{ child.slug }} {% else %} <strong>{{ child.title }}</strong> {% endif %}{% endfor %} </p>
+      </div>
+      <br/>
+      
+      <ul class="bullets">
+      {% for child in page.children %}
+      <li>"{{ child.title }}":#{{ child.slug }}</li>
+      {% endfor %}
+      </ul>
+      
+      {% for child in page.children %}
+      h2. {{ child.title }} <a name="{{ child.slug }}"></a>
+      
+      {{ child.content }}
+      {% endfor %}
+      
+      <div class="belt">
+      <p>If you can't find answers here or in the forums, you can always <a href="mailto:support@jobmia.com">email support</a> and we'll get back to you within a few hours.</p>
+      </div>
+      
+      </div>
+    title: Messaging
+    children: 
+    - slug: what-is-messaging
+      filter_type: Textile
+      body: Messaging is a feature of Jobmia which allows you to keep in touch with your friends. You can send and receive messages from your friends and employers using this feature.
+      title: What is Messaging?
+      keywords: ""
+    - slug: how-do-i-write-a-new-message-to-my-friend
+      filter_type: Textile
+      body: |-
+        To write a message to a friend Select the "Compose" sub menu which is available in the message top menu.
+        
+        Once you are in compose message page select the friend whom you want to select the message from the list, write your message and click on the send button to send the message.
+        
+        <img src="/images/help/message-compose.png" alt="Message compose image"/>
+      title: How do I write a new message to my friend?
+      keywords: ""
+    - slug: can-i-send-a-message-to-people-otherthan-my-friends
+      filter_type: Textile
+      body: <span class="highlight">No.</span> Jobmia does not allow your to send message to people whom you do not know.
+      title: Can I send a message to people otherthan my friends?
+      keywords: ""
+    keywords: Stay in touch with your friends and collegues with messaging, etc.
+  keywords: We're here to help. Select a option below and you'll find relevant help and faqs to get you back on track
+keywords: ""

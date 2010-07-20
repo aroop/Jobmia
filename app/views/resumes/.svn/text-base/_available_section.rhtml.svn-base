@@ -1,0 +1,7 @@
+<li  id="available_section_<%= available_section.name %>">
+	<span class="managesections_opt">
+		<%=link_to_remote image_tag('icons/add.png', :border => "0"), 
+			:url => { :action => "add_section", :id => @resume.id, :section_name => available_section.name }, :loading=> "show_status('Adding...')", :complete=>"hide_status()" %>
+	</span>
+	<%= available_section.name -%>
+</li>

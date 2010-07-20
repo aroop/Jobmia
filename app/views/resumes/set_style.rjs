@@ -1,0 +1,5 @@
+if @previous_style != @present_style
+	page["resume_style_#{@previous_style}"].replace :partial => 'resume_style', :locals=>{:resume_style=>ResumeStyle.find(@previous_style)}
+	page["resume_style_#{@present_style}"].replace :partial => 'resume_style', :locals=>{:resume_style=>ResumeStyle.find(@present_style)}
+	page["previewPane"].replace_html @resume_content
+end

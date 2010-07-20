@@ -1,0 +1,56 @@
+<% content_for :featured do -%>
+	    <div id="insidePageTitle">
+      <!--center the featured section start -->
+      <div class="center">
+       <div class="pageTitleWrap">
+		<h2>Resume Designer</h2>
+	   </div>
+      </div>
+      <!--center the featured section end -->
+    </div>
+<% end -%>
+
+<% content_for :sidebar do -%>
+<!--Grunge Box start-->
+<div class="boxGrunge">
+  	<div class="sidebarInside">
+      	<div>
+          	<div>       	
+                  <div class="box">
+                  <h2>Proven <span class="highlight">Templates</span></h2>
+                  <blockquote cite="">
+                  	<p>Select from 10 Professional Resume Template Designs</p>                      
+                  </blockquote>
+                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+<!--Grunge Box End-->	
+<% end -%>
+
+<div class="contentInside clear">
+<<<<<<< .mine
+   	<h2>Don't Waste Anymore Time Formatting</h2> 
+   	<p>We've got you covered, so forget about spending hours in Word tweaking tables and fonts trying to make your resume look professional. Simply click on a template to see your information instantly reformatted.</p>
+ 		<p>In minutes, you'll have an exciting and winning resume template based on your occupation, status, and career. You'll answer a few questions, telling us a little about yourself, and we'll generate a unique template for you.</p>
+	  <div class=""><span class=""><a href="#">create a beautiful looking resume</a></span></div>
+=======
+   <h2>Change the resume style with a click of a <br><br> button.</h2> 
+   	 <p> Once you've entered in some information, you can see a preview of what your resume looks like.</p>
+	   <p>You can change the resume style easily with a single click of the mouse.</p> 
+	   <div class=""><span class=""><%= link_to "create a beautiful looking resume", signup_path %></span></div><br>
+	 
+	 <h3>Resume Styles</h3>
+    	<ul class="bigLinks">
+      	<li><a href="images/sample_image_big.gif" title="Title of the project here or a description."><img src="images/sample_image_small2.gif" alt="Sample Image" /></a></li>
+        <li><a href="images/sample_image_big.gif" title="Title of the project here or a description."><img src="images/sample_image_small2.gif" alt="Sample Image" /></a></li>
+        <li><a href="images/sample_image_big.gif" title="Title of the project here or a description."><img src="images/sample_image_small2.gif" alt="Sample Image" /></a></li>
+<li><a href="images/sample_image_big.gif" title="Title of the project here or a description."><img src="images/sample_image_small2.gif" alt="Sample Image" /></a></li>
+        <li><a href="images/sample_image_big.gif" title="Title of the project here or a description."><img src="images/sample_image_small2.gif" alt="Sample Image" /></a></li>
+        <li><a href="images/sample_image_big.gif" title="Title of the project here or a description."><img src="images/sample_image_small2.gif" alt="Sample Image" /></a></li>
+      </ul>
+			 
+>>>>>>> .r479
+</div>
+ 

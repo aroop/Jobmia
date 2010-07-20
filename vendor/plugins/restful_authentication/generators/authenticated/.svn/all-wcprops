@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/restful_authentication/generators/authenticated
+END
+USAGE
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/restful_authentication/generators/authenticated/USAGE
+END
+authenticated_generator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/restful_authentication/generators/authenticated/authenticated_generator.rb
+END

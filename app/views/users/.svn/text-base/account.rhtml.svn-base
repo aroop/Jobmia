@@ -1,0 +1,40 @@
+<% content_for :featured do -%>
+<div id="insidePageTitle">
+  <!--center the featured section start -->
+  <div class="center">
+		<div class="pageTitleWrap">
+			<h2>Edit your account</h2>
+ 		</div>
+	</div>
+  <!--center the featured section end -->
+</div>
+<% end -%>
+
+<%= error_messages_for :user, :avatar %>
+
+<% form_for :user, :url => user_path(@user), :html => { :method => :put } do |f| -%>
+  <p>
+		<label>First name:</label>
+		<%= f.text_field :first_name %>
+	</p>
+  <p>
+		<label>Last name:</label>
+		<%= f.text_field :last_name %>
+	</p>
+  <p>
+		<label>Email:</label>
+		<%= f.text_field :email %>
+	</p>
+  <p>
+		<label>Password:</label>
+		<%= f.password_field :password %>
+	</p>
+  <p>
+		<label>Password Confirmation:</label>
+		<%= f.password_field :password_confirmation %>
+	</p>
+	<p>
+    <label>&nbsp;</label>
+		<%= submit_tag 'Update', :class=>"button" %>
+  </p>
+<% end -%>

@@ -1,0 +1,64 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/public/javascripts/active_scaffold/default
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+
+svn:special svn:externals svn:needs-lock
+
+rico_corner.js
+file
+
+
+
+
+2008-10-14T11:07:19.000000Z
+514ee6470e3370f0bf983d5991e63efe
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+dhtml_history.js
+file
+
+
+
+
+2008-10-14T11:07:19.000000Z
+7e0115ee3ab880597e3f37b427863770
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+form_enhancements.js
+file
+
+
+
+
+2008-10-14T11:07:19.000000Z
+d1cc250ec505555bf60dd971e0015afd
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+active_scaffold.js
+file
+
+
+
+
+2008-10-14T11:07:19.000000Z
+ce0ce31e859f18ad54c9fe079af7dcfa
+2008-09-20T13:40:28.055191Z
+465
+ajay
+

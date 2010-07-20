@@ -1,0 +1,40 @@
+<% content_for :featured do -%>
+	    <div id="insidePageTitle">
+      <!--center the featured section start -->
+      <div class="center">
+       <div class="pageTitleWrap">
+		<h2>Resume Builder</h2>
+	   </div>
+      </div>
+      <!--center the featured section end -->
+    </div>
+<% end -%>
+
+<% content_for :sidebar do -%>
+<!--Grunge Box start-->
+<div class="boxGrunge">
+  	<div class="sidebarInside">
+      	<div>
+          	<div>       	
+                  <div class="box">
+                  <h2>Step by step <span class="highlight"> Instructions</span></h2>
+                  <blockquote cite="">
+                  	<p>Simply step through the fields and fill in the blanks.</p>
+									</blockquote>
+									<blockquote cite="">
+										<p> Not sure how to fill in a field? You'll find tips each step of the way that provide expert advice on how to complete each open field</p>
+                  </blockquote>
+                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+<!--Grunge Box End-->	
+<% end -%>
+
+<div class="contentInside clear">
+    <h2>The easiest way to a write a great resume.</h2> 
+		   <p>Whether you are currently employed or actively seeking a new job, having a great resume on hand and ready to go is crucial. Unfortunately, resume writing can be a difficult and daunting task. Once you have it written, maintaining your resume can often be tedious.</p>        <p>Jobmia allows you to quickly and easily create resumes. We'll focus you on writing quality content and handle all the messy details of formatting and file conversion. We'll store your resume safely and securely so it is always available whenever you may need. We'll even help you distribute your resume and keep track of all the various destinations. Organization is just a few clicks away.</p> 
+	     <div class=""><span class=""><%= link_to "Start building your resume now", signup_path %></span></div>
+	     
+</div>

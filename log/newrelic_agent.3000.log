@@ -1,0 +1,1009 @@
+# Logfile created on Thu Sep 18 09:25:39 +0530 2008 by /
+[09/18/08 09:25:39 (9946)] INFO : New Relic RPM Agent Initialized: pid = 9946
+[09/18/08 09:25:39 (9946)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/18/08 09:25:39 (9946)] INFO : Runtime environment: Mongrel
+[09/18/08 09:25:39 (9946)] INFO : Transaction tracing is enabled in the agent
+[09/18/08 09:26:03 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:26:03 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:26:03 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:26:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:26:26 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:26:26 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:26:26 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:26:26 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:26:26 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:26:27 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:26:27 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:26:27 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:39:08 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:39:08 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:39:08 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:39:09 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:39:09 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:39:09 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:39:09 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:39:09 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:40:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:40:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:40:50 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:40:50 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:40:50 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:40:50 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:40:51 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:40:51 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:42:03 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:42:03 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:42:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:42:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:42:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:42:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:42:05 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:42:05 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:42:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:42:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:42:44 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:42:44 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:42:44 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:42:44 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:42:45 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:42:45 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:42:51 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:42:51 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:42:51 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:42:52 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:42:52 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:42:52 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:42:52 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:42:53 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:43:12 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:43:12 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:43:13 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:43:13 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:43:13 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:43:13 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:43:13 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:43:14 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:43:19 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:43:20 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:43:20 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:43:20 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:43:20 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:43:21 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:43:21 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:43:21 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:43:26 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:43:26 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:43:26 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:43:26 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:43:27 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:43:27 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:43:27 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:43:27 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:43:42 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:43:42 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:43:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:43:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:43:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:43:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:43:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:43:44 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:44:36 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:44:36 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:44:36 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:44:37 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:44:37 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:44:37 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:44:37 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:44:38 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:44:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:44:44 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:44:44 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:44:44 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:44:44 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:44:44 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:44:45 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:44:45 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:44:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:44:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:44:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:44:50 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:44:50 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:44:50 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:44:50 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:44:51 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:44:55 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:44:55 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:44:55 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:44:56 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:44:56 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:44:56 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:44:56 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:44:57 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:46:03 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:46:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:46:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:46:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:46:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:46:05 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:46:05 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:46:05 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:46:42 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:46:42 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:46:42 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:46:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:46:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:46:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:46:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:46:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:46:45 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:46:45 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:46:46 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:46:46 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:46:46 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:46:46 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:46:47 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:46:47 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:47:19 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:47:19 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:47:19 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:47:19 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:47:19 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:47:20 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:47:20 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:47:20 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:47:28 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:47:28 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:47:28 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:47:29 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:47:29 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:47:29 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:47:30 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:47:30 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:48:00 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:48:00 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:48:01 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:48:01 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:48:01 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:48:01 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:48:02 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:48:02 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:51:33 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:51:33 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:51:33 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:51:34 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:51:34 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:51:34 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:51:35 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:51:35 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:51:45 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:51:45 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:51:46 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:51:46 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:51:46 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:51:46 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:51:47 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:51:47 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:54:27 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:54:27 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:54:28 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:54:28 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:54:28 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:54:29 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:54:29 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:54:29 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:58:34 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:58:35 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:58:35 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:58:35 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:58:36 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:58:36 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:58:36 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:58:36 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:58:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:58:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:58:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:58:50 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:58:50 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:58:50 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:58:50 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:58:51 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 09:59:47 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 09:59:47 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 09:59:48 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 09:59:48 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 09:59:48 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 09:59:48 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 09:59:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 09:59:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:00:16 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:00:16 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:00:17 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:00:17 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:00:17 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:00:17 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:00:18 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:00:18 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:00:39 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:00:40 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:00:40 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:00:40 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:00:40 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:00:41 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:00:41 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:00:41 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:02:30 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:02:31 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:02:31 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:02:31 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:02:31 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:02:32 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:02:32 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:02:32 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:03:23 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:03:23 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:03:24 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:03:24 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:03:24 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:03:25 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:03:25 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:03:25 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:03:39 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:03:39 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:03:40 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:03:40 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:03:40 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:03:40 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:03:41 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:03:41 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:05:47 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:05:48 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:05:48 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:05:48 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:05:48 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:05:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:05:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:05:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:06:38 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:06:38 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:06:39 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:06:39 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:06:39 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:06:39 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:06:39 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:06:40 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:08:29 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:08:30 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:08:30 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:08:30 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:08:30 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:08:31 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:08:31 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:08:31 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:09:03 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:09:03 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:09:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:09:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:09:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:09:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:09:05 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:09:05 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:09:40 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:09:41 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:09:41 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:09:41 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:09:41 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:09:42 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:09:42 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:09:42 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:15:41 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:15:42 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:15:42 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:15:42 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:15:42 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:15:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:15:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:15:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:15:45 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:15:46 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:15:46 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:15:46 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:15:47 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:15:47 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:15:47 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:15:47 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:16:54 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:16:55 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:16:55 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:16:55 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:16:55 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:16:56 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:16:56 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:16:56 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:17:01 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:17:02 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:17:02 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:17:02 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:17:02 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:17:03 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:17:03 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:17:03 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:17:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): undefined method `events' for #<Resume:0x36df3c8>
+[09/18/08 10:17:20 (9946)] INFO : Not reporting error (queue exceeded maximum length): Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+[09/18/08 10:17:39 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches {:action=>"email"}
+[09/18/08 10:17:48 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:17:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:17:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:17:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:17:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:17:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:17:50 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:17:50 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:18:21 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches {:action=>"email_resume"}
+[09/18/08 10:18:51 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:18:51 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:18:52 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:18:52 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:18:52 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:18:52 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:18:53 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:18:53 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:19:19 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:19:19 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:19:19 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:19:20 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:19:20 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:19:20 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:19:21 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:19:21 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:19:23 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:19:23 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:19:23 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:19:23 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:19:24 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:19:24 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:19:24 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:19:24 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:19:26 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:19:27 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:19:27 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:19:27 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:19:27 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:19:28 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:19:28 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:19:28 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:19:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:19:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:19:43 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:19:44 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:19:44 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:19:44 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:19:45 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:19:45 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:19:48 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:19:48 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:19:48 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:19:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:19:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:19:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:19:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:19:50 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:23:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:23:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:23:05 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:23:05 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:23:05 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:23:05 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:23:06 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:23:06 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:23:10 (9946)] INFO : Not reporting error (queue exceeded maximum length): Missing template resumes/promotion.html.erb in view path /Users/ajay/Development/jobmia/app/views
+[09/18/08 10:25:05 (9946)] INFO : Not reporting error (queue exceeded maximum length): undefined method `username' for #<User:0x38c80f4>
+[09/18/08 10:25:44 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:25:45 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:25:45 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:25:45 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:25:45 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:25:46 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:25:46 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:25:46 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:25:50 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:25:51 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:25:51 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:25:51 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:25:51 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:25:52 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:25:52 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:25:52 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:26:00 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:26:00 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:26:01 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:26:01 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:26:01 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:26:02 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:26:02 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:26:02 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:26:05 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:26:05 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:26:05 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:26:06 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:26:06 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:26:06 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:26:07 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:26:07 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:26:09 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:26:09 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:26:09 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:26:10 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:26:10 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:26:10 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:26:11 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:26:11 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:26:32 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:26:33 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:26:33 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:26:33 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:26:34 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:26:34 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:26:34 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:26:34 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:27:47 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:27:47 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:27:48 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:27:48 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:27:48 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:27:48 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:27:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:27:49 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:27:52 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:27:52 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:27:52 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:27:52 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:27:53 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:27:53 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:27:53 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:27:53 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:27:55 (9946)] INFO : Not reporting error (queue exceeded maximum length): undefined method `designer_resume_path' for #<PagesController:0x37d9364>
+[09/18/08 10:28:09 (9946)] INFO : Not reporting error (queue exceeded maximum length): undefined method `distribution_resume_path' for #<PagesController:0x3fdbee0>
+[09/18/08 10:28:21 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:28:22 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:28:22 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:28:22 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:28:22 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:28:23 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:28:23 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:28:23 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 10:28:27 (9946)] INFO : Not reporting error (queue exceeded maximum length): No action responded to show
+[09/18/08 10:28:35 (9946)] INFO : Not reporting error (queue exceeded maximum length): No action responded to show
+[09/18/08 10:28:39 (9946)] INFO : Not reporting error (queue exceeded maximum length): No action responded to show
+[09/18/08 10:29:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): undefined local variable or method `promotion_resume_path' for #<PagesController:0x38cb68c>
+[09/18/08 10:29:40 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 10:29:40 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 10:29:40 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 10:29:41 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 10:29:41 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 10:29:41 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 10:29:41 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 10:29:42 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:37:04 (9946)] INFO : Not reporting error (queue exceeded maximum length): No action responded to show
+[09/18/08 14:37:23 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:37:23 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:37:23 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:37:24 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:37:24 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:37:24 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:37:24 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:37:25 (9946)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:37:31 (9946)] INFO : Not reporting error (queue exceeded maximum length): No action responded to show
+[09/18/08 14:38:11 (12092)] INFO : New Relic RPM Agent Initialized: pid = 12092
+[09/18/08 14:38:11 (12092)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/18/08 14:38:11 (12092)] INFO : Runtime environment: Mongrel
+[09/18/08 14:38:11 (12092)] INFO : Transaction tracing is enabled in the agent
+[09/18/08 14:40:56 (12092)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:40:56 (12092)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:40:56 (12092)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:40:56 (12092)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:40:57 (12092)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:40:57 (12092)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:40:57 (12092)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:41:46 (12092)] INFO : Not reporting error (queue exceeded maximum length): Only get, put, and delete requests are allowed.
+[09/18/08 14:43:38 (12128)] INFO : New Relic RPM Agent Initialized: pid = 12128
+[09/18/08 14:43:38 (12128)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/18/08 14:43:38 (12128)] INFO : Runtime environment: Mongrel
+[09/18/08 14:43:38 (12128)] INFO : Transaction tracing is enabled in the agent
+[09/18/08 14:45:02 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:45:02 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:45:02 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:45:03 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:45:03 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:45:03 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:45:20 (12128)] INFO : Not reporting error (queue exceeded maximum length): Only get, put, and delete requests are allowed.
+[09/18/08 14:46:51 (12128)] INFO : Not reporting error (queue exceeded maximum length): compile error
+/Users/ajay/Development/jobmia/app/views/resumes/distribution.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting kEND
+...l_event sendemail_resumes_path do |f| ; _erbout.concat "\r\n...
+                              ^
+[09/18/08 14:46:57 (12128)] INFO : Not reporting error (queue exceeded maximum length): undefined method `email' for "/resumes/sendemail":String
+[09/18/08 14:47:11 (12128)] INFO : Not reporting error (queue exceeded maximum length): undefined local variable or method `internal_email_event' for #<ActionView::Base:0x2016ccc>
+[09/18/08 14:47:20 (12128)] INFO : Not reporting error (queue exceeded maximum length): undefined method `email' for :internal_email_event:Symbol
+[09/18/08 14:47:30 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:47:30 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:47:31 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:47:31 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:47:31 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:47:31 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:47:31 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:47:32 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:47:35 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:47:35 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:47:35 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:47:36 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:47:36 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:47:36 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:47:36 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:47:37 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:47:51 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:47:51 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:47:51 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:47:51 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:47:52 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:47:52 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:47:52 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:47:52 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:47:55 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:47:55 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:47:56 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:47:56 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:47:56 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:47:56 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:47:57 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:47:57 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:48:00 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:48:00 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:48:00 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:48:00 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:48:00 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:48:01 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:48:01 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:48:01 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:48:37 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:48:37 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:48:38 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:48:38 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:48:38 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:48:38 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:48:38 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:48:39 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:48:41 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:48:41 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:48:42 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:48:42 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:48:42 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:48:42 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:48:42 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:48:43 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:48:49 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:48:49 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:48:49 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:48:49 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:48:50 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:48:50 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:48:50 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:48:50 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:48:55 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:48:55 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:48:55 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:48:55 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:48:55 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:48:56 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:48:56 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:48:56 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:48:58 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:48:58 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:48:58 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:48:58 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:48:59 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:48:59 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:48:59 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:48:59 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:49:34 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:49:34 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:49:34 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:49:35 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:49:35 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:49:35 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:49:35 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:49:35 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:49:44 (12128)] INFO : Not reporting error (queue exceeded maximum length): Only get, put, and delete requests are allowed.
+[09/18/08 14:49:50 (12128)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/user/1" with {:method=>:get}
+[09/18/08 14:49:59 (12128)] INFO : Not reporting error (queue exceeded maximum length): Only get and post requests are allowed.
+[09/18/08 14:50:04 (12128)] INFO : Not reporting error (queue exceeded maximum length): Only get and post requests are allowed.
+[09/18/08 14:50:15 (12168)] INFO : New Relic RPM Agent Initialized: pid = 12168
+[09/18/08 14:50:15 (12168)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/18/08 14:50:15 (12168)] INFO : Runtime environment: Mongrel
+[09/18/08 14:50:15 (12168)] INFO : Transaction tracing is enabled in the agent
+[09/18/08 14:54:53 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:54:53 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:54:54 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:54:54 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:55:08 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:55:08 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:55:08 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:55:08 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:55:09 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:55:09 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:55:09 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:55:09 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:56:19 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:56:20 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:56:20 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:56:20 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:56:20 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:56:20 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:56:21 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:56:21 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:57:21 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:57:21 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:57:21 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:57:22 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:57:22 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:57:22 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:57:22 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:57:23 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:57:24 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:57:25 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:57:25 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:57:25 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:57:25 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:57:26 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:57:26 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:57:26 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:57:30 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:57:30 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:57:30 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:57:31 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:57:31 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:57:31 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:57:31 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:57:32 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:57:34 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:57:34 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:57:34 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:57:34 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:57:34 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:57:35 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:57:35 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:57:35 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 14:58:23 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 14:58:24 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 14:58:24 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 14:58:24 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 14:58:24 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 14:58:25 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 14:58:25 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 14:58:25 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 15:40:02 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/resumes/download/doc" with {:method=>:get}
+[09/18/08 15:47:49 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/slideshow_play.jpg" with {:method=>:get}
+[09/18/08 15:47:49 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/loading.gif" with {:method=>:get}
+[09/18/08 15:47:49 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/prev.png" with {:method=>:get}
+[09/18/08 15:47:50 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/topclose.png" with {:method=>:get}
+[09/18/08 15:47:50 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_large.jpg" with {:method=>:get}
+[09/18/08 15:47:50 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_small.jpg" with {:method=>:get}
+[09/18/08 15:47:50 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/close_innertop.jpg" with {:method=>:get}
+[09/18/08 15:47:50 (12168)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/javascripts//images/lightview/next.png" with {:method=>:get}
+[09/18/08 15:50:14 (12168)] INFO : Not reporting error (queue exceeded maximum length): undefined method `download_resume' for #<ActionView::Base:0x21ecf9c>
+[09/18/08 15:51:03 (12632)] INFO : New Relic RPM Agent Initialized: pid = 12632
+[09/18/08 15:51:03 (12632)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/18/08 15:51:03 (12632)] INFO : Runtime environment: Mongrel
+[09/18/08 15:51:03 (12632)] INFO : Transaction tracing is enabled in the agent
+[09/18/08 17:15:46 (13213)] INFO : New Relic RPM Agent Initialized: pid = 13213
+[09/18/08 17:15:46 (13213)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/18/08 17:15:46 (13213)] INFO : Runtime environment: Mongrel
+[09/18/08 17:15:46 (13213)] INFO : Transaction tracing is enabled in the agent
+[09/18/08 17:48:49 (13430)] INFO : New Relic RPM Agent Initialized: pid = 13430
+[09/18/08 17:48:49 (13430)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/18/08 17:48:49 (13430)] INFO : Runtime environment: Mongrel
+[09/18/08 17:48:49 (13430)] INFO : Transaction tracing is enabled in the agent
+[09/18/08 17:49:28 (13434)] INFO : New Relic RPM Agent Initialized: pid = 13434
+[09/18/08 17:49:28 (13434)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/18/08 17:49:28 (13434)] INFO : Runtime environment: Mongrel
+[09/18/08 17:49:28 (13434)] INFO : Transaction tracing is enabled in the agent
+[09/19/08 12:08:35 (688)] INFO : New Relic RPM Agent Initialized: pid = 688
+[09/19/08 12:08:35 (688)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/19/08 12:08:35 (688)] INFO : Runtime environment: Mongrel
+[09/19/08 12:08:35 (688)] INFO : Transaction tracing is enabled in the agent
+[09/19/08 12:14:58 (752)] INFO : New Relic RPM Agent Initialized: pid = 752
+[09/19/08 12:14:58 (752)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/19/08 12:14:58 (752)] INFO : Runtime environment: Mongrel
+[09/19/08 12:14:58 (752)] INFO : Transaction tracing is enabled in the agent
+[09/19/08 12:15:26 (755)] INFO : New Relic RPM Agent Initialized: pid = 755
+[09/19/08 12:15:26 (755)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/19/08 12:15:26 (755)] INFO : Runtime environment: Mongrel
+[09/19/08 12:15:26 (755)] INFO : Transaction tracing is enabled in the agent
+[09/19/08 18:42:16 (317)] INFO : New Relic RPM Agent Initialized: pid = 317
+[09/19/08 18:42:16 (317)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/19/08 18:42:16 (317)] INFO : Runtime environment: Mongrel
+[09/19/08 18:42:16 (317)] INFO : Transaction tracing is enabled in the agent
+[09/19/08 20:41:05 (1049)] INFO : New Relic RPM Agent Initialized: pid = 1049
+[09/19/08 20:41:05 (1049)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/19/08 20:41:05 (1049)] INFO : Runtime environment: Mongrel
+[09/19/08 20:41:05 (1049)] INFO : Transaction tracing is enabled in the agent
+[09/20/08 12:02:58 (1985)] INFO : New Relic RPM Agent Initialized: pid = 1985
+[09/20/08 12:02:58 (1985)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/20/08 12:02:58 (1985)] INFO : Runtime environment: Mongrel
+[09/20/08 12:02:58 (1985)] INFO : Transaction tracing is enabled in the agent
+[09/20/08 18:24:29 (4169)] INFO : New Relic RPM Agent Initialized: pid = 4169
+[09/20/08 18:24:29 (4169)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/20/08 18:24:29 (4169)] INFO : Runtime environment: Mongrel
+[09/20/08 18:24:29 (4169)] INFO : Transaction tracing is enabled in the agent
+[09/20/08 18:29:57 (4198)] INFO : New Relic RPM Agent Initialized: pid = 4198
+[09/20/08 18:29:57 (4198)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/20/08 18:29:57 (4198)] INFO : Runtime environment: Mongrel
+[09/20/08 18:29:57 (4198)] INFO : Transaction tracing is enabled in the agent
+[09/20/08 18:30:17 (4200)] INFO : New Relic RPM Agent Initialized: pid = 4200
+[09/20/08 18:30:17 (4200)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/20/08 18:30:17 (4200)] INFO : Runtime environment: Mongrel
+[09/20/08 18:30:17 (4200)] INFO : Transaction tracing is enabled in the agent
+[09/20/08 18:31:41 (4207)] INFO : New Relic RPM Agent Initialized: pid = 4207
+[09/20/08 18:31:41 (4207)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/20/08 18:31:41 (4207)] INFO : Runtime environment: Mongrel
+[09/20/08 18:31:41 (4207)] INFO : Transaction tracing is enabled in the agent
+[09/20/08 18:36:44 (4283)] INFO : New Relic RPM Agent Initialized: pid = 4283
+[09/20/08 18:36:44 (4283)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/20/08 18:36:44 (4283)] INFO : Runtime environment: Mongrel
+[09/20/08 18:36:44 (4283)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 10:51:52 (10808)] INFO : New Relic RPM Agent Initialized: pid = 10808
+[09/24/08 10:51:52 (10808)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 10:51:52 (10808)] INFO : Runtime environment: Mongrel
+[09/24/08 10:51:52 (10808)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 10:57:46 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 10:57:48 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 10:59:06 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:02:15 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:02:18 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:02:20 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:02:21 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:02:23 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:10:04 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:10:13 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:10:15 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:10:16 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:10:17 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:10:18 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:11:47 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:15:27 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:15:41 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:15:42 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:15:44 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:15:45 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:15:46 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:17:12 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:17:16 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:17:18 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:17:24 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:17:29 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:17:32 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:17:33 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:17:34 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:17:36 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:18:10 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:18:12 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:18:14 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:18:16 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:20:28 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:20:31 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:20:40 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:20:48 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:21:14 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:23:14 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:23:32 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:25:20 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:27:02 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:27:32 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:28:58 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:29:26 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:31:10 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:32:24 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:32:46 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:33:11 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:33:25 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:33:27 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:33:29 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:33:31 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:33:32 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:33:34 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:33:37 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:33:46 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:33:49 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:33:50 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:33:52 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:33:54 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:33:56 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:33:58 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:34:00 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:34:01 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:34:05 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:34:13 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:35:11 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:35:48 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:35:53 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:36:06 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:36:07 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:36:09 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:36:10 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:36:12 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:38:12 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:38:13 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:38:14 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:38:16 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:38:17 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:38:18 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:38:20 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:38:22 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:38:24 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:38:26 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:38:28 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:38:46 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:38:47 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:38:49 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:38:50 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:38:52 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:41:30 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:41:33 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:42:51 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:45:27 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:45:36 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:45:38 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:45:39 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:45:41 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:45:42 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:45:43 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 11:46:57 (10808)] INFO : Not reporting error (queue exceeded maximum length): No route matches "/pngfix.js" with {:method=>:get}
+[09/24/08 12:00:48 (10808)] INFO : Not reporting error (queue exceeded maximum length): undefined method `layout' for #<PagesController:0x375d32c>
+[09/24/08 12:00:58 (10808)] INFO : Not reporting error (queue exceeded maximum length): undefined method `layout' for #<PagesController:0x35d1058>
+[09/24/08 12:01:03 (10808)] INFO : Not reporting error (queue exceeded maximum length): undefined method `layout' for #<PagesController:0x3490554>
+[09/24/08 12:13:30 (10808)] INFO : Not reporting error (queue exceeded maximum length): compile error
+/Users/ajay/development/jobmia/app/views/layouts/pages.html.erb:28: syntax error, unexpected tSYMBEG, expecting kDO or '{' or '('
+...(( link_to "Home", root_path :class => "selected").to_s); _e...
+                              ^
+[09/24/08 12:14:43 (10808)] INFO : Not reporting error (queue exceeded maximum length): compile error
+/Users/ajay/development/jobmia/app/views/layouts/pages.html.erb:28: syntax error, unexpected tASSOC
+...t_page?(root_path))? :class => "selected").to_s); _erbout.co...
+                              ^
+[09/24/08 12:14:55 (10808)] INFO : Not reporting error (queue exceeded maximum length): compile error
+/Users/ajay/development/jobmia/app/views/layouts/pages.html.erb:28: syntax error, unexpected ')'
+...th))? {:class => "selected"} ).to_s); _erbout.concat "</li>\...
+                              ^
+[09/24/08 12:15:41 (10808)] INFO : Not reporting error (queue exceeded maximum length): compile error
+/Users/ajay/development/jobmia/app/views/layouts/pages.html.erb:28: syntax error, unexpected ')'
+...th))? {:class => "selected"} ).to_s); _erbout.concat "</li>\...
+                              ^
+[09/24/08 13:58:24 (819)] INFO : New Relic RPM Agent Initialized: pid = 819
+[09/24/08 13:58:24 (819)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 13:58:24 (819)] INFO : Runtime environment: Mongrel
+[09/24/08 13:58:24 (819)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 14:07:08 (945)] INFO : New Relic RPM Agent Initialized: pid = 945
+[09/24/08 14:07:08 (945)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 14:07:08 (945)] INFO : Runtime environment: Mongrel
+[09/24/08 14:07:08 (945)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 14:16:15 (1011)] INFO : New Relic RPM Agent Initialized: pid = 1011
+[09/24/08 14:16:15 (1011)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 14:16:15 (1011)] INFO : Runtime environment: Mongrel
+[09/24/08 14:16:15 (1011)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 14:17:49 (1030)] INFO : New Relic RPM Agent Initialized: pid = 1030
+[09/24/08 14:17:49 (1030)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 14:17:49 (1030)] INFO : Runtime environment: Mongrel
+[09/24/08 14:17:49 (1030)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 14:46:49 (264)] INFO : New Relic RPM Agent Initialized: pid = 264
+[09/24/08 14:46:49 (264)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 14:46:49 (264)] INFO : Runtime environment: Mongrel
+[09/24/08 14:46:49 (264)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 15:18:54 (244)] INFO : New Relic RPM Agent Initialized: pid = 244
+[09/24/08 15:18:54 (244)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 15:18:54 (244)] INFO : Runtime environment: Mongrel
+[09/24/08 15:18:54 (244)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 15:38:36 (411)] INFO : New Relic RPM Agent Initialized: pid = 411
+[09/24/08 15:38:36 (411)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 15:38:36 (411)] INFO : Runtime environment: Mongrel
+[09/24/08 15:38:36 (411)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 16:14:07 (712)] INFO : New Relic RPM Agent Initialized: pid = 712
+[09/24/08 16:14:07 (712)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 16:14:07 (712)] INFO : Runtime environment: Mongrel
+[09/24/08 16:14:07 (712)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 16:17:21 (745)] INFO : New Relic RPM Agent Initialized: pid = 745
+[09/24/08 16:17:21 (745)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 16:17:21 (745)] INFO : Runtime environment: Mongrel
+[09/24/08 16:17:21 (745)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 16:50:34 (268)] INFO : New Relic RPM Agent Initialized: pid = 268
+[09/24/08 16:50:34 (268)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 16:50:34 (268)] INFO : Runtime environment: Mongrel
+[09/24/08 16:50:34 (268)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 17:37:13 (590)] INFO : New Relic RPM Agent Initialized: pid = 590
+[09/24/08 17:37:13 (590)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 17:37:13 (590)] INFO : Runtime environment: Mongrel
+[09/24/08 17:37:13 (590)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 17:48:57 (272)] INFO : New Relic RPM Agent Initialized: pid = 272
+[09/24/08 17:48:57 (272)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 17:48:57 (272)] INFO : Runtime environment: Mongrel
+[09/24/08 17:48:57 (272)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 17:54:01 (326)] INFO : New Relic RPM Agent Initialized: pid = 326
+[09/24/08 17:54:01 (326)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 17:54:01 (326)] INFO : Runtime environment: Mongrel
+[09/24/08 17:54:01 (326)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 17:54:59 (331)] INFO : New Relic RPM Agent Initialized: pid = 331
+[09/24/08 17:54:59 (331)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 17:54:59 (331)] INFO : Runtime environment: Mongrel
+[09/24/08 17:54:59 (331)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 18:01:34 (398)] INFO : New Relic RPM Agent Initialized: pid = 398
+[09/24/08 18:01:34 (398)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 18:01:34 (398)] INFO : Runtime environment: Mongrel
+[09/24/08 18:01:34 (398)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 18:05:00 (454)] INFO : New Relic RPM Agent Initialized: pid = 454
+[09/24/08 18:05:00 (454)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 18:05:00 (454)] INFO : Runtime environment: Mongrel
+[09/24/08 18:05:00 (454)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 18:05:51 (458)] INFO : New Relic RPM Agent Initialized: pid = 458
+[09/24/08 18:05:51 (458)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 18:05:51 (458)] INFO : Runtime environment: Mongrel
+[09/24/08 18:05:51 (458)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 18:12:40 (268)] INFO : New Relic RPM Agent Initialized: pid = 268
+[09/24/08 18:12:40 (268)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 18:12:40 (268)] INFO : Runtime environment: Mongrel
+[09/24/08 18:12:40 (268)] INFO : Transaction tracing is enabled in the agent
+[09/24/08 18:15:53 (331)] INFO : New Relic RPM Agent Initialized: pid = 331
+[09/24/08 18:15:53 (331)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/24/08 18:15:53 (331)] INFO : Runtime environment: Mongrel
+[09/24/08 18:15:53 (331)] INFO : Transaction tracing is enabled in the agent
+[09/25/08 12:05:14 (395)] INFO : New Relic RPM Agent Initialized: pid = 395
+[09/25/08 12:05:14 (395)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/25/08 12:05:14 (395)] INFO : Runtime environment: Mongrel
+[09/25/08 12:05:14 (395)] INFO : Transaction tracing is enabled in the agent
+[09/25/08 18:35:35 (274)] INFO : New Relic RPM Agent Initialized: pid = 274
+[09/25/08 18:35:35 (274)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/25/08 18:35:35 (274)] INFO : Runtime environment: Mongrel
+[09/25/08 18:35:35 (274)] INFO : Transaction tracing is enabled in the agent
+[09/26/08 12:36:37 (6652)] INFO : New Relic RPM Agent Initialized: pid = 6652
+[09/26/08 12:36:37 (6652)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/26/08 12:36:37 (6652)] INFO : Runtime environment: Mongrel
+[09/26/08 12:36:37 (6652)] INFO : Transaction tracing is enabled in the agent
+[09/26/08 12:40:55 (6699)] INFO : New Relic RPM Agent Initialized: pid = 6699
+[09/26/08 12:40:55 (6699)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/26/08 12:40:55 (6699)] INFO : Runtime environment: Mongrel
+[09/26/08 12:40:55 (6699)] INFO : Transaction tracing is enabled in the agent
+[09/26/08 18:55:53 (9196)] INFO : New Relic RPM Agent Initialized: pid = 9196
+[09/26/08 18:55:53 (9196)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/26/08 18:55:53 (9196)] INFO : Runtime environment: Mongrel
+[09/26/08 18:55:53 (9196)] INFO : Transaction tracing is enabled in the agent
+[09/26/08 21:10:36 (10112)] INFO : New Relic RPM Agent Initialized: pid = 10112
+[09/26/08 21:10:36 (10112)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/26/08 21:10:36 (10112)] INFO : Runtime environment: Mongrel
+[09/26/08 21:10:36 (10112)] INFO : Transaction tracing is enabled in the agent
+[09/27/08 16:30:46 (2451)] INFO : New Relic RPM Agent Initialized: pid = 2451
+[09/27/08 16:30:47 (2451)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/27/08 16:30:47 (2451)] INFO : Runtime environment: Mongrel
+[09/27/08 16:30:47 (2451)] INFO : Transaction tracing is enabled in the agent
+[09/27/08 16:50:58 (2626)] INFO : New Relic RPM Agent Initialized: pid = 2626
+[09/27/08 16:50:58 (2626)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/27/08 16:50:58 (2626)] INFO : Runtime environment: Mongrel
+[09/27/08 16:50:58 (2626)] INFO : Transaction tracing is enabled in the agent
+[09/27/08 18:56:53 (4739)] INFO : New Relic RPM Agent Initialized: pid = 4739
+[09/27/08 18:56:53 (4739)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/27/08 18:56:53 (4739)] INFO : Runtime environment: Mongrel
+[09/27/08 18:56:53 (4739)] INFO : Transaction tracing is enabled in the agent
+[09/27/08 19:01:23 (4787)] INFO : New Relic RPM Agent Initialized: pid = 4787
+[09/27/08 19:01:23 (4787)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/27/08 19:01:23 (4787)] INFO : Runtime environment: Mongrel
+[09/27/08 19:01:23 (4787)] INFO : Transaction tracing is enabled in the agent
+[09/27/08 19:27:35 (4988)] INFO : New Relic RPM Agent Initialized: pid = 4988
+[09/27/08 19:27:35 (4988)] INFO : Agent Log is found in /Users/ajay/development/jobmia/log/newrelic_agent.3000.log
+[09/27/08 19:27:35 (4988)] INFO : Runtime environment: Mongrel
+[09/27/08 19:27:35 (4988)] INFO : Transaction tracing is enabled in the agent
+[10/14/08 16:31:42 (19960)] INFO : New Relic RPM Agent Initialized: pid = 19960
+[10/14/08 16:31:42 (19960)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[10/14/08 16:31:42 (19960)] INFO : Runtime environment: Mongrel
+[10/14/08 16:31:42 (19960)] INFO : Transaction tracing is enabled in the agent
+[10/14/08 16:35:35 (20046)] INFO : New Relic RPM Agent Initialized: pid = 20046
+[10/14/08 16:35:35 (20046)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[10/14/08 16:35:35 (20046)] INFO : Runtime environment: Mongrel
+[10/14/08 16:35:35 (20046)] INFO : Transaction tracing is enabled in the agent
+[10/14/08 16:37:19 (20105)] INFO : New Relic RPM Agent Initialized: pid = 20105
+[10/14/08 16:37:19 (20105)] INFO : Agent Log is found in /Users/ajay/Development/jobmia/log/newrelic_agent.3000.log
+[10/14/08 16:37:19 (20105)] INFO : Runtime environment: Mongrel
+[10/14/08 16:37:19 (20105)] INFO : Transaction tracing is enabled in the agent

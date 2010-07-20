@@ -1,0 +1,3 @@
+<div id="container">
+	<%= render :partial => 'section', :collection => resume.sections %>
+</div>

@@ -1,0 +1,5 @@
+<% for child in topmenu.children %>
+  <% if child.visible %>
+		<li><%= link_to child.name, child.options %></li>
+  <% end %>
+<% end -%>

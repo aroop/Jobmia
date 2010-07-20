@@ -1,0 +1,8 @@
+unless (@section.nil?)
+	page.insert_html :bottom, :container, :partial => 'section', :locals=>{:section=>@section}
+	page.hide dom_id(@section)
+	page.insert_html :bottom, :used_sections, :partial => 'used_section', :locals=>{:used_section=>@section}
+	page.remove "available_section_#{@section.name}"
+	flash.discard
+	page[dom_id(@section)].visual_effect :blind_down
+end

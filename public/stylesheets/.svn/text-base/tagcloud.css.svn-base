@@ -1,0 +1,30 @@
+#tag_cloud p {
+background:#F5F5F5 none repeat scroll 0%;
+border:1px solid #EEEEEE;
+padding:15px;
+}
+
+#tag_cloud h3 {
+color:#D01F3C;
+font-size:18px;
+font-weight:normal;
+margin-bottom:10px;
+}
+
+#tag_cloud a {
+text-decoration:none;
+}
+
+#tag_cloud a:hover {
+background:#0063DC none repeat scroll 0%;
+color:#FFFFFF;
+text-decoration:none;
+}
+
+
+#tag_cloud .nube1 {font-size: 1.0em;}
+#tag_cloud .nube2 {font-size: 1.2em;}
+#tag_cloud .nube3 {font-size: 1.4em;}
+#tag_cloud .nube4 {font-size: 1.6em;}
+#tag_cloud .nube5 {font-size: 1.8em;}
+#tag_cloud .nube6 {font-size: 2.0em;}

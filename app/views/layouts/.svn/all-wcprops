@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/jobmia/!svn/ver/513/trunk/app/views/layouts
+END
+promotion.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/jobmia/!svn/ver/506/trunk/app/views/layouts/promotion.html.erb
+END
+applicationsmall.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jobmia/!svn/ver/499/trunk/app/views/layouts/applicationsmall.rhtml
+END
+_footer.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobmia/!svn/ver/434/trunk/app/views/layouts/_footer.rhtml
+END
+admin.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jobmia/!svn/ver/510/trunk/app/views/layouts/admin.html.erb
+END
+pagessmall.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jobmia/!svn/ver/506/trunk/app/views/layouts/pagessmall.html.erb
+END
+application.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jobmia/!svn/ver/464/trunk/app/views/layouts/application.rhtml
+END
+pages.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jobmia/!svn/ver/506/trunk/app/views/layouts/pages.html.erb
+END
+preview.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jobmia/!svn/ver/513/trunk/app/views/layouts/preview.html.erb
+END
+_header.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jobmia/!svn/ver/434/trunk/app/views/layouts/_header.rhtml
+END
+resumes.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jobmia/!svn/ver/506/trunk/app/views/layouts/resumes.html.erb
+END
+_menu.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jobmia/!svn/ver/510/trunk/app/views/layouts/_menu.html.erb
+END

@@ -1,0 +1,11 @@
+<table border="0" cellspacing="5" cellpadding="5" width="100%" class="form">
+	<tr>
+		<th><%= entry.section.name -%></th>
+		<td>
+			<%= @form.text_area :details, :rows => 3, :class => "field_textArea fieldSpan", 
+					:onfocus => "enableField('resume_entry_#{entry.id}_details', 'a');", :onblur => "disableField('resume_entry_#{entry.id}_details', 'a');" %>
+			<%= observe_field("resume_entry_#{entry.id}_details", :url => { :action => :save_entry, :id => entry }, 
+					:with => "entry[details]", :loading=> "show_status('Saving...')", :complete=>"hide_status()") -%>
+		</td>
+	</tr>
+</table>

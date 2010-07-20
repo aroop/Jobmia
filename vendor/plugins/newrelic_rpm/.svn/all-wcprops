@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jobmia/!svn/ver/461/trunk/vendor/plugins/newrelic_rpm
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/LICENSE
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/version.txt
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/init.rb
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/install.rb
+END
+newrelic.yml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/newrelic.yml
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/README
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jobmia/!svn/ver/354/trunk/test/functional/admin
+END
+users_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/jobmia/!svn/ver/354/trunk/test/functional/admin/users_controller_test.rb
+END
+resumes_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jobmia/!svn/ver/354/trunk/test/functional/admin/resumes_controller_test.rb
+END

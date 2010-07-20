@@ -1,0 +1,23 @@
+<div id="<%= dom_id section %>"  class="resume_section" 
+		onmouseover="section_mouseover('<%= dom_id section %>');" 
+		onmouseout="section_mouseout('<%= dom_id section %>');">
+	<h3><%= section.name %></h3>
+	<div id="entries_<%= section.id %>">
+		<% for entry in section.entries -%>
+			<% fields_for "resume[entry][]", entry do |@form| %>
+				<% if section.type == "GeneralSection" -%>
+					<%= render :partial => 'entry', :collection => section.entries %>
+				<% elsif section.type == "EducationSection" -%>
+					<%= render :partial => 'education', :locals => {:education => entry} %>
+				<% elsif section.type == "ReferenceSection" -%>
+					<%= render :partial => 'reference', :locals => {:reference => entry} %>				
+				<% elsif section.type == "WorkExperienceSection" -%>
+					<%= render :partial => 'work_experience', :locals => {:work_experience => entry} %>
+				<% elsif section.type == "PersonalDetailsSection" -%>
+					<%= render :partial => 'personal_details', :collection => section.entries %>
+				<% end -%>
+			<% end -%>
+		<% end -%>
+	</div>
+	<%= render :partial => 'section_menu', :locals => {:section => section} %>
+</div>

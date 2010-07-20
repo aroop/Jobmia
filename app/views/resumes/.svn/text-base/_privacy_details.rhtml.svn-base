@@ -1,0 +1,43 @@
+<h2>Privacy <span class="highlight">Details</span></h2>
+<p>Checked Items will appear on the web</p>
+<% form_for(:resume_option, @resume.resume_option, :url => { :action => "save_options", :id => @resume.resume_option.id }, :html => {:id => 'resume_options'}) do |f| %>
+<table border="0">
+	<tr>
+		<td><input type="checkbox" value="1" name="full_name" id="full_name" checked="checked" disabled="disabled"/></td>
+		<th><label for="full_name">Full name</label></th>
+	</tr>
+	<tr>
+		<td><%= f.check_box :address_1 %></td>
+		<th><label for="resume_option_address_1">Address 1</label></th>
+	</tr>
+	<tr>
+		<td><%= f.check_box :address_2 %></td>
+		<th><label for="resume_option_address_2">Address 2</label></th>
+	</tr>
+	<tr>
+		<td><%= f.check_box :city %></td><th><label for="resume_option_city">City</label></th>
+	</tr>
+	<tr>
+		<td><%= f.check_box :state %></td><th><label for="resume_option_state">State</label></th>
+	</tr>
+	<tr>
+		<td><%= f.check_box :postal_code %></td><th><label for="resume_option_postal_code">Postal code</label></th>
+	</tr>
+	<tr>
+		<td><%= f.check_box :country %></td><th><label for="resume_option_country">Country</label></th>
+	</tr>
+	<tr>
+		<td><%= f.check_box :phone_number %></td><th><label for="resume_option_phone_number">Phone number</label></th>
+	</tr>
+	<tr>
+		<td><%= f.check_box :fax_number %></td><th><label for="resume_option_fax_number">Fax number</label></th>
+	</tr>
+	<tr>
+		<td><%= f.check_box :email %></td><th><label for="resume_option_email">Email</label></th>
+	</tr>
+	<tr>		
+	<td><%= f.check_box :website %></td><th><label for="resume_option_website">Website</label></th></tr>
+</table>
+<%#= submit_tag "Update options" %>
+<% end %>
+<%= observe_form :resume_options, :url => { :action => "save_options", :id => @resume.resume_option.id } %>

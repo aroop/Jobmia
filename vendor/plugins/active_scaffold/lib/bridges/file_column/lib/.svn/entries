@@ -1,0 +1,64 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/vendor/plugins/active_scaffold/lib/bridges/file_column/lib
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+
+svn:special svn:externals svn:needs-lock
+
+file_column_helpers.rb
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+62b05366e2a459d4ce7e028c20b8da54
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+form_ui.rb
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+02b17f1696c99cbb2b29820b81b2e031
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+list_ui.rb
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+93bb66d9c9b39f42d12289bc70bd581f
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+as_file_column_bridge.rb
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+6ceef7887b0280521a1a0072e1e2a2cc
+2008-09-20T13:40:28.055191Z
+465
+ajay
+

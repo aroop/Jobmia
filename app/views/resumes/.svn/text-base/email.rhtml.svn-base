@@ -1,0 +1,49 @@
+<div id="contentcolumnfull">
+	<div id="resume">
+		<h1>E-mail your "<%= @resume.name -%>" Resume</h1>
+		<hr />
+			<% form_for :internal_email_event, :url => { :action => "email_resume" } do |f| -%>
+				<fieldset id="email_recipient">				
+					<label for="internal_email_event_email">Recipient E-Email</label>
+					<%= f.text_field 'email' -%> <br />
+					<label for="internal_email_event_name">Recipient Name</label>
+					<%= f.text_field 'name' -%><br />			
+					<label for="internal_email_event_company_name">Company Name</label>
+					<%= f.text_field 'company_name' -%><br />			
+					<label for="internal_email_event_position">Position Applying For</label>
+					<%= f.text_field 'position' -%><br />
+				</fieldset>
+		
+				<fieldset id="email_resumeoption">
+					<input id="resumeopt_link" type="radio" value="link" name="resumeopt" onclick="clearAttachType();"/>
+					<label for="resumeopt_link">No Attachment</label><br />
+					<input id="resumeopt_att" type="radio" checked="checked" value="attach" name="resumeopt" onclick="setAttachType('doc');"/>
+					<label for="resumeopt_att">Attach resume as a file</label>
+				</fieldset>			
+
+				<fieldset id="email_formats">
+					<legend> Resume Format </legend>
+					<ul id="format_choose">
+						<li><a onclick="setAttachType('doc');return false;" id="doc" href="#" class="current">Microsoft Word (DOC)</a></li>
+						<li><a onclick="setAttachType('pdf');return false;" id="pdf" href="#" class="">Adobe PDF (PDF)</a></li>
+						<li><a onclick="setAttachType('rtf');return false;" id="rtf" href="#" class="">Rich Text (RTF)</a></li>
+						<li><a onclick="setAttachType('html');return false;" id="html" href="#" class="">Web (HTML)</a></li>
+						<li><a onclick="setAttachType('txt');return false;" id="txt" href="#" class="">Plain Text (TXT)</a></li>
+					</ul>
+						<input type="hidden" name="internal_email_event[resume_type]" id="external_email_event_resume_type" value="doc"/>
+				</fieldset>
+		
+				<fieldset id="email_message">
+					<label for="internal_email_event_subject">Subject</label>
+					<%= f.text_field 'subject' -%><br />
+					<label for="internal_email_event_notes">Body</label>
+					<%= f.text_area 'notes', :rows => "10" -%><br />
+				</fieldset>
+				<div id="buttons">
+			    <%= submit_tag 'E-mail my resume' -%>
+			    <%= link_to "Cancel", :action => "distribution" %>
+				</div>
+  		<% end -%>
+  		<br />
+	</div>
+</div>

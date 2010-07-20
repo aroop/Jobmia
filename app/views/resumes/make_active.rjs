@@ -1,0 +1,4 @@
+for resume in @resume.user.resumes
+	page.remove(dom_id resume)
+	page.insert_html :bottom, :resume_container, {:partial => 'resumes/resumetr', :locals=>{:resumetr=>resume}}
+end

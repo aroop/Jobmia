@@ -1,0 +1,109 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/vendor/plugins/asset_packager
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-03-05T06:36:44.866521Z
+349
+aroop
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3d34c76b-d2f6-db11-bc26-0014220fd224
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-09-11T03:59:03.000000Z
+be741db9526c745a434e6dd91e29dc05
+2008-03-05T06:36:44.866521Z
+349
+aroop
+
+tasks
+dir
+
+init.rb
+file
+
+
+
+
+2008-09-11T03:59:03.000000Z
+188400e98a40315eeafd3b80f2d66b62
+2008-03-05T06:36:44.866521Z
+349
+aroop
+
+lib
+dir
+
+CHANGELOG
+file
+
+
+
+
+2008-09-11T03:59:03.000000Z
+a1dfd63f0798c0dcbc6c0b197952dcc7
+2008-03-05T06:36:44.866521Z
+349
+aroop
+
+install.rb
+file
+
+
+
+
+2008-09-11T03:59:03.000000Z
+cbe738c10eba4ae2da8c6859c9723e44
+2008-03-05T06:36:44.866521Z
+349
+aroop
+
+about.yml
+file
+
+
+
+
+2008-09-11T03:59:03.000000Z
+12f3d83569cb91d4f611da278efc1b73
+2008-03-05T06:36:44.866521Z
+349
+aroop
+
+README
+file
+
+
+
+
+2008-09-11T03:59:03.000000Z
+fffcfb71a2f7c6b83033e7eda5fc801e
+2008-03-05T06:36:44.866521Z
+349
+aroop
+

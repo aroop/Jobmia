@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jobmia/!svn/ver/438/trunk/vendor/plugins/rails-footnotes/lib
+END
+footnotes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/jobmia/!svn/ver/438/trunk/vendor/plugins/rails-footnotes/lib/footnotes.rb
+END
+backtracer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jobmia/!svn/ver/438/trunk/vendor/plugins/rails-footnotes/lib/backtracer.rb
+END
+initializer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jobmia/!svn/ver/438/trunk/vendor/plugins/rails-footnotes/lib/initializer.rb
+END
+textmate_footnotes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jobmia/!svn/ver/438/trunk/vendor/plugins/rails-footnotes/lib/textmate_footnotes.rb
+END
+textmate_links.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/jobmia/!svn/ver/438/trunk/vendor/plugins/rails-footnotes/lib/textmate_links.rb
+END
+textmate_backtracer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jobmia/!svn/ver/438/trunk/vendor/plugins/rails-footnotes/lib/textmate_backtracer.rb
+END
+textmate_initialize.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jobmia/!svn/ver/438/trunk/vendor/plugins/rails-footnotes/lib/textmate_initialize.rb
+END

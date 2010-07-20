@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent
+END
+agent.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/agent.rb
+END
+error_collector.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/error_collector.rb
+END
+method_tracer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/method_tracer.rb
+END
+param_normalizer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/param_normalizer.rb
+END
+worker_loop.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/worker_loop.rb
+END
+stats_engine.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/stats_engine.rb
+END
+transaction_sampler.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/transaction_sampler.rb
+END
+synchronize.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jobmia/!svn/ver/437/trunk/vendor/plugins/newrelic_rpm/lib/newrelic/agent/synchronize.rb
+END

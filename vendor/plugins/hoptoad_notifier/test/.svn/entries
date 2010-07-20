@@ -1,0 +1,28 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/vendor/plugins/hoptoad_notifier/test
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-09-16T07:27:57.594199Z
+421
+ajay
+
+
+svn:special svn:externals svn:needs-lock
+
+hoptoad_notifier_test.rb
+file
+
+
+
+
+2008-09-16T07:16:32.000000Z
+a8fcfbd639ebc82aa6a1348dd3bfc824
+2008-09-16T07:27:57.594199Z
+421
+ajay
+

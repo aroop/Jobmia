@@ -1,0 +1,10 @@
+<div id="signup" class="normal">
+	<h2>Don't have a profile? <%= link_to "Sign up for FREE", new_employer_path %></h2>
+	<p>Create an account and</p>
+	<ul>
+	    <li>Post your job openings</li>
+	    <li>Search our resume database</li>
+	    <li>Create a professional website with complete privacy control</li>
+	</ul>
+	<p>...all for FREE</p>	
+</div>

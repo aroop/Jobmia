@@ -1,0 +1,19 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/vendor/plugins/newrelic_rpm/test
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-09-18T09:52:58.656933Z
+437
+ajay
+
+
+svn:special svn:externals svn:needs-lock
+
+newrelic
+dir
+

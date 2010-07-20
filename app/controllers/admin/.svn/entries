@@ -1,0 +1,40 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/app/controllers/admin
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+
+svn:special svn:externals svn:needs-lock
+
+users_controller.rb
+file
+
+
+
+
+2008-09-20T13:28:54.000000Z
+f362bb132b7fadbb788871eb1dda25ff
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+resumes_controller.rb
+file
+
+
+
+
+2008-09-20T13:12:36.000000Z
+529d9e013f8a665e0de038e02da43f06
+2008-09-20T13:40:28.055191Z
+465
+ajay
+

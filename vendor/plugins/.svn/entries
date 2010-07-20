@@ -1,0 +1,58 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/vendor/plugins
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-09-20T13:40:28.055191Z
+465
+ajay
+has-props
+
+svn:special svn:externals svn:needs-lock
+svn:externals
+
+
+
+
+
+
+
+
+
+
+3d34c76b-d2f6-db11-bc26-0014220fd224
+
+paperclip
+dir
+
+acts_as_state_machine
+dir
+
+restful_authentication
+dir
+
+newrelic_rpm
+dir
+
+action_mailer_tls
+dir
+
+rails-footnotes
+dir
+
+acts_as_list
+dir
+
+asset_packager
+dir
+
+active_scaffold
+dir
+
+hoptoad_notifier
+dir
+

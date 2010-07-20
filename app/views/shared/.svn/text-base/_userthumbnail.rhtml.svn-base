@@ -1,0 +1,5 @@
+<% if !user.avatar.nil? %>
+  <%= image_tag user.avatar.public_filename(:thumb), :class=>'portrait' %>
+<% else %>
+	<%= image_tag src="/images/icon_no_photo_80x80.gif", :class=>'portrait' %>
+<% end %>

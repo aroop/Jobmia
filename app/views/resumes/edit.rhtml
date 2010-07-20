@@ -1,0 +1,79 @@
+<% content_for :featured do -%>
+<div id="insidePageTitle">
+  <!--center the featured section start -->
+  <div class="center">
+   	<div class="pageTitleWrap">
+			<h2>Editing your <span class="highlight"><%= @resume.name -%></span> Resume</h2>
+		</div>
+	</div>
+  <!--center the featured section end -->
+</div>
+<% end -%>
+
+<div id="resume" class="resume_section">
+    <% form_for :resume, @resume, :url => { :action => "update", :id => @resume }, :html => {:id => 'resume_form'} do |@form| -%>
+    	<%= render :partial => 'resume', :locals => {:resume => @resume}  %>
+    <% end %>		
+</div>
+
+<% content_for :sidebar do -%>
+<!--Grunge Box start-->
+<div class="boxGrunge">
+	<div class="sidebarInside">
+		<div>
+	   	<div>       	
+				<div class="box">
+					<h2>Manage <span class="highlight">Sections</span></h2>
+					<div id="u_s">
+						<h3 class="special">Used sections</h3>
+						<ul id="used_sections" class="navigation">
+							<%= render :partial => 'used_section', :collection => @resume.sections  %>
+						</ul>
+					</div>
+					<div id="a_s">
+						<h3 class="special">Available sections</h3>
+						<ul id="new_sections" class="navigation">
+						  <%= render :partial => 'available_section', :collection => @section_types  %>
+						</ul>
+					</div>
+					<div id="clearfix">
+					</div>
+					<hr />
+					<ul id="reorder_sections" class="navigation">
+		        <li><a id="reorderSectionsLink" onclick="reorderSections();" href="#" class="preview">Re-order sections</a></li>
+		      </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Grunge Box End-->	
+<!--Grunge Box start-->
+<div class="boxGrunge">
+	<div class="sidebarInside">
+		<div>
+	   	<div>       	
+				<div class="box">
+					<%= render :partial => 'privacy_details' %>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Grunge Box End-->
+<!--Grunge Box start-->
+<div class="boxGrunge">
+	<div class="sidebarInside">
+		<div>
+	   	<div>       	
+				<div class="box">
+					<ul>
+					<li><a href="/tour#builder">Take a tour</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Grunge Box End-->
+<% end -%>

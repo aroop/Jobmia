@@ -1,0 +1,76 @@
+8
+
+dir
+527
+http://208.75.87.100/svn/jobmia/trunk/vendor/plugins/active_scaffold/test/misc
+http://208.75.87.100/svn/jobmia
+
+
+
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+
+svn:special svn:externals svn:needs-lock
+
+configurable_test.rb
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+8844d65122d2e24e022f2e313d02919c
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+lang_test.rb
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+1860c6888418471e2884438471f9eed3
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+active_record_permissions.rb
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+dd43387c9ae597c98837c7f30edaff81
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+constraints_test.rb
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+db986bd97ad0ab3dac71a98f559fd356
+2008-09-20T13:40:28.055191Z
+465
+ajay
+
+finder_test.rb
+file
+
+
+
+
+2008-09-20T12:47:58.000000Z
+0b10b7c8576f84e0b79ce655e705f914
+2008-09-20T13:40:28.055191Z
+465
+ajay
+

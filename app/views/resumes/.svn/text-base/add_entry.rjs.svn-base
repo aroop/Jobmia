@@ -1,0 +1,14 @@
+if @section.name == "References"
+	page.insert_html :bottom, "entries_#{@section.id}", :partial => 'reference', :locals=>{:reference=>@entry}
+	page.hide dom_id(@entry)
+	flash.discard
+elsif @section.name == "Education"
+	page.insert_html :bottom, "entries_#{@section.id}", :partial => 'education', :locals=>{:education=>@entry}
+	page.hide dom_id(@entry)
+	flash.discard	
+elsif @section.name == "Work Experience"
+	page.insert_html :bottom, "entries_#{@section.id}", :partial => 'work_experience', :locals=>{:work_experience=>@entry}
+	page.hide dom_id(@entry)
+	flash.discard	
+end
+page[dom_id(@entry)].visual_effect :blind_down

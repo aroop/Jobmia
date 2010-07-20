@@ -1,0 +1,8 @@
+<div id="contentcolumnfull">
+	<div id="previewContainer">
+		<div id="previewPane" class="wide" style="padding-top: 0.5in; padding-bottom: 0.5in;">
+			<%= @resume_content -%>
+		</div>
+	</div>
+
+</div>

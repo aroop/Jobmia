@@ -1,0 +1,42 @@
+<% content_for :featured do -%>
+ <div id="insidePageTitle">
+   <!--center the featured section start -->
+    <div class="center">
+     <div class="pageTitleWrap">
+      <h2>Company</h2>
+     </div>
+    </div>
+   <!--center the featured section end -->
+ </div>
+<% end -%>
+
+<% content_for :sidebar do -%>
+<!--Grunge Box start-->
+<div class="boxGrunge">
+	<div class="sidebarInside">
+  	<div>
+    	<div>       	
+        <div class="box">
+          <h2>Client <span class="highlight">Says...</span></h2>
+            <blockquote cite="">
+            	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer dolor urna, aliquet sed, ornare ac</p>
+            </blockquote>
+            <p class="author">- Client Name</p>
+            <blockquote cite="">
+          	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer dolor urna, aliquet sed, ornare ac</p>
+            </blockquote>
+            <p class="author">- Client Name</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Grunge Box End-->	
+<% end -%>
+
+
+<div class="contentInside clear">
+    <p>We think the companies who are already operating job boards does not solve lots of problems that they could easily address like networking with old colleagues and batch mates, preliminary testing, reference check, first round of online interviews may be through integrated video conferencing, automated resume building, salary information based on experience, industry and location, mobile integration, building of study communities, career meta search, inside and outside company news scoop to help in a job seeker know what that company is about, Video presentation of the company (Helpful for startups and also candidates will be able to identify if they are talking to consultant or company), etc.</p> 
+    <p>There are 100 of things that can be build into the current job portals which none of them are looking into. What they are bothered is about the number of job seekers and current jobs.</p>
+    <p>We are to trying to change the whole process of job boards through out the world.</p> 
+</div>
